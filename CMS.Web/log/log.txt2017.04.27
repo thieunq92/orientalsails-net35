@@ -1,0 +1,36 @@
+2017-04-27 22:52:54,254 [9] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT count(*) as y0_ FROM os_Booking this_ inner join os_SailsTrip sailstripa1_ on this_.TripId=sailstripa1_.Id inner join os_Cruise cruisealia2_ on this_.CruiseId=cruisealia2_.Id full outer join os_Agency agencyalia5_ on this_.AgencyId=agencyalia5_.Id full outer join os_BookingRoom bookingroo3_ on this_.Id=bookingroo3_.BookId WHERE this_.Deleted = @p0 and customeral4_.Fullname like @p1
+System.Data.SqlClient.SqlException: The multi-part identifier "customeral4_.Fullname" could not be bound.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-04-27 22:52:58,683 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The multi-part identifier "customeral4_.Fullname" could not be bound.
+2017-04-27 22:52:58,685 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The multi-part identifier "customeral4_.Fullname" could not be bound.
+2017-04-27 22:52:58,686 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The multi-part identifier "customeral4_.Fullname" could not be bound.
+2017-04-27 23:27:26,618 [5] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT distinct TOP (@p0) this_.Id as y0_ FROM os_Booking this_ inner join os_SailsTrip sailstripa1_ on this_.TripId=sailstripa1_.Id inner join os_Cruise cruisealia2_ on this_.CruiseId=cruisealia2_.Id full outer join os_Agency agencyalia5_ on this_.AgencyId=agencyalia5_.Id full outer join os_BookingRoom bookingroo3_ on this_.Id=bookingroo3_.BookId full outer join os_BookingRoom_Customer customers11_ on bookingroo3_.Id=customers11_.BookingRoomId full outer join os_Customer customeral4_ on customers11_.CustomerId=customeral4_.Id WHERE this_.Deleted = @p1 and customeral4_.Fullname like @p2 ORDER BY this_.StartDate desc;
+
+System.Data.SqlClient.SqlException: ORDER BY items must appear in the select list if SELECT DISTINCT is specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)

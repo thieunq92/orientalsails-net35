@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="AnswerOption" table="sv_AnswerOption" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Option" column="`Option`"/>
+
+    <many-to-one name="Question" column="QuestionId" class="Question"/>
+    <many-to-one name="AnswerSheet" column="AnswerSheetId" class="AnswerSheet"/>
+  </class>
+</hibernate-mapping>

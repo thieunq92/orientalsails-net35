@@ -1,0 +1,42 @@
+2017-03-09 04:33:20,511 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+   at NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   at NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   at NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BookingProxy.get_CreatedBy()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 43
+2017-03-09 09:40:38,055 [9] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-09 09:40:38,225 [9] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-09 09:40:53,273 [9] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+   at NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   at NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   at NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BookingProxy.get_CreatedBy()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 43
+2017-03-09 10:03:00,939 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-09 10:03:00,957 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+   at NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   at NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   at NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BookingProxy.get_CreatedBy()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e)
+2017-03-09 10:30:02,823 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-09 10:30:04,125 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-09 10:37:11,827 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+   at NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   at NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   at NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BookingProxy.get_CreatedBy()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 43

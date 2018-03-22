@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="CostType" table="os_CostType" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Name"/>
+    <property name="IsDailyInput"/>
+    <property name="IsCustomType"/>
+    <property name="IsSupplier"/>
+    <property name="IsMonthly"/>
+    <property name="IsYearly"/>
+    <property name="IsDaily"/>
+    <property name="GroupName"/>
+
+    <many-to-one name="DefaultAgency" column="DefaultAgencyId" class="Agency"/>
+    <many-to-one name="Service" column="ExtraServiceId" class="ExtraOption"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,1 @@
+﻿CutOff date booking <a href = '{url}'> click here </a> to view. You have {days} days to go to confirm booking or booking will be cancelled

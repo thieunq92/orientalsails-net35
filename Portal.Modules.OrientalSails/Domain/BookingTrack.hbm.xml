@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="BookingTrack" table="os_BookingTrack" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="ModifiedDate"/>
+
+    <many-to-one name="Booking" column="BookingId" class="Booking"/>
+    <many-to-one name="User" column="UserId" class="CMS.Core.Domain.User, CMS.Core"/>
+
+    <bag name="Changes" table="os_BookingExtra" cascade="all" batch-size="10">
+      <key column="TrackId"/>
+      <one-to-many class="BookingChanged"/>
+    </bag>
+  </class>
+</hibernate-mapping>

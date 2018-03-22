@@ -1,0 +1,204 @@
+2017-04-11 17:06:47,990 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,250 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,260 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,260 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,270 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,270 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,280 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,280 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,290 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,290 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,290 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,290 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,300 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,300 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,300 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,300 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,300 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,310 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,310 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,310 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,310 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,310 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,310 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,320 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,320 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,320 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,320 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,330 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,330 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,330 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,340 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,340 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,340 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,350 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,360 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,360 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,370 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,370 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,370 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,380 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,380 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,390 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,390 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,390 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,390 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#11]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#11]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,400 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,400 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,400 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,400 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,410 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,410 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,410 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,420 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,420 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,420 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,420 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,430 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,430 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,440 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,450 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,450 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,460 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,460 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,470 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,470 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,480 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,490 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,490 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,500 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,500 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,500 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,510 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,510 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,510 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,520 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,520 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,530 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,530 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,540 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,540 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,550 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,550 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,560 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,560 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,570 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,570 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,570 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,580 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,580 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,580 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,590 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,590 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,590 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#11]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#11]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,600 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,600 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,610 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,610 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,620 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,620 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,630 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#3]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,630 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#1]-Could not initialize proxy - no Session.
+2017-04-11 17:06:48,640 [11] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.RoomClass#10]-Could not initialize proxy - no Session.

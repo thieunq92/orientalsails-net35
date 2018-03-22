@@ -1,0 +1,6 @@
+2017-09-21 14:04:24,071 [16] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at CMS.Core.DataAccess.CommonDao.CountObjectByCriterion(Type objectType, ICriterion criterion)

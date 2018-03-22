@@ -1,0 +1,480 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BookingOnline.Master.cs" Inherits="Portal.Modules.OrientalSails.Web.Admin.BO.BookingOnline" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register TagPrefix="cc1" Namespace="CMS.ServerControls" Assembly="CMS.ServerControls" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Import Namespace="Org.BouncyCastle.Ocsp" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Booking | ORIENTAL SAILS- YOUR BEST CHOICE FOR HALONG BAY CRUISES</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,500,600,400" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/bo/slick.css" />
+    <link rel="stylesheet" href="/css/bo/slick-theme.css" />
+    <link rel="stylesheet" href="/css/jqueryui/jquery-ui-1.10.3.min.css" />
+    <link rel="stylesheet" href="/css/bo/settings.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/bo/styles.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/bo/site.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/bo/swipebox.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="/css/bo/style.css" />
+    <link rel="stylesheet" href="data:text/css,@import%20url%28%27%20https%3A//static.tacdn.com/css2/widget/cdswidPER-v2463553986a.css%20%27%29%3B" />
+    <link rel="stylesheet" href="data:text/css,@import%20url%28%27%20https%3A//static.tacdn.com/css2/widget/cdswidSSP-v21191968410a.css%20%27%29%3B" />
+    <link type="text/css" rel="stylesheet" href="//sumome-140a.kxcdn.com/virtual/bcd046951d5625d1396b172332b4ec0ebfa2be53/client/js/../css/sumome-share-client.css" />
+    <link rel="stylesheet" href="/css/datetimepicker/jquery.datetimepicker.css" />
+    <link rel="stylesheet" href="/css/colorbox/colorbox.css" />
+    <script src="/scripts/bo/jquery.js"></script>
+    <style>
+        #ctl00_updateProcessAdmin {
+            display: table;
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            z-index: 2000 !important;
+        }
+
+        div.overlay {
+            display: table;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.15;
+            z-index: 2000;
+        }
+
+            div.overlay > div {
+                display: table-cell;
+                width: 100%;
+                height: 100%;
+                background: #000;
+                text-align: center;
+                vertical-align: middle;
+            }
+    </style>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="overlay" style="display: none">
+            <div>
+                <img src="/Images/loading.gif" alt="loading" />
+            </div>
+        </div>
+        <asp:ScriptManager ID="CommonScriptManager" runat="server" AsyncPostBackTimeout="120">
+        </asp:ScriptManager>
+        <!-- BEGIN:Update process -->
+        <ajaxToolkit:AlwaysVisibleControlExtender ID="ace" runat="server" TargetControlID="updateProcessAdmin"
+            VerticalSide="Middle" HorizontalSide="Center" ScrollEffectDuration=".1" />
+        <asp:UpdateProgress ID="updateProcessAdmin" runat="server">
+            <ProgressTemplate>
+                <div class="overlay">
+                    <div>
+                        <img src="/Images/loading.gif" alt="loading" />
+                    </div>
+                </div>
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+        <asp:UpdatePanel ID="updatePanelMessage" runat="server" UpdateMode="Always">
+            <ContentTemplate>
+                <div id="divMessage" runat="server" visible="false">
+                    <asp:Label ID="labelMessage" runat="server"></asp:Label>
+                </div>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <nav id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+            <div class="container">
+                <div class="header-top">
+                    <a href="/" class="logo col-xs-12 col-md-4 col-lg-3">
+                        <img src="http://www.orientalsails.com/wp-content/themes/orientalsails2/img/logo.png" alt="">
+                    </a>
+                    <div class="header-title col-xs-12 col-md-4 col-lg-5">
+                        <div>
+                            <span class="text-1">This is the official website of</span>
+                            <span class="text-2">Oriental Sails, Calypso Cruiser, Starlight Cruise.</span>
+                            <span><strong>Your best choice for Halong cruises</strong>          </span>
+                        </div>
+                    </div>
+                    <div class="header-contact col-xs-12 col-md-4 col-lg-4">
+                        <p class="language clearfix">
+                            <span>Choose language:</span>
+                            <a href="http://www.orientalsails.com" class="flag en" hreflang="en"></a>
+                            <a href="http://www.vietnamese.orientalsails.com/" class="flag vi" hreflang="vi"></a>
+                        </p>
+                        <p class="text">CONTACT YOUR CRUISE PLANNER</p>
+                        <p class="email">Email: sales@orientalsails.com</p>
+                        <p><span class="phone"></span>Book online or call <b>84-4-39264009</b></p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-="" expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                <div class="container">
+                    <ul class="nav navbar-nav">
+                        <li id="menu-item-1833" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1833"><a href="http://www.orientalsails.com/">Home</a></li>
+                        <li id="menu-item-1860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1860"><a href="http://www.orientalsails.com/about-us/">About Us</a></li>
+                        <li id="menu-item-1834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1834"><a href="javascript:void(0)">Our Cruisers</a>
+                            <ul class="sub-menu collapse">
+                                <li id="menu-item-2098" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2098"><a href="http://www.orientalsails.com/cruises/oriental-sails/">Oriental Sails</a></li>
+                                <li id="menu-item-2099" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2099"><a href="http://www.orientalsails.com/cruises/calypso-cruiser/">Calypso Cruiser</a></li>
+                                <li id="menu-item-2100" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2100"><a href="http://www.orientalsails.com/cruises/starlight-halong-luxury-cruiser/">Starlight  Cruiser</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1835"><a href="javascript:void(0)">Itineraries</a>
+                            <ul class="sub-menu collapse">
+                                <li id="menu-item-1864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1864"><a href="http://www.orientalsails.com/halong-bay-cruise-3-days-2-nights/">Halong Bay Cruise 3 days 2 nights</a></li>
+                                <li id="menu-item-1865" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1865"><a href="http://www.orientalsails.com/halong-bay-cruise-2-days-1-night/">HaLong Bay Cruise 2 days 1 night</a></li>
+                                <li id="menu-item-1866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1866"><a href="http://www.orientalsails.com/halong-bay-cruise-1-day-trip/">HaLong Bay Cruise 1 day trip</a></li>
+                                <li id="menu-item-2273" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2273"><a href="http://www.orientalsails.com/category/halong-bay-heritages/halong-bay-beaches/">Halong Bay Beaches</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1862" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1862"><a href="http://www.orientalsails.com/promotions/">Promotion</a></li>
+                        <li id="menu-item-1923" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1923"><a href="javascript:void(0)">HALONG BAY</a>
+                            <ul class="sub-menu collapse">
+                                <li id="menu-item-2344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2344"><a href="http://www.orientalsails.com/halong-bay/">Halong Bay</a></li>
+                                <li id="menu-item-2341" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2341"><a href="http://www.orientalsails.com/category/halong-bay-heritages/halong-bay-islands/">Halong Bay Islands</a></li>
+                                <li id="menu-item-2342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2342"><a href="http://www.orientalsails.com/category/halong-bay-heritages/halong-bay-caves/">Halong Bay Caves</a></li>
+                                <li id="menu-item-2343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2343"><a href="http://www.orientalsails.com/category/halong-bay-heritages/halong-bay-beaches/">Halong Bay Beaches</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1861"><a href="http://www.orientalsails.com/blog/">Blog</a></li>
+                        <li id="menu-item-2770" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2770"><a href="javascript:void(0)">Gallery</a>
+                            <ul class="sub-menu collapse">
+                                <li id="menu-item-2771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2771"><a href="http://www.orientalsails.com/orientalsail-cruiser-photos/">Orientalsail Cruiser Photos</a></li>
+                                <li id="menu-item-2772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2772"><a href="http://www.orientalsails.com/oriental-sails/oriental-sails-ii-photos/">Oriental Sails II: Photos</a></li>
+                                <li id="menu-item-2773" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2773"><a href="http://www.orientalsails.com/calypso-luxury-cruiser-photos/">Calypso Luxury Cruiser Photos</a></li>
+                                <li id="menu-item-2920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2920"><a href="http://www.orientalsails.com/starlight-cruiser-photos/">Starlight Cruiser Photos</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1863"><a href="http://www.orientalsails.com/contact-us-2/">Contact Us</a></li>
+                        <li id="menu-item-2144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2144"><a href="javascript:void(0)">Help</a>
+                            <ul class="sub-menu collapse">
+                                <li id="menu-item-2169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2169"><a href="http://www.orientalsails.com/halong-bay/before-you-go/">Before You Go Halong Bay</a></li>
+                                <li id="menu-item-2146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2146"><a href="http://www.orientalsails.com/how-do-you-get-from-hanoi-to-ha-long-bay/">How do you get from Hanoi to Ha Long Bay?</a></li>
+                                <li id="menu-item-2145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2145"><a href="http://www.orientalsails.com/faq-visa-on-arrival/">FAQ Visa on arrival</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.nav-collapse -->
+        </nav>
+        <section id="main-container" class="container booking" role="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+            <div class="line"></div>
+            <div class="icon">
+                <span><i class="fa fa-star"></i><i class="fa fa-star large"></i><i class="fa fa-star"></i></span>
+            </div>
+            <div class="container">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div id="text-2" class="widget_text">
+                        <h5 class="widget-title"><span class="line"></span>CONTACT US</h5>
+                        <div class="textwidget">
+                            <div>
+                                <p><i class="fa fa-phone-square"></i>84-4-39264009</p>
+                                <p><i class="fa fa-envelope"></i>Email: sales@orientalsails.com</p>
+                                <p><i class="fa fa-paper-plane"></i>8th Floor, 2 Yen The Building, Ba Dinh Dist., Hanoi, Vietnam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="text-7" class="widget_text">
+                        <h5 class="widget-title"><span class="line"></span>Facebook</h5>
+                        <div class="textwidget">
+                            <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/OrientalSailsHalong" data-width="255" data-height="415" data-hide-cover="false" data-show-facepile="false" data-show-posts="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=350436681745997&amp;container_width=255&amp;height=415&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FOrientalSailsHalong&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;show_posts=false&amp;width=255">
+                                <span style="vertical-align: bottom; width: 255px; height: 130px;">
+                                    <iframe name="fc1c590ae12e4" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" style="border: medium none; visibility: visible; width: 255px; height: 130px;" src="https://www.facebook.com/v2.3/plugins/page.php?app_id=350436681745997&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FfTmIQU3LxvB.js%3Fversion%3D42%23cb%3Df35594f3284af36%26domain%3Dwww.orientalsails.com%26origin%3Dhttp%253A%252F%252Fwww.orientalsails.com%252Ff38fed6410f61e%26relation%3Dparent.parent&amp;container_width=255&amp;height=415&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FOrientalSailsHalong&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;show_posts=false&amp;width=255" class="" width="255px" height="415px" frameborder="0"></iframe>
+                                </span>
+                            </div>
+                            <p></p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div id="text-17" class="widget_text">
+                        <h5 class="widget-title"><span class="line"></span>PATA MEMBER</h5>
+                        <div class="textwidget">
+                            <a href="">
+                                <img src="http://www.orientalsails.com/wp-content/uploads/2015/06/PATA-Member-Logo-H.jpg" width="277px"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div id="ourblog_widget_id-3" class="ourblog_widget_class">
+                        <div class="our-blog">
+                            <h5><span class="line"></span>Our Blog</h5>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <img src="http://www.orientalsails.com/wp-content/uploads/2016/09/anh4-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="anh4" width="150" height="150">
+                                        <div>
+                                            <a href="http://www.orientalsails.com/oriental-sails-fleet-certificate-of-excellence-in-the-guide-awards-2016/" title="Oriental Sails fleet &ndash; Certificate of Excellence in The Guide Awards 2016">
+                                                <h5>Oriental Sails fleet &ndash; Certificate of Excellence in The Guide Awards 2016</h5>
+                                            </a>
+                                            <p>With much attempt in building a professional team...</p>
+                                        </div>
+                                        <div class="date">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="http://www.orientalsails.com/wp-content/uploads/2016/05/ca-say-tien-yen-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="ca-say-tien-yen" width="150" height="150">
+                                        <div>
+                                            <a href="http://www.orientalsails.com/7-famous-specialties-in-ha-long/" title="7 famous specialties in Ha Long Bay, Vietnam">
+                                                <h5>7 famous specialties in Ha Long Bay, Vietnam</h5>
+                                            </a>
+                                            <p>Halong tourism in particular and Quang Ninh in...</p>
+                                        </div>
+                                        <div class="date">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="http://www.orientalsails.com/wp-content/uploads/2015/04/Calypso-Cruiser-21-600x600-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Calypso-Cruiser-21-600x600" srcset="http://www.orientalsails.com/wp-content/uploads/2015/04/Calypso-Cruiser-21-600x600-150x150.png 150w, http://www.orientalsails.com/wp-content/uploads/2015/04/Calypso-Cruiser-21-600x600-400x400.png 400w, http://www.orientalsails.com/wp-content/uploads/2015/04/Calypso-Cruiser-21-600x600.png 600w" sizes="(max-width: 150px) 100vw, 150px" width="150" height="150">
+                                        <div>
+                                            <a href="http://www.orientalsails.com/why-halong-bay/" title="Why Halong Bay?">
+                                                <h5>Why Halong Bay?</h5>
+                                            </a>
+                                            <p>The experience of cruising in the calm bay,...</p>
+                                        </div>
+                                        <div class="date">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="http://www.orientalsails.com/wp-content/uploads/2015/04/DSC04067-600x600-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="DSC04067-600x600" srcset="http://www.orientalsails.com/wp-content/uploads/2015/04/DSC04067-600x600-150x150.png 150w, http://www.orientalsails.com/wp-content/uploads/2015/04/DSC04067-600x600-400x400.png 400w, http://www.orientalsails.com/wp-content/uploads/2015/04/DSC04067-600x600.png 600w" sizes="(max-width: 150px) 100vw, 150px" width="150" height="150">
+                                        <div>
+                                            <a href="http://www.orientalsails.com/halong-bay-sweet-home/" title="Halong Bay Sweet Home">
+                                                <h5>Halong Bay Sweet Home</h5>
+                                            </a>
+                                            <p>Ha Long Bay is admired and visited by all...</p>
+                                        </div>
+                                        <div class="date">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="http://www.orientalsails.com/wp-content/uploads/2015/04/IMG_1996-tau1-600x600-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="IMG_1996-tau1-600x600" srcset="http://www.orientalsails.com/wp-content/uploads/2015/04/IMG_1996-tau1-600x600-150x150.png 150w, http://www.orientalsails.com/wp-content/uploads/2015/04/IMG_1996-tau1-600x600-400x400.png 400w, http://www.orientalsails.com/wp-content/uploads/2015/04/IMG_1996-tau1-600x600.png 600w" sizes="(max-width: 150px) 100vw, 150px" width="150" height="150" />
+                                        <div>
+                                            <a href="http://www.orientalsails.com/oriental-sails-vs-calypso-cruiser/" title="Oriental Sails vs Calypso Cruiser">
+                                                <h5>Oriental Sails vs Calypso Cruiser</h5>
+                                            </a>
+                                            <p>You are wondering between oriental Sails and...</p>
+                                        </div>
+                                        <div class="date">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="trip">
+                        <div id="text-8" class="widget_text">
+                            <h5 class="widget-title"><span class="line"></span>Tripadvisor</h5>
+                            <div class="textwidget">
+                                <div id="TA_selfserveprop779" class="TA_selfserveprop" style="margin-left: 36px; margin-bottom: 30px;">
+                                    <div id="CDSWIDSSP" class="widSSP widSSPnarrow" style="width: 240px;">
+                                        <div class="widSSPData" style="border: 1px solid #589442;">
+                                            <div class="widSSPBranding">
+                                                <dl>
+                                                    <dt><a target="_blank" href="https://www.tripadvisor.com/">
+                                                        <img src="https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor" /></a> </dt>
+                                                    <dt class="widSSPTagline">Know better. Book better. Go better.</dt>
+                                                </dl>
+                                            </div>
+                                            <!--/ cdsBranding-->
+                                            <div class="widSSPComponent">
+                                                <div class="widSSPSummary">
+                                                    <dl>
+                                                        <a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g293923-d4067205-Reviews-Oriental_Sails_Day_Cruise-Halong_Bay_Quang_Ninh_Province.html" onclick="ta.cds.handleTALink(11900,this);return true;" rel="nofollow" />
+                                                        <dt class="widSSPH18">Oriental Sails - Day Cruise</dt>
+                                                        </a>
+                                                    </dl>
+                                                </div>
+                                                <!--/ cdsSummary-->
+                                            </div>
+                                            <!--/ cdsComponent-->
+                                            <div class="widSSPComponent widSSPOptional">
+                                                <div class="widSSPTrvlRtng">
+                                                    <dl>
+                                                        <dt class="widSSPH11">TripAdvisor Traveler Rating</dt>
+                                                        <dd>
+                                                            <div class="widSSPOverall">
+                                                                <img src="https://static.tacdn.com/img2/ratings/traveler/s4.5.gif" alt="4.5 of 5 bubbles" class="rsImg" />
+                                                                <div>Based on <b>264</b> traveler reviews</div>
+                                                            </div>
+                                                            <!--/ overall -->
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                            </div>
+                                            <!--/ cdsComponent -->
+                                            <div class="widSSPWrap widSSPOptional">
+                                                <div class="widSSPInformation">
+                                                    <div class="widSSPWrap">
+                                                        <div class="widSSPPopIdx widSSPSingle"><b>TripAdvisor Ranking</b> <span class="widSSPPopIdxData"><span class="widSSPPopIdxData widSSPPopIdxNumbers"><sup>#</sup>19 of 144 </span>Tours in Halong Bay </span></div>
+                                                        <!--/ popIdx-->
+                                                    </div>
+                                                    <!--/ cdsWrap-->
+                                                </div>
+                                                <!--/ cdsInformation-->
+                                            </div>
+                                            <!--/ cdsWrap-->
+                                            <div class="widSSPComponent widSSPOptional">
+                                                <dl class="widSSPReviews">
+                                                    <dt class="widSSPH11">Most Recent Traveler Reviews</dt>
+                                                    <dd class="widSSPOneReview">
+                                                        <ul class="widSSPBullet">
+                                                            <li><span class="widSSPDate">Oct 28, 2016:</span> <span class="widSSPQuote">“Overnight Cruise on Halong Bay”</span> </li>
+                                                            <li><span class="widSSPDate">Oct 16, 2016:</span> <span class="widSSPQuote">“Thank you mister Bean”</span> </li>
+                                                            <li><span class="widSSPDate">Oct 14, 2016:</span> <span class="widSSPQuote">“Beautiful cruise in a small group but...”</span> </li>
+                                                            <li><span class="widSSPDate">Oct 13, 2016:</span> <span class="widSSPQuote">“Great experience!”</span> </li>
+                                                            <li><span class="widSSPDate">Oct 12, 2016:</span> <span class="widSSPQuote">“Wonderful service by Oriental Sails!”</span> </li>
+                                                        </ul>
+                                                        <!--/ bullet-->
+                                                    </dd>
+                                                    <!--/ hReview-->
+                                                </dl>
+                                            </div>
+                                            <div class="widSSPAll">
+                                                <ul class="widSSPReadReview">
+                                                    <li><a href="https://www.tripadvisor.com/Attraction_Review-g293923-d4067205-Reviews-Oriental_Sails_Day_Cruise-Halong_Bay_Quang_Ninh_Province.html" id="allreviews" onclick="ta.cds.handleTALink(11900,this);window.open(this.href, 'newTAWindow', 'toolbar=1,resizable=1,menubar=1,location=1,status=1,scrollbars=1,width=800,height=600'); return false" rel="nofollow">Read reviews</a></li>
+                                                </ul>
+                                                <ul class="widSSPWriteReview">
+                                                    <li><a href="https://www.tripadvisor.com/UserReview-g293923-d4067205-Oriental_Sails_Day_Cruise-Halong_Bay_Quang_Ninh_Province.html" id="writereview" onclick="ta.cds.handleTALink(11900,this);window.open(this.href, 'newTAWindow', 'toolbar=1,resizable=1,menubar=1,location=1,status=1,scrollbars=1,width=800,height=600'); return false" rel="nofollow">Write a review</a></li>
+                                                </ul>
+                                            </div>
+                                            <!--/ cdsAll-->
+                                            <div class="widSSPLegal">&copy; 2016 TripAdvisor LLC</div>
+                                            <!--/ cdsLegal-->
+                                        </div>
+                                        <!--/ cdsData-->
+                                    </div>
+                                    <!--/ CDSPOP.cdsBx-->
+                                </div>
+                                <script src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=779&amp;locationId=4067205&amp;lang=en_US&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=true"></script>
+                                <script src="https://www.tripadvisor.com/WidgetEmbed-selfserveprop?border=true&amp;popIdx=true&amp;iswide=false&amp;locationId=4067205&amp;uniq=779&amp;rating=true&amp;lang=en_US&amp;nreviews=5&amp;writereviewlink=true"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="trip">
+                        <div id="text-16" class="widget_text">
+                            <h5 class="widget-title"><span class="line"></span>WRITE REVIEWS ON TRIPADVISOR</h5>
+                            <div class="textwidget">
+                                <a href="http://www.tripadvisor.com.vn/Attraction_Review-g293923-d4067205-Reviews-Oriental_Sails_Day_Cruise-Halong_Bay_Quang_Ninh_Province.html">
+                                    <img style="width: 100%;" src="http://www.orientalsails.com/wp-content/uploads/2015/06/3-TA_logo_green_background.png" /></a>
+                            </div>
+                        </div>
+                        <div id="text-15" class="widget_text">
+                            <h5 class="widget-title"><span class="line"></span>Certificate Of Excellence</h5>
+                            <div class="textwidget">
+                                <div id="TA_percentRecommended613" class="TA_percentRecommended">
+                                    <div id="CDSWIDPER" class="widPER white  border ">
+                                        <div id="CDSWIDPERBLOCK">
+                                            <div id="CDSWIDPERTOP">
+                                                <div id="CDSWIDPERPER">
+                                                    <div id="CDSWIDPERNUM">92</div>
+                                                    <div id="CDSWIDPERSYM">%</div>
+                                                </div>
+                                                <img id="CDSWIDPERIMG" src="https://static.tacdn.com/img2/widget/thumb_30x35.png" style="height: 29px" alt="Oriental Sails - Day Cruise, Halong Bay, Quang Ninh Province" />
+                                            </div>
+                                            <div id="CDSWIDPERLINK" class="widPERLINK">
+                                                <a target="_blank" onclick="ta.cds.handleTALink(20505,this);return true;" href="https://www.tripadvisor.co.uk/Attraction_Review-g293923-d4067205-Reviews-Oriental_Sails_Day_Cruise-Halong_Bay_Quang_Ninh_Province.html" rel="nofollow">Oriental Sails - Day Cruise</a>
+                                                <img src="https://www.tripadvisor.co.uk/img/cdsi/partner/transparent_pixel-20505-2.gif" width="1" height="1" />
+                                            </div>
+                                        </div>
+                                        <div class="widPERTALOGO">
+                                            <a target="_blank" href="https://www.tripadvisor.co.uk/">
+                                                <img src="https://www.tripadvisor.co.uk/img2/widget/logo_shadow_109x26.png" alt="TripAdvisor" class="widPERIMG" id="CDSWIDPERLOGO" /></a>
+                                        </div>
+                                    </div>
+                                    <!--/ cdsPERWidget-->
+                                </div>
+                                <script src="https://www.jscache.com/wejs?wtype=percentRecommended&amp;uniq=613&amp;locationId=4067205&amp;lang=en_UK&amp;border=true&amp;backgroundColor=white&amp;display_version=2"></script>
+                                <script src="https://www.tripadvisor.co.uk/WidgetEmbed-percentRecommended?border=true&amp;backgroundColor=white&amp;locationId=4067205&amp;display_version=2&amp;uniq=613&amp;lang=en_UK"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p><a href="http://www.orientalsails.com/about-us/" itemprop="about">Oriental Sails Jsc</a> - Your Best Choice for Halong Bay Cruises</p>
+                <ul class="clearfix">
+                    <li id="menu-item-1871" class="menu-item menu-item-type-taxonomy menu-item-object-cruises menu-item-1871"><a href="http://www.orientalsails.com/cruises/oriental-sails/">ORIENTAL SAILS</a></li>
+                    <li id="menu-item-1872" class="menu-item menu-item-type-taxonomy menu-item-object-cruises menu-item-1872"><a href="http://www.orientalsails.com/cruises/calypso/">CALYPSO CRUISER</a></li>
+                    <li id="menu-item-1873" class="last menu-item menu-item-type-taxonomy menu-item-object-cruises menu-item-1873"><a href="http://www.orientalsails.com/cruises/starlight/">STARLIGHT CRUISER</a></li>
+                </ul>
+            </div>
+        </footer>
+        <a href="http://www.histats.com" target="_blank" title="hit counter script">
+            <script type="text/javascript">
+                try {
+                    Histats.start(1, 2699658, 4, 0, 0, 0, "");
+                    Histats.track_hits();
+                } catch (err) { };
+            </script>
+            <div id="histats_counter_8079" style="display: none;"></div>
+        </a>
+        <script async="" type="text/javascript" src="http://s4.histats.com/stats/0.php?2699658&amp;@f16&amp;@g0&amp;@h6&amp;@i9&amp;@j1478078455396&amp;@k69226&amp;@l52&amp;@mBooking%20%7C%20ORIENTAL%20SAILS-%20YOUR%20BEST%20CHOICE%20FOR%20HALONG%20BAY%20CRUISES&amp;@n0&amp;@ohttp%3A%2F%2Fwww.orientalsails.com%2Fitinerary%2Foriental-sails-2-day-1-night%2F&amp;@q0&amp;@r0&amp;@s0&amp;@tvi-VN&amp;@u1366&amp;@vhttp%3A%2F%2Fwww.orientalsails.com%2Fbooking-tour&amp;@w"></script>
+        <noscript><a href="http://www.histats.com" target="_blank"><img src="http://sstatic1.histats.com/0.gif?2699658&101" alt="hit counter script" border="0"></a></noscript>
+        <script async="" src="//t.dtscdn.com/widget/?d=1EE704450FDB0858C0069B6602E375F8&amp;p=-1712517225&amp;t=-420&amp;s=1366x768x24&amp;u=http%3A%2F%2Fwww.orientalsails.com%2Fbooking-tour&amp;r=http%3A%2F%2Fwww.orientalsails.com%2Fitinerary%2Foriental-sails-2-day-1-night%2F"></script>
+        <div id="su-footer-links" style="text-align: center;"></div>
+        <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+        <a href="javascript:void(0);" title="SumoMe" style="background-color: rgb(0, 115, 183); border-radius: 3px 0px 0px 3px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); position: fixed; display: none ! important; z-index: 2147483647; padding: 0px; width: 44px; height: 40px; text-indent: -10000px; opacity: 1;"><span style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;">SumoMe</span><span style="display: block; width: 40px; height: 40px; background: white; margin-left: 4px; -webkit-border-radius: 3px 0 0 3px; -moz-border-radius: 3px 0 0 3px; -ms-border-radius: 3px 0 0 3px; -o-border-radius: 3px 0 0 3px; border-radius: 3px 0 0 3px; background-repeat: no-repeat; background-position: 8px 8px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPBJREFUeNpi/P//PwMtAeOoBSPAAobi7fVAuomh15OwTcXbO4AkMxCXEam+mAlIaQLxNCCHkQjDy4G4hAT1liALDgBxBhDPAwoy41BcDzUcBjLwWoJwzAGYBSCQAMSLMCwp3l4BJBuwGIPdEoThIHCAESr4DEhKQgWXAXEiMIx/AcXLgOxOAiE9A4izwHGCavgbIBaDWbAESEYjadoMxHuAeCKRiQVkyUe0YFwLtDSEBeYVNAt8oZhYkIFFDBz0TMgcKgMkC3o97wDJp1Q0HBT+V5F9wAANc2qBg7CMyITuJWoGD10sGC2uRy2gHAAEGACB725KrIq6EgAAAABJRU5ErkJggg==);"></span></a>
+        <div class="sumome-share-client-wrapper sumome-share-client-wrapper-left-page sumome-share-client-counts sumome-share-client-light sumome-share-client-medium" style="top: 147.5px;">
+        </div>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=350436681745997"></script>
+        <script data-cfasync="false" src="//load.sumome.com/" data-sumo-platform="wordpress" data-sumo-site-id="5c4ccd4246236a65a1c8e8089fe639f44d9e2ce73dd2875b1e06adc08556cb83"></script>
+        <script src="http://s10.histats.com/js15.js" type="text/javascript"></script>
+        <script type="text/javascript" src="https://static.tacdn.com/js3/widget/cdswidgets_min-c-v23892882724a.js"></script>
+        <script type="text/javascript" src="https://static.tacdn.com/js3/widget/cdswidgets_m-c-v2102084671a.js"></script>
+        <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="2c40add5-3570-45d7-8212-8fc2942f7f74/service" src="//sumome-140a.kxcdn.com/virtual/9e34de785f4aa38a7e1d9a06994f44a0b9f10b19/client/js/2c40add5-3570-45d7-8212-8fc2942f7f74/service.js"></script>
+        <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="9e8a4d2a-6f8c-415e-851b-bdfe4c01d5c1/service" src="//sumome-140a.kxcdn.com/virtual/d62da80bf32eb42d1751856d527e1bca4c528ac3/client/js/9e8a4d2a-6f8c-415e-851b-bdfe4c01d5c1/service.js"></script>
+
+        <script async="" charset="utf-8" src="//v2.zopim.com/?2wk8rV3gYV5ikcwTQTHK5fIWPuZ4yef6" type="text/javascript"></script>
+        <script type="text/javascript" src="http://www.orientalsails.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20"></script>
+        <script type="text/javascript" src="http://www.orientalsails.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.5.1"></script>
+        <script type="text/javascript" src="http://www.orientalsails.com/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.6.9"></script>
+        <script type="text/javascript" src="http://www.orientalsails.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.6.0&ver=1959a9ccdfc911f746fdc22e8ef45dfa"></script>
+        <script type="text/javascript" src="http://www.orientalsails.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?rev=4.6.0&ver=1959a9ccdfc911f746fdc22e8ef45dfa"></script>
+        <script src="http://www.orientalsails.com/wp-content/themes/orientalsails2/js/bootstrap.min.js"></script>
+        <script src="http://www.orientalsails.com/wp-content/themes/orientalsails2/js/common.js"></script>
+        <script type="text/javascript" src="http://www.orientalsails.com/wp-content/themes/orientalsails2/js/inputtitle_submit.js?ver=1959a9ccdfc911f746fdc22e8ef45dfa"></script>
+        <script src="http://www.orientalsails.com/wp-content/themes/orientalsails2/js/jquery-validate.min.js"></script>
+        <script type="text/javascript" src="http://www.orientalsails.com/wp-content/themes/orientalsails2/js/slick.min.js"></script>
+        <script type="text/javascript" src="http://www.orientalsails.com/wp-includes/js/wp-embed.min.js?ver=1959a9ccdfc911f746fdc22e8ef45dfa"></script>
+        <script src="http://www.orientalsails.com/wp-includes/js/wp-emoji-release.min.js?ver=1959a9ccdfc911f746fdc22e8ef45dfa" type="text/javascript"></script>
+        <script src="https://www.tripadvisor.co.uk/WidgetEmbed-percentRecommended?border=true&backgroundColor=white&locationId=4067205&display_version=2&uniq=613&lang=en_UK"></script>
+        <script src="https://www.tripadvisor.com/WidgetEmbed-selfserveprop?border=true&popIdx=true&iswide=false&locationId=4067205&uniq=779&rating=true&lang=en_US&nreviews=5&writereviewlink=true"></script>
+        <script src="/scripts/datetimepicker/jquery.datetimepicker.full.min.js"></script>
+        <script src="/scripts/colorbox/jquery.colorbox-min.js"></script>
+        <asp:ContentPlaceHolder ID="Scripts" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

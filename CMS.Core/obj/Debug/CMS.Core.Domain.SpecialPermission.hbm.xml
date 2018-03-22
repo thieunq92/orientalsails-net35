@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="CMS.Core.Domain.SpecialPermission, CMS.Core" table="bitportal_specialpermission">
+		<id name="Id" type="Int32" unsaved-value="-1">
+			<column name="PermissionId" length="4" sql-type="int" not-null="true" unique="true" index="PK_tmh_Hotel"/>
+			<generator class="native" />
+		</id>
+		<property name="Name" type="String">
+			<column name="Name" sql-type="nvarchar" not-null="true"/>
+		</property>		
+		<many-to-one name="Section" class="CMS.Core.Domain.Section, CMS.Core" lazy="false">
+			<column name="SectionId" length="4" sql-type="int" not-null="false"/>
+		</many-to-one>
+    <many-to-one name="Role" class="CMS.Core.Domain.Role, CMS.Core" lazy="false">
+      <column name="RoleId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+    <many-to-one name="User" class="CMS.Core.Domain.User, CMS.Core" lazy="false">
+      <column name="UserId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+    <many-to-one name="ModuleType" class="CMS.Core.Domain.ModuleType, CMS.Core" lazy="false">
+      <column name="ModuleTypeId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+  </class>
+</hibernate-mapping>

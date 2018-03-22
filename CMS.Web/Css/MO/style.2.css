@@ -1,0 +1,83 @@
+﻿.bitcorp {overflow: hidden;}
+.hidden { display: none;}
+
+.form-body { min-height: 700px;overflow: auto;}
+.booking-room { margin: 2px 0;float: left;cursor: pointer;}
+.booking-room:hover { background-color: rgba(0, 0, 0, 0.1);}
+.booking-room input { float: left;}
+.booking-room div { float: left;}
+.booking-room .div-type { width: 150px;}
+.booking-room .div-room { width: 90px;}
+.booking-room .div-name { width: 270px;}
+.booking-room .div-lock input{ width: 10px;}
+
+.booking-room.standard { background-color: #ffe0e0; }
+.booking-room.executive { background-color: #e0ffe0; }
+.booking-room.suite { background-color: #e0e0ff; }
+.booking-room.deluxe { background-color: #e0ffff; }
+
+/* Oriental Sails */
+.cruise1 {
+    width: 800px;
+}
+
+.cruise1 .room-list div {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    float: left;
+    border: 1px solid #000000;
+}
+
+.cruise1 .available { background-color: rgba(0, 0, 0, 0.0);}
+.cruise1 .available:hover { background-color: rgba(0, 255, 0, 0.2);}
+.cruise1 .occupied { background-color: rgba(255, 0, 0, 0.2)}
+.cruise1 .current { background-color: rgba(0,0,255,0.2);}
+.cruise1 .selected { background-color: rgba(0, 255, 0, 0.4);}
+
+.cruise7 .cruise-plan { background-image: url(starlight-plan.png);background-repeat: no-repeat;height: 455px;margin: 0 auto;}
+.cruise7 .available { background-color: rgba(0, 0, 0, 0.0);}
+.cruise7 .available:hover { background-color: rgba(0, 255, 0, 0.3);}
+.cruise7 .occupied { background-color: rgba(255, 0, 0, 0.4)}
+.cruise7 .current { background-color: rgba(0,0,255,0.2);}
+.cruise7 .selected { background-color: rgba(0, 255, 0, 0.6);}
+
+/* tung phong 1: */
+.cruise7 .room-list { position: relative;}
+.cruise7 .room-list .room { color: rgba(0, 0, 0, 1);cursor: pointer;}
+.cruise7 .room-list .room51 { width: 54px;height: 47px;position: absolute;top: 334px;left: 144px;}
+.cruise7 .room-list .room53 { width: 54px;height: 47px;position: absolute;top: 334px;left: 198px;}
+.cruise7 .room-list .room55 { width: 54px;height: 47px;position: absolute;top: 334px;left: 252px;}
+.cruise7 .room-list .room57 { width: 54px;height: 47px;position: absolute;top: 334px;left: 306px;}
+.cruise7 .room-list .room59 { width: 54px;height: 47px;position: absolute;top: 334px;left: 360px;}
+.cruise7 .room-list .room61 { width: 54px;height: 47px;position: absolute;top: 334px;left: 414px;}
+
+.cruise7 .room-list .room50 { width: 54px;height: 47px;position: absolute;top: 395px;left: 144px;}
+.cruise7 .room-list .room52 { width: 54px;height: 47px;position: absolute;top: 395px;left: 198px;}
+.cruise7 .room-list .room54 { width: 54px;height: 47px;position: absolute;top: 395px;left: 252px;}
+.cruise7 .room-list .room56 { width: 54px;height: 47px;position: absolute;top: 395px;left: 306px;}
+.cruise7 .room-list .room58 { width: 54px;height: 47px;position: absolute;top: 395px;left: 360px;}
+.cruise7 .room-list .room60 { width: 54px;height: 47px;position: absolute;top: 395px;left: 414px;}
+
+.cruise7 .room-list .room62 { width: 54px;height: 47px;position: absolute;top: 234px;left: 144px;}
+.cruise7 .room-list .room64 { width: 54px;height: 47px;position: absolute;top: 234px;left: 198px;}
+.cruise7 .room-list .room66 { width: 54px;height: 47px;position: absolute;top: 234px;left: 252px;}
+.cruise7 .room-list .room68 { width: 54px;height: 47px;position: absolute;top: 234px;left: 306px;}
+.cruise7 .room-list .room70 { width: 54px;height: 47px;position: absolute;top: 234px;left: 360px;}
+.cruise7 .room-list .room72 { width: 54px;height: 47px;position: absolute;top: 234px;left: 414px;}
+.cruise7 .room-list .room74 { width: 54px;height: 47px;position: absolute;top: 234px;left: 468px;}
+.cruise7 .room-list .room76 { width: 54px;height: 47px;position: absolute;top: 234px;left: 522px;}
+.cruise7 .room-list .room78 { width: 60px;height: 47px;position: absolute;top: 234px;left: 578px;}
+
+.cruise7 .room-list .room63 { width: 54px;height: 47px;position: absolute;top: 173px;left: 144px;}
+.cruise7 .room-list .room65 { width: 54px;height: 47px;position: absolute;top: 173px;left: 198px;}
+.cruise7 .room-list .room67 { width: 54px;height: 47px;position: absolute;top: 173px;left: 252px;}
+.cruise7 .room-list .room69 { width: 54px;height: 47px;position: absolute;top: 173px;left: 306px;}
+.cruise7 .room-list .room71 { width: 54px;height: 47px;position: absolute;top: 173px;left: 360px;}
+.cruise7 .room-list .room73 { width: 54px;height: 47px;position: absolute;top: 173px;left: 414px;}
+.cruise7 .room-list .room75 { width: 54px;height: 47px;position: absolute;top: 173px;left: 468px;}
+.cruise7 .room-list .room77 { width: 54px;height: 47px;position: absolute;top: 173px;left: 522px;}
+.cruise7 .room-list .room79 { width: 60px;height: 47px;position: absolute;top: 173px;left: 578px;}
+
+.cruise7 .room-list .room81 {width: 72px;height: 53px;position: absolute;top: 14px;left: 530px;}
+.cruise7 .room-list .room80 {width: 72px;height: 53px;position: absolute;top: 67px;left: 530px;}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="SailsPriceConfig" table="os_SailsPriceConfig" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="TripOption" type="Portal.Modules.OrientalSails.Web.Util.TripOption, Portal.Modules.OrientalSails"/>
+    <property name="NetPrice"/>
+    <property name="NetPriceVND"/>
+    <property name="SpecialPrice"/>
+    <property name="SpecialPriceVND"/>
+
+    <many-to-one name="RoomClass" column="RoomClassId" class="RoomClass"/>
+    <many-to-one name="RoomType" column="RoomTypeId" class="RoomTypex"/>
+    <many-to-one name="Trip" column="TripId" class="SailsTrip"/>
+    <many-to-one name="Cruise" column="CruiseId" class="Cruise"/>
+    <many-to-one name="Table" column="PriceTableId" class="SailsPriceTable"/>
+  </class>
+</hibernate-mapping>

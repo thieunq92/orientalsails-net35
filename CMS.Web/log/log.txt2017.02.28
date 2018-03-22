@@ -1,0 +1,52 @@
+2017-02-28 11:18:45,519 [9] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.StaleStateException: Unexpected row count: 0; expected: 1
+   at NHibernate.AdoNet.Expectations.BasicExpectation.VerifyOutcomeNonBatched(Int32 rowCount, IDbCommand statement)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.UpdateOrInsert(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Int32[] dirtyFields, Boolean hasDirtyCollection, Object[] oldFields, Object oldVersion, Object obj, Object rowId, ISessionImplementor session)
+   at NHibernate.Action.EntityUpdateAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-02-28 11:18:45,925 [9] ERROR Castle.Services.Transaction.TransactionBase [(null)] <(null)> - Resource state: Castle.Facilities.NHibernateIntegration.Internal.ResourceAdapter
+2017-02-28 11:23:57,536 [6] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.StaleStateException: Unexpected row count: 0; expected: 1
+   at NHibernate.AdoNet.Expectations.BasicExpectation.VerifyOutcomeNonBatched(Int32 rowCount, IDbCommand statement)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.UpdateOrInsert(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Int32[] dirtyFields, Boolean hasDirtyCollection, Object[] oldFields, Object oldVersion, Object obj, Object rowId, ISessionImplementor session)
+   at NHibernate.Action.EntityUpdateAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-02-28 11:23:57,554 [6] ERROR Castle.Services.Transaction.TransactionBase [(null)] <(null)> - Resource state: Castle.Facilities.NHibernateIntegration.Internal.ResourceAdapter
+2017-02-28 11:25:57,800 [9] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.StaleStateException: Unexpected row count: 0; expected: 1
+   at NHibernate.AdoNet.Expectations.BasicExpectation.VerifyOutcomeNonBatched(Int32 rowCount, IDbCommand statement)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.UpdateOrInsert(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Int32[] dirtyFields, Boolean hasDirtyCollection, Object[] oldFields, Object oldVersion, Object obj, Object rowId, ISessionImplementor session)
+   at NHibernate.Action.EntityUpdateAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-02-28 11:25:57,819 [9] ERROR Castle.Services.Transaction.TransactionBase [(null)] <(null)> - Resource state: Castle.Facilities.NHibernateIntegration.Internal.ResourceAdapter
+2017-02-28 14:28:20,353 [6] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.StaleStateException: Unexpected row count: 0; expected: 1
+   at NHibernate.AdoNet.Expectations.BasicExpectation.VerifyOutcomeNonBatched(Int32 rowCount, IDbCommand statement)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.UpdateOrInsert(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Int32[] dirtyFields, Boolean hasDirtyCollection, Object[] oldFields, Object oldVersion, Object obj, Object rowId, ISessionImplementor session)
+   at NHibernate.Action.EntityUpdateAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-02-28 14:28:20,600 [6] ERROR Castle.Services.Transaction.TransactionBase [(null)] <(null)> - Resource state: Castle.Facilities.NHibernateIntegration.Internal.ResourceAdapter

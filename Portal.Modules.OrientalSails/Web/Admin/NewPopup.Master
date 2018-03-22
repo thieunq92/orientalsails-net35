@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NewPopup.master.cs" Inherits="Portal.Modules.OrientalSails.Web.Admin.NewPopup" %>
+
+<%@ Register TagPrefix="cc1" Namespace="CMS.ServerControls" Assembly="CMS.ServerControls" %>
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/favicon.gif" />
+    <link rel="stylesheet" type="text/css" href="/css/normalize/v5.0.0/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap/v3.3.7/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/jqueryui/v1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome/v4.7.0/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/datetimepicker/jquery.datetimepicker.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/mo/main.css" />
+</head>
+<body>
+    <form id="form1" runat="server" enctype="multipart/form-data">
+        <div class="container-fluid">
+            <asp:ContentPlaceHolder ID="AdminContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <script type="text/javascript" src="/scripts/jquery/v3.1.1/jquery-3.3.1.min.js"></script>
+            <script type="text/javascript" src="/scripts/jqueryui/v1.12.1/jquery-ui.min.js"></script>
+            <script type="text/javascript" src="/scripts/bootstrap/v3.3.7/bootstrap.min.js"></script>
+            <script type="text/javascript" src="/scripts/datetimepicker/jquery.datetimepicker.full.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" });
+                });
+            </script>
+            <asp:ContentPlaceHolder ID="Scripts" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+

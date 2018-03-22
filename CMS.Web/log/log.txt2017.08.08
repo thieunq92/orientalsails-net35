@@ -1,0 +1,18 @@
+2017-08-08 09:58:41,081 [10] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT costtypes0_.CruiseId as CruiseId1_, costtypes0_.CostTypeId as CostTypeId1_, costtype1_.Id as Id164_0_, costtype1_.Name as Name164_0_, costtype1_.IsDailyInput as IsDailyI3_164_0_, costtype1_.IsCustomType as IsCustom4_164_0_, costtype1_.IsSupplier as IsSupplier164_0_, costtype1_.IsMonthly as IsMonthly164_0_, costtype1_.IsYearly as IsYearly164_0_, costtype1_.IsDaily as IsDaily164_0_, costtype1_.GroupName as GroupName164_0_, costtype1_.DefaultAgencyId as Default10_164_0_, costtype1_.ExtraServiceId as ExtraSe11_164_0_ FROM os_CruiseCostType costtypes0_ left outer join os_CostType costtype1_ on costtypes0_.CostTypeId=costtype1_.Id WHERE costtypes0_.CruiseId=@p0
+System.Data.SqlClient.SqlException: Invalid object name 'os_CruiseCostType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-08-08 09:58:41,163 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_CruiseCostType'.
+2017-08-08 09:58:41,163 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'os_CruiseCostType'.

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="SailsTrip" table="os_SailsTrip" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Deleted"/>
+    <property name="ModifiedDate"/>
+    <property name="Name"/>
+    <property name="NumberOfDay"/>
+    <property name="WhatToTake"/>
+    <property name="Itinerary"/>
+    <property name="Inclusions"/>
+    <property name="Exclusions"/>
+    <property name="Description"/>
+    <property name="Image"/>
+    <property name="NumberOfOptions"/>
+    <property name="TripCode"/>
+    <property name="HalfDay"/>
+    <property name="CreatedDate" />
+
+    <many-to-one name="CreatedBy" column="CreatedBy" class="CMS.Core.Domain.User, CMS.Core"/>
+    <many-to-one name="ModifiedBy" column="ModifiedBy" class="CMS.Core.Domain.User, CMS.Core"/>
+
+    <bag name="Bookings" inverse="true" cascade="all-delete-orphan" batch-size="10">
+      <key column="TripId"/>
+      <one-to-many class="Booking"/>
+    </bag>
+    <bag name="SailsPriceConfigs" inverse="true" cascade="all-delete-orphan" batch-size="10">
+      <key column="TripId"/>
+      <one-to-many class="SailsPriceConfig"/>
+    </bag>
+  </class>
+</hibernate-mapping>

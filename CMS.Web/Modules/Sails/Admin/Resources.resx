@@ -1,0 +1,1803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="buttonAdd" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="buttonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="buttonSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="buttonSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="buttonSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Include" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAction" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="labelActivities" xml:space="preserve">
+    <value>Activities</value>
+  </data>
+  <data name="labelBookingId" xml:space="preserve">
+    <value>Booking Id</value>
+  </data>
+  <data name="labelCapacity" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="labelCustomer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="labelCustomerList" xml:space="preserve">
+    <value>Customers List</value>
+  </data>
+  <data name="labelDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="labelExclusions" xml:space="preserve">
+    <value>Exclusions</value>
+  </data>
+  <data name="labelInclusions" xml:space="preserve">
+    <value>Inclusions</value>
+  </data>
+  <data name="labelIsTransfer" xml:space="preserve">
+    <value>Is Transfer</value>
+  </data>
+  <data name="labelName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="labelNumberOfDay" xml:space="preserve">
+    <value>Number of day</value>
+  </data>
+  <data name="labelNumberOfOptions" xml:space="preserve">
+    <value>Number of option</value>
+  </data>
+  <data name="labelPartner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="labelPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="labelRole" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="labelRoomClass" xml:space="preserve">
+    <value>Room Class</value>
+  </data>
+  <data name="labelRoomList" xml:space="preserve">
+    <value>Room List</value>
+  </data>
+  <data name="labelRoomTypes" xml:space="preserve">
+    <value>Room types management</value>
+  </data>
+  <data name="labelRoomTypex" xml:space="preserve">
+    <value>Room Type</value>
+  </data>
+  <data name="labelSale" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="labelSendEmail" xml:space="preserve">
+    <value>Send email</value>
+  </data>
+  <data name="labelStartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="labelStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="labelTripImage" xml:space="preserve">
+    <value>Abtract Image (150 x XX)</value>
+  </data>
+  <data name="labelTripMap" xml:space="preserve">
+    <value>Map ( 235x170)</value>
+  </data>
+  <data name="labelTripName" xml:space="preserve">
+    <value>Trip</value>
+  </data>
+  <data name="labelWhatToTake" xml:space="preserve">
+    <value>What to take</value>
+  </data>
+  <data name="messageConfirmDelete" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="messageErrorDontHaveRangeFor" xml:space="preserve">
+    <value>WARNING: You may have input wrong data. Can not apply for the value between {0} and {1}. There is no range to apply.</value>
+  </data>
+  <data name="messageErrorOneValueBelongToTwoRange" xml:space="preserve">
+    <value>WARNING: You may have input wrong data. Can not apply for the value between {1} and {0}. There is two range to apply.</value>
+  </data>
+  <data name="messageErrorTwoMaxValue" xml:space="preserve">
+    <value>WARNING: You may have input wrong data. There is two range without max value.</value>
+  </data>
+  <data name="stringAccessDenied" xml:space="preserve">
+    <value>Oop! You don't have permission.</value>
+  </data>
+  <data name="stringAddnewExtraOption" xml:space="preserve">
+    <value>Add new option</value>
+  </data>
+  <data name="stringAddnewRoomClass" xml:space="preserve">
+    <value>Add new room class</value>
+  </data>
+  <data name="stringFormatUserCount" xml:space="preserve">
+    <value>Total users: {0}</value>
+  </data>
+  <data name="stringGuest" xml:space="preserve">
+    <value>Guest</value>
+  </data>
+  <data name="textAndUp" xml:space="preserve">
+    <value>And go on</value>
+  </data>
+  <data name="textInclude" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="textUser" xml:space="preserve">
+    <value>user(s)</value>
+  </data>
+  <data name="titleAdminAgencyEdit" xml:space="preserve">
+    <value>This pricing table will be apply for {0}</value>
+  </data>
+  <data name="titleAdminAgencyUserList" xml:space="preserve">
+    <value>List of users in role {0}</value>
+  </data>
+  <data name="titleAdminAgentList" xml:space="preserve">
+    <value>Agency List</value>
+  </data>
+  <data name="titleBookingView" xml:space="preserve">
+    <value>Booking View</value>
+  </data>
+  <data name="titleExtraOptionEdit" xml:space="preserve">
+    <value>Extra Option</value>
+  </data>
+  <data name="titleRoomClassEdit" xml:space="preserve">
+    <value>Room Class Edit</value>
+  </data>
+  <data name="titleRoomEdit" xml:space="preserve">
+    <value>Room Edit</value>
+  </data>
+  <data name="titleRoomList" xml:space="preserve">
+    <value>Room List</value>
+  </data>
+  <data name="titleSailsPriceConfig" xml:space="preserve">
+    <value>Sails Price Config</value>
+  </data>
+  <data name="titleSailsTripEdit" xml:space="preserve">
+    <value>Trip Edit</value>
+  </data>
+  <data name="titleSailsTripList" xml:space="preserve">
+    <value>Trip List</value>
+  </data>
+  <data name="textNewRoomType" xml:space="preserve">
+    <value>New room type</value>
+  </data>
+  <data name="textAllowSingleBooking" xml:space="preserve">
+    <value>Allow booking with diffirent people</value>
+  </data>
+  <data name="textIsShared" xml:space="preserve">
+    <value>Is shared cabin</value>
+  </data>
+  <data name="textNewRoomClass" xml:space="preserve">
+    <value>New room class</value>
+  </data>
+  <data name="textPriceConfig" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="textTripCode" xml:space="preserve">
+    <value>Trip code</value>
+  </data>
+  <data name="textTrip" xml:space="preserve">
+    <value>Trip</value>
+  </data>
+  <data name="textAddBooking" xml:space="preserve">
+    <value>Add booking</value>
+  </data>
+  <data name="textStartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="lbtCheckAvaiable" xml:space="preserve">
+    <value>[Check avaiable]</value>
+  </data>
+  <data name="textAgency" xml:space="preserve">
+    <value>Agency</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="errorDateRequired" xml:space="preserve">
+    <value>Date is required!</value>
+  </data>
+  <data name="errorNotEnoughAvailable" xml:space="preserve">
+    <value>Not enough room available for this cruise on this day, please reassign room type!</value>
+  </data>
+  <data name="errorOneChildOneBaby" xml:space="preserve">
+    <value>Each room can contains only one child or baby</value>
+  </data>
+  <data name="textSelectAgency" xml:space="preserve">
+    <value>-- Agency --</value>
+  </data>
+  <data name="chkSendMail" xml:space="preserve">
+    <value>Send notify</value>
+  </data>
+  <data name="textNumberOfPax" xml:space="preserve">
+    <value>Number of pax</value>
+  </data>
+  <data name="textBooker" xml:space="preserve">
+    <value>Booker</value>
+  </data>
+  <data name="textNumberOfCabin" xml:space="preserve">
+    <value>Number of cabin</value>
+  </data>
+  <data name="textCreated" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="textApprovedBy" xml:space="preserve">
+    <value>Approved by</value>
+  </data>
+  <data name="textTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="textPaymentNeeded" xml:space="preserve">
+    <value>Pay before tour</value>
+  </data>
+  <data name="textExtraService" xml:space="preserve">
+    <value>Extra services</value>
+  </data>
+  <data name="textPickupAddress" xml:space="preserve">
+    <value>Pickup Address</value>
+  </data>
+  <data name="textSpecialRequest" xml:space="preserve">
+    <value>Special request</value>
+  </data>
+  <data name="textCustomerInfo" xml:space="preserve">
+    <value>Customer info</value>
+  </data>
+  <data name="formatPersonItem" xml:space="preserve">
+    <value>{0} person(s)</value>
+  </data>
+  <data name="formatRoomItem" xml:space="preserve">
+    <value>{0} room(s)</value>
+  </data>
+  <data name="formatChildItem" xml:space="preserve">
+    <value>{0} child(s)</value>
+  </data>
+  <data name="formatBabyItem" xml:space="preserve">
+    <value>{0} baby(s)</value>
+  </data>
+  <data name="formatPaxDetail" xml:space="preserve">
+    <value>Adult: {0}&lt;br/&gt;Child: {1} &lt;br/&gt;Baby: {2}</value>
+  </data>
+  <data name="textSale" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="textBookingList" xml:space="preserve">
+    <value>Booking list</value>
+  </data>
+  <data name="textBookingCode" xml:space="preserve">
+    <value>Booking code</value>
+  </data>
+  <data name="textCustomerName" xml:space="preserve">
+    <value>Customer name</value>
+  </data>
+  <data name="textStatus" xml:space="preserve">
+    <value>Booking status</value>
+  </data>
+  <data name="textStatusAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="textStatusApproved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="textStatusPending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="textStatusRejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="textConfirmBy" xml:space="preserve">
+    <value>Confirm by</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="textOrderReport" xml:space="preserve">
+    <value>Order waiting</value>
+  </data>
+  <data name="textRoom" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="textNotify" xml:space="preserve">
+    <value>Notify</value>
+  </data>
+  <data name="formatCustomerCount" xml:space="preserve">
+    <value>{0} adult, {1} child, {2} baby</value>
+  </data>
+  <data name="textStatusApprove" xml:space="preserve">
+    <value>[Approve]</value>
+  </data>
+  <data name="textStatusReject" xml:space="preserve">
+    <value>[Reject]</value>
+  </data>
+  <data name="textStatusNotAvaiable" xml:space="preserve">
+    <value>[Not enough room]</value>
+  </data>
+  <data name="textBookingByDate" xml:space="preserve">
+    <value>Booking by date</value>
+  </data>
+  <data name="textShowCustomerOnboardNote" xml:space="preserve">
+    <value>This form will show all customers onboard (include customers who stayed from the day before in more than 2 day trips) in a specific day</value>
+  </data>
+  <data name="textShowCustomerTransferNote" xml:space="preserve">
+    <value>Customer who was transfered from the day before will display in yellow background</value>
+  </data>
+  <data name="textDateToView" xml:space="preserve">
+    <value>Date to view</value>
+  </data>
+  <data name="btnDisplay" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="textIndex" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="textPax" xml:space="preserve">
+    <value>Name of pax</value>
+  </data>
+  <data name="textAdult" xml:space="preserve">
+    <value>Adult</value>
+  </data>
+  <data name="textChild" xml:space="preserve">
+    <value>Child</value>
+  </data>
+  <data name="textBaby" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="textGrandTotal" xml:space="preserve">
+    <value>GRAND TOTAL</value>
+  </data>
+  <data name="textName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="textPhone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="textSupplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="textCost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="btnRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="textNote" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="btnSaveExpenses" xml:space="preserve">
+    <value>Save without export</value>
+  </data>
+  <data name="btnExportRoom" xml:space="preserve">
+    <value>Export room list</value>
+  </data>
+  <data name="btnExportWelcome" xml:space="preserve">
+    <value>Export Welcome board</value>
+  </data>
+  <data name="btnExcel" xml:space="preserve">
+    <value>Export customer data</value>
+  </data>
+  <data name="textBookingByPeriod" xml:space="preserve">
+    <value>Booking by period</value>
+  </data>
+  <data name="textDateFrom" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="textDateTo" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="textDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="textTotalPax" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="textLock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="textUnlock" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="textAccountingStatus" xml:space="preserve">
+    <value>Accounting status</value>
+  </data>
+  <data name="textSetAsNotUpdated" xml:space="preserve">
+    <value>Change to not updated</value>
+  </data>
+  <data name="textSetAsUpdated" xml:space="preserve">
+    <value>Change to updated</value>
+  </data>
+  <data name="textAgencyCode" xml:space="preserve">
+    <value>TA Code</value>
+  </data>
+  <data name="textAccounting" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="textAccountingNew" xml:space="preserve">
+    <value>New booking</value>
+  </data>
+  <data name="textAccountingModified" xml:space="preserve">
+    <value>Not updated</value>
+  </data>
+  <data name="textAccountingUpdated" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="btnProvisional" xml:space="preserve">
+    <value>Provisional Register</value>
+  </data>
+  <data name="textCustomerList" xml:space="preserve">
+    <value>Customer list</value>
+  </data>
+  <data name="textBookingDate" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="textProvisionalDetail" xml:space="preserve">
+    <value>Passport detail</value>
+  </data>
+  <data name="textRoomNumber" xml:space="preserve">
+    <value>Room number</value>
+  </data>
+  <data name="textFullName" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="textGender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="textBirthDate" xml:space="preserve">
+    <value>Birthdate</value>
+  </data>
+  <data name="textNationality" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="textPassport" xml:space="preserve">
+    <value>Passport</value>
+  </data>
+  <data name="textVietKieu" xml:space="preserve">
+    <value>Viet Kieu</value>
+  </data>
+  <data name="textPurpose" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="textStayFrom" xml:space="preserve">
+    <value>Stay from</value>
+  </data>
+  <data name="textStayTo" xml:space="preserve">
+    <value>Stay to</value>
+  </data>
+  <data name="textStayTerm" xml:space="preserve">
+    <value>Stay term</value>
+  </data>
+  <data name="textStayIn" xml:space="preserve">
+    <value>Stay in</value>
+  </data>
+  <data name="textChangedTime" xml:space="preserve">
+    <value>Changed time</value>
+  </data>
+  <data name="textModifiedBy" xml:space="preserve">
+    <value>Changed user</value>
+  </data>
+  <data name="textChangedContent" xml:space="preserve">
+    <value>Changed content</value>
+  </data>
+  <data name="textChangedTotal" xml:space="preserve">
+    <value>Changed revenue</value>
+  </data>
+  <data name="textTrackingReport" xml:space="preserve">
+    <value>Tracking report</value>
+  </data>
+  <data name="textBookingCharter" xml:space="preserve">
+    <value>Booking charter</value>
+  </data>
+  <data name="textVisaNo" xml:space="preserve">
+    <value>Visa No.</value>
+  </data>
+  <data name="textVisaExpired" xml:space="preserve">
+    <value>Visa expired</value>
+  </data>
+  <data name="textIsTransferred" xml:space="preserve">
+    <value>Is transferred</value>
+  </data>
+  <data name="textTransferredCost" xml:space="preserve">
+    <value>Transferred cost</value>
+  </data>
+  <data name="textAgencyEdit" xml:space="preserve">
+    <value>Agency information</value>
+  </data>
+  <data name="textAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="textFax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="textEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="textRole" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="textTaxCode" xml:space="preserve">
+    <value>Tax code</value>
+  </data>
+  <data name="textContractStatus" xml:space="preserve">
+    <value>Contract status</value>
+  </data>
+  <data name="textSaleInCharge" xml:space="preserve">
+    <value>Sale in charge</value>
+  </data>
+  <data name="textAccountant" xml:space="preserve">
+    <value>Accountant</value>
+  </data>
+  <data name="textPaymentPeriod" xml:space="preserve">
+    <value>Payment Period</value>
+  </data>
+  <data name="textOthers" xml:space="preserve">
+    <value>Other info</value>
+  </data>
+  <data name="textContractName" xml:space="preserve">
+    <value>Contract name</value>
+  </data>
+  <data name="textExpiredDate" xml:space="preserve">
+    <value>Expired date</value>
+  </data>
+  <data name="textContractUpload" xml:space="preserve">
+    <value>Upload contract</value>
+  </data>
+  <data name="textAssignedUser" xml:space="preserve">
+    <value>Assigned user</value>
+  </data>
+  <data name="errorBookingPeriod" xml:space="preserve">
+    <value>There is some booking error in this period, please correct!</value>
+  </data>
+  <data name="errorNoBookingSave" xml:space="preserve">
+    <value>Can not save data when there is no passenger!</value>
+  </data>
+  <data name="errorNoBookingExport" xml:space="preserve">
+    <value>Can not save data when there is no passenger!</value>
+  </data>
+  <data name="errorCanNotCalculatePrice" xml:space="preserve">
+    <value>Please input booking value manually, pricing system is not valid</value>
+  </data>
+  <data name="errorDuplicateBookingCode" xml:space="preserve">
+    <value>Custom booking code is duplicated! Please check this booking again.</value>
+  </data>
+  <data name="titleOrderReport" xml:space="preserve">
+    <value>Order report</value>
+  </data>
+  <data name="titleBookingPeriod" xml:space="preserve">
+    <value>Booking by period</value>
+  </data>
+  <data name="btnExportAgencyList" xml:space="preserve">
+    <value>Export list</value>
+  </data>
+  <data name="textAgencyName" xml:space="preserve">
+    <value>Agency name</value>
+  </data>
+  <data name="textContract" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="titleAgencyList" xml:space="preserve">
+    <value>Agency list</value>
+  </data>
+  <data name="textIncludedInRoomPrice" xml:space="preserve">
+    <value>Is included in room price</value>
+  </data>
+  <data name="textTargetApply" xml:space="preserve">
+    <value>Apply for</value>
+  </data>
+  <data name="textCostingConfiguration" xml:space="preserve">
+    <value>Costing configuration</value>
+  </data>
+  <data name="textValidFrom" xml:space="preserve">
+    <value>Valid from</value>
+  </data>
+  <data name="textOption" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="textCostType" xml:space="preserve">
+    <value>Cost Type</value>
+  </data>
+  <data name="textAdultCost" xml:space="preserve">
+    <value>Adult cost</value>
+  </data>
+  <data name="textChildCost" xml:space="preserve">
+    <value>Child cost</value>
+  </data>
+  <data name="textBabyCost" xml:space="preserve">
+    <value>Baby cost</value>
+  </data>
+  <data name="titleExchangeRate" xml:space="preserve">
+    <value>Exchange rates</value>
+  </data>
+  <data name="textExchangeRate" xml:space="preserve">
+    <value>Rate (1 USD to VND)</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="titleCostType" xml:space="preserve">
+    <value>Cost types</value>
+  </data>
+  <data name="textGeneralInformation" xml:space="preserve">
+    <value>General information</value>
+  </data>
+  <data name="chkIsDailyInput" xml:space="preserve">
+    <value>Manually input</value>
+  </data>
+  <data name="chkIsCustomType" xml:space="preserve">
+    <value>Has contact name and phone</value>
+  </data>
+  <data name="chkIsSupplier" xml:space="preserve">
+    <value>Is supplier</value>
+  </data>
+  <data name="chkIsDaily" xml:space="preserve">
+    <value>Is daily</value>
+  </data>
+  <data name="chkIsMonthly" xml:space="preserve">
+    <value>Is monthly</value>
+  </data>
+  <data name="chkIsYearly" xml:space="preserve">
+    <value>Is yearly</value>
+  </data>
+  <data name="textChildPercentage" xml:space="preserve">
+    <value>Child price percentage</value>
+  </data>
+  <data name="textUseCustomBookingId" xml:space="preserve">
+    <value>Use custom booking code</value>
+  </data>
+  <data name="textBookingCodeFormat" xml:space="preserve">
+    <value>Booking code format</value>
+  </data>
+  <data name="textShowCustomerName" xml:space="preserve">
+    <value>Show customer name</value>
+  </data>
+  <data name="textUseCustomPriceWhenAddBooking" xml:space="preserve">
+    <value>Use custom price when add booking</value>
+  </data>
+  <data name="textUseCustomPriceForEachRoom" xml:space="preserve">
+    <value>Use custom price for each room</value>
+  </data>
+  <data name="textExpensePartnershipManager" xml:space="preserve">
+    <value>Expense partner ship manager</value>
+  </data>
+  <data name="titleSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="titleIncomeReport" xml:space="preserve">
+    <value>Income report</value>
+  </data>
+  <data name="textFrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="textTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="textCheckInPax" xml:space="preserve">
+    <value>Check in pax</value>
+  </data>
+  <data name="textBookingType" xml:space="preserve">
+    <value>Booking type</value>
+  </data>
+  <data name="textTransferAdult" xml:space="preserve">
+    <value>Adult</value>
+  </data>
+  <data name="textTransferChildren" xml:space="preserve">
+    <value>Children</value>
+  </data>
+  <data name="textTransferBaby" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="textTransferTo" xml:space="preserve">
+    <value>Transfer to</value>
+  </data>
+  <data name="textExtraNote" xml:space="preserve">
+    <value>To config this service as an expense (if not already), &lt;a href='{0}'&gt;click here&lt;a&gt; and add a service with associated services is this service</value>
+  </data>
+  <data name="btnExportExcel" xml:space="preserve">
+    <value>Export to excel</value>
+  </data>
+  <data name="tabBooking" xml:space="preserve">
+    <value>Bookings</value>
+  </data>
+  <data name="tabReports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="tabConfiguration" xml:space="preserve">
+    <value>Partners</value>
+  </data>
+  <data name="tabTrips" xml:space="preserve">
+    <value>Cruises &amp; trips</value>
+  </data>
+  <data name="tabRoom" xml:space="preserve">
+    <value>Room manager</value>
+  </data>
+  <data name="tabCost" xml:space="preserve">
+    <value>Cost configuration</value>
+  </data>
+  <data name="tabCustomers" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="tabSetting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="hplHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="hyperLinkBookingList" xml:space="preserve">
+    <value>Booking manager</value>
+  </data>
+  <data name="hplAddBooking" xml:space="preserve">
+    <value>Add booking</value>
+  </data>
+  <data name="hplOrders" xml:space="preserve">
+    <value>My pending booking</value>
+  </data>
+  <data name="hplBookingDate" xml:space="preserve">
+    <value>Booking by date</value>
+  </data>
+  <data name="hplBookingPeriod" xml:space="preserve">
+    <value>Booking by period</value>
+  </data>
+  <data name="hplRevenueChanged" xml:space="preserve">
+    <value>Booking changed by date</value>
+  </data>
+  <data name="hplIncomeReport" xml:space="preserve">
+    <value>Revenue</value>
+  </data>
+  <data name="hplIncomeOwn" xml:space="preserve">
+    <value>Receivables</value>
+  </data>
+  <data name="hplExpenseReport" xml:space="preserve">
+    <value>Expense report</value>
+  </data>
+  <data name="hplExpenseDebt" xml:space="preserve">
+    <value>Payables</value>
+  </data>
+  <data name="hplBalance" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="hplAgencyEdit" xml:space="preserve">
+    <value>Add new partner</value>
+  </data>
+  <data name="hplAgencyList" xml:space="preserve">
+    <value>Partners manager</value>
+  </data>
+  <data name="hyperLinkAgencyList" xml:space="preserve">
+    <value>Partner price policy</value>
+  </data>
+  <data name="hyperLinkTripList" xml:space="preserve">
+    <value>Cruise trip manager</value>
+  </data>
+  <data name="hyperLinkTripEdit" xml:space="preserve">
+    <value>Add new trip</value>
+  </data>
+  <data name="hplCruiseEdit" xml:space="preserve">
+    <value>Add new cruise</value>
+  </data>
+  <data name="hplCruiseList" xml:space="preserve">
+    <value>Cruise manager</value>
+  </data>
+  <data name="hyperLinkRoomClass" xml:space="preserve">
+    <value>Room classes manager</value>
+  </data>
+  <data name="hyperLinkRoomType" xml:space="preserve">
+    <value>Room types manager</value>
+  </data>
+  <data name="hyperLinkRoomList" xml:space="preserve">
+    <value>Rooms managers</value>
+  </data>
+  <data name="hyperLinkRoomEdit" xml:space="preserve">
+    <value>Add new room</value>
+  </data>
+  <data name="hplCosting" xml:space="preserve">
+    <value>Customer expenses</value>
+  </data>
+  <data name="hplDailyCost" xml:space="preserve">
+    <value>Running expenses</value>
+  </data>
+  <data name="hplExpenseDate" xml:space="preserve">
+    <value>Daily expenses</value>
+  </data>
+  <data name="hplExpensePeriod" xml:space="preserve">
+    <value>Monthly/Yearly expenses</value>
+  </data>
+  <data name="hplHaiPhong" xml:space="preserve">
+    <value>Hai phong expenses</value>
+  </data>
+  <data name="hplUSDRate" xml:space="preserve">
+    <value>USD to VND rates</value>
+  </data>
+  <data name="hyperLinkExtraOption" xml:space="preserve">
+    <value>Extra option manager</value>
+  </data>
+  <data name="hplCostTypes" xml:space="preserve">
+    <value>Expense types configuration</value>
+  </data>
+  <data name="textCruise" xml:space="preserve">
+    <value>Cruise</value>
+  </data>
+  <data name="textLastBooking" xml:space="preserve">
+    <value>Last booking</value>
+  </data>
+  <data name="textUnsaved" xml:space="preserve">
+    <value>Unsaved</value>
+  </data>
+  <data name="textDeniedFunction" xml:space="preserve">
+    <value>You do not have permission to use this function!</value>
+  </data>
+  <data name="textMedia" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="btnAdd1" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnDisplay1" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="btnExcel1" xml:space="preserve">
+    <value>Export customer data</value>
+  </data>
+  <data name="btnExport1" xml:space="preserve">
+    <value>Export tour</value>
+  </data>
+  <data name="btnExportAgencyList1" xml:space="preserve">
+    <value>Export list</value>
+  </data>
+  <data name="btnExportExcel1" xml:space="preserve">
+    <value>Export to excel</value>
+  </data>
+  <data name="btnExportRoom1" xml:space="preserve">
+    <value>Export room list</value>
+  </data>
+  <data name="btnExportWelcome1" xml:space="preserve">
+    <value>Export Welcome board</value>
+  </data>
+  <data name="btnProvisional1" xml:space="preserve">
+    <value>Provisional Register</value>
+  </data>
+  <data name="btnRemove1" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="btnSave1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSaveExpenses1" xml:space="preserve">
+    <value>Save without export</value>
+  </data>
+  <data name="btnSearch1" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="buttonAdd1" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="buttonCancel1" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="buttonSave1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="buttonSearch1" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="buttonSubmit1" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="chkIsCustomType1" xml:space="preserve">
+    <value>Has contact name and phone</value>
+  </data>
+  <data name="chkIsDaily1" xml:space="preserve">
+    <value>Is daily</value>
+  </data>
+  <data name="chkIsDailyInput1" xml:space="preserve">
+    <value>Manually input</value>
+  </data>
+  <data name="chkIsMonthly1" xml:space="preserve">
+    <value>Is monthly</value>
+  </data>
+  <data name="chkIsSupplier1" xml:space="preserve">
+    <value>Is supplier</value>
+  </data>
+  <data name="chkIsYearly1" xml:space="preserve">
+    <value>Is yearly</value>
+  </data>
+  <data name="chkSendMail1" xml:space="preserve">
+    <value>Send notify</value>
+  </data>
+  <data name="errorBookingPeriod1" xml:space="preserve">
+    <value>There is some booking error in this period, please correct!</value>
+  </data>
+  <data name="errorCanNotCalculatePrice1" xml:space="preserve">
+    <value>Please input booking value manually, pricing system is not valid</value>
+  </data>
+  <data name="errorDateRequired1" xml:space="preserve">
+    <value>Date is required!</value>
+  </data>
+  <data name="errorDuplicateBookingCode1" xml:space="preserve">
+    <value>Custom booking code is duplicated! Please check this booking again.</value>
+  </data>
+  <data name="errorNoBookingExport1" xml:space="preserve">
+    <value>Can not save data when there is no passenger!</value>
+  </data>
+  <data name="errorNoBookingSave1" xml:space="preserve">
+    <value>Can not save data when there is no passenger!</value>
+  </data>
+  <data name="errorNotEnoughAvailable1" xml:space="preserve">
+    <value>Not enough room available for this cruise on this day, please reassign room type!</value>
+  </data>
+  <data name="errorOneChildOneBaby1" xml:space="preserve">
+    <value>Each room can contains only one child or baby</value>
+  </data>
+  <data name="formatBabyItem1" xml:space="preserve">
+    <value>{0} baby(s)</value>
+  </data>
+  <data name="formatChildItem1" xml:space="preserve">
+    <value>{0} child(s)</value>
+  </data>
+  <data name="formatCustomerCount1" xml:space="preserve">
+    <value>{0} adult, {1} child, {2} baby</value>
+  </data>
+  <data name="formatPaxDetail1" xml:space="preserve">
+    <value>Adult: {0}&lt;br/&gt;Child: {1} &lt;br/&gt;Baby: {2}</value>
+  </data>
+  <data name="formatPersonItem1" xml:space="preserve">
+    <value>{0} person(s)</value>
+  </data>
+  <data name="formatRoomItem1" xml:space="preserve">
+    <value>{0} room(s)</value>
+  </data>
+  <data name="hplAddBooking1" xml:space="preserve">
+    <value>Add booking</value>
+  </data>
+  <data name="hplAgencyEdit1" xml:space="preserve">
+    <value>Add new partner</value>
+  </data>
+  <data name="hplAgencyList1" xml:space="preserve">
+    <value>Partners manager</value>
+  </data>
+  <data name="hplBalance1" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="hplBookingDate1" xml:space="preserve">
+    <value>Booking by date</value>
+  </data>
+  <data name="hplBookingPeriod1" xml:space="preserve">
+    <value>Booking by period</value>
+  </data>
+  <data name="hplCosting1" xml:space="preserve">
+    <value>Customer expenses</value>
+  </data>
+  <data name="hplCostTypes1" xml:space="preserve">
+    <value>Expense types configuration</value>
+  </data>
+  <data name="hplCruiseEdit1" xml:space="preserve">
+    <value>Add new cruise</value>
+  </data>
+  <data name="hplCruiseList1" xml:space="preserve">
+    <value>Cruise manager</value>
+  </data>
+  <data name="hplDailyCost1" xml:space="preserve">
+    <value>Running expenses</value>
+  </data>
+  <data name="hplExpenseDate1" xml:space="preserve">
+    <value>Daily expenses</value>
+  </data>
+  <data name="hplExpenseDebt1" xml:space="preserve">
+    <value>Payables</value>
+  </data>
+  <data name="hplExpensePeriod1" xml:space="preserve">
+    <value>Monthly/Yearly expenses</value>
+  </data>
+  <data name="hplExpenseReport1" xml:space="preserve">
+    <value>Expense report</value>
+  </data>
+  <data name="hplHaiPhong1" xml:space="preserve">
+    <value>Hai phong expenses</value>
+  </data>
+  <data name="hplHome1" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="hplIncomeOwn1" xml:space="preserve">
+    <value>Receivables</value>
+  </data>
+  <data name="hplIncomeReport1" xml:space="preserve">
+    <value>Revenue</value>
+  </data>
+  <data name="hplOrders1" xml:space="preserve">
+    <value>My pending booking</value>
+  </data>
+  <data name="hplRevenueChanged1" xml:space="preserve">
+    <value>Booking changed by date</value>
+  </data>
+  <data name="hplUSDRate1" xml:space="preserve">
+    <value>USD to VND rates</value>
+  </data>
+  <data name="hyperLinkAgencyList1" xml:space="preserve">
+    <value>Partner price policy</value>
+  </data>
+  <data name="hyperLinkBookingList1" xml:space="preserve">
+    <value>Booking manager</value>
+  </data>
+  <data name="hyperLinkExtraOption1" xml:space="preserve">
+    <value>Extra option manager</value>
+  </data>
+  <data name="hyperLinkRoomClass1" xml:space="preserve">
+    <value>Room classes manager</value>
+  </data>
+  <data name="hyperLinkRoomEdit1" xml:space="preserve">
+    <value>Add new room</value>
+  </data>
+  <data name="hyperLinkRoomList1" xml:space="preserve">
+    <value>Rooms managers</value>
+  </data>
+  <data name="hyperLinkRoomType1" xml:space="preserve">
+    <value>Room types manager</value>
+  </data>
+  <data name="hyperLinkTripEdit1" xml:space="preserve">
+    <value>Add new trip</value>
+  </data>
+  <data name="hyperLinkTripList1" xml:space="preserve">
+    <value>Cruise trip manager</value>
+  </data>
+  <data name="Include1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelAction1" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="labelActivities1" xml:space="preserve">
+    <value>Activities</value>
+  </data>
+  <data name="labelBookingId1" xml:space="preserve">
+    <value>Booking Id</value>
+  </data>
+  <data name="labelCapacity1" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="labelCustomer1" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="labelCustomerList1" xml:space="preserve">
+    <value>Customers List</value>
+  </data>
+  <data name="labelDescription1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="labelExclusions1" xml:space="preserve">
+    <value>Exclusions</value>
+  </data>
+  <data name="labelInclusions1" xml:space="preserve">
+    <value>Inclusions</value>
+  </data>
+  <data name="labelIsTransfer1" xml:space="preserve">
+    <value>Is Transfer</value>
+  </data>
+  <data name="labelName1" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="labelNumberOfDay1" xml:space="preserve">
+    <value>Number of day</value>
+  </data>
+  <data name="labelNumberOfOptions1" xml:space="preserve">
+    <value>Number of option</value>
+  </data>
+  <data name="labelPartner1" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="labelPrice1" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="labelRole1" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="labelRoomClass1" xml:space="preserve">
+    <value>Room Class</value>
+  </data>
+  <data name="labelRoomList1" xml:space="preserve">
+    <value>Room List</value>
+  </data>
+  <data name="labelRoomTypes1" xml:space="preserve">
+    <value>Room types management</value>
+  </data>
+  <data name="labelRoomTypex1" xml:space="preserve">
+    <value>Room Type</value>
+  </data>
+  <data name="labelSale1" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="labelSendEmail1" xml:space="preserve">
+    <value>Send email</value>
+  </data>
+  <data name="labelStartDate1" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="labelStatus1" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="labelTripImage1" xml:space="preserve">
+    <value>Abtract Image (150 x XX)</value>
+  </data>
+  <data name="labelTripMap1" xml:space="preserve">
+    <value>Map ( 235x170)</value>
+  </data>
+  <data name="labelTripName1" xml:space="preserve">
+    <value>Trip</value>
+  </data>
+  <data name="labelWhatToTake1" xml:space="preserve">
+    <value>What to take</value>
+  </data>
+  <data name="lbtCalculate1" xml:space="preserve">
+    <value>[Calculate]</value>
+  </data>
+  <data name="lbtCheckAvaiable1" xml:space="preserve">
+    <value>[Check avaiable]</value>
+  </data>
+  <data name="messageConfirmDelete1" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="messageErrorDontHaveRangeFor1" xml:space="preserve">
+    <value>WARNING: You may have input wrong data. Can not apply for the value between {0} and {1}. There is no range to apply.</value>
+  </data>
+  <data name="messageErrorOneValueBelongToTwoRange1" xml:space="preserve">
+    <value>WARNING: You may have input wrong data. Can not apply for the value between {1} and {0}. There is two range to apply.</value>
+  </data>
+  <data name="messageErrorTwoMaxValue1" xml:space="preserve">
+    <value>WARNING: You may have input wrong data. There is two range without max value.</value>
+  </data>
+  <data name="stringAccessDenied1" xml:space="preserve">
+    <value>Oop! You don't have permission.</value>
+  </data>
+  <data name="stringAddnewExtraOption1" xml:space="preserve">
+    <value>Add new option</value>
+  </data>
+  <data name="stringAddnewRoomClass1" xml:space="preserve">
+    <value>Add new room class</value>
+  </data>
+  <data name="stringFormatUserCount1" xml:space="preserve">
+    <value>Total users: {0}</value>
+  </data>
+  <data name="stringGuest1" xml:space="preserve">
+    <value>Guest</value>
+  </data>
+  <data name="tabBooking1" xml:space="preserve">
+    <value>Bookings</value>
+  </data>
+  <data name="tabConfiguration1" xml:space="preserve">
+    <value>Partners</value>
+  </data>
+  <data name="tabCost1" xml:space="preserve">
+    <value>Cost configuration</value>
+  </data>
+  <data name="tabCustomers1" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="tabReports1" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="tabRoom1" xml:space="preserve">
+    <value>Room manager</value>
+  </data>
+  <data name="tabSetting1" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="tabTrips1" xml:space="preserve">
+    <value>Cruises &amp; trips</value>
+  </data>
+  <data name="textAccountant1" xml:space="preserve">
+    <value>Accountant</value>
+  </data>
+  <data name="textAccounting1" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="textAccountingModified1" xml:space="preserve">
+    <value>Not updated</value>
+  </data>
+  <data name="textAccountingNew1" xml:space="preserve">
+    <value>New booking</value>
+  </data>
+  <data name="textAccountingStatus1" xml:space="preserve">
+    <value>Accounting status</value>
+  </data>
+  <data name="textAccountingUpdated1" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="textAddBooking1" xml:space="preserve">
+    <value>Add booking</value>
+  </data>
+  <data name="textAddress1" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="textAdult1" xml:space="preserve">
+    <value>Adult</value>
+  </data>
+  <data name="textAdultCost1" xml:space="preserve">
+    <value>Adult cost</value>
+  </data>
+  <data name="textAgency1" xml:space="preserve">
+    <value>Agency</value>
+  </data>
+  <data name="textAgencyCode1" xml:space="preserve">
+    <value>TA Code</value>
+  </data>
+  <data name="textAgencyEdit1" xml:space="preserve">
+    <value>Agency information</value>
+  </data>
+  <data name="textAgencyName1" xml:space="preserve">
+    <value>Agency name</value>
+  </data>
+  <data name="textAllowSingleBooking1" xml:space="preserve">
+    <value>Allow booking with diffirent people</value>
+  </data>
+  <data name="textAndUp1" xml:space="preserve">
+    <value>And go on</value>
+  </data>
+  <data name="textApprovedBy1" xml:space="preserve">
+    <value>Approved by</value>
+  </data>
+  <data name="textAssignedUser1" xml:space="preserve">
+    <value>Assigned user</value>
+  </data>
+  <data name="textBaby1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="textBabyCost1" xml:space="preserve">
+    <value>Baby cost</value>
+  </data>
+  <data name="textBirthDate1" xml:space="preserve">
+    <value>Birthdate</value>
+  </data>
+  <data name="textBooker1" xml:space="preserve">
+    <value>Booker</value>
+  </data>
+  <data name="textBookingByDate1" xml:space="preserve">
+    <value>Booking by date</value>
+  </data>
+  <data name="textBookingByPeriod1" xml:space="preserve">
+    <value>Booking by period</value>
+  </data>
+  <data name="textBookingCharter1" xml:space="preserve">
+    <value>Booking charter</value>
+  </data>
+  <data name="textBookingCode1" xml:space="preserve">
+    <value>Booking code</value>
+  </data>
+  <data name="textBookingCodeFormat1" xml:space="preserve">
+    <value>Booking code format</value>
+  </data>
+  <data name="textBookingDate1" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="textBookingList1" xml:space="preserve">
+    <value>Booking list</value>
+  </data>
+  <data name="textBookingType1" xml:space="preserve">
+    <value>Booking type</value>
+  </data>
+  <data name="textChangedContent1" xml:space="preserve">
+    <value>Changed content</value>
+  </data>
+  <data name="textChangedTime1" xml:space="preserve">
+    <value>Changed time</value>
+  </data>
+  <data name="textChangedTotal1" xml:space="preserve">
+    <value>Changed revenue</value>
+  </data>
+  <data name="textCheckInPax1" xml:space="preserve">
+    <value>Check in pax</value>
+  </data>
+  <data name="textChild1" xml:space="preserve">
+    <value>Child</value>
+  </data>
+  <data name="textChildCost1" xml:space="preserve">
+    <value>Child cost</value>
+  </data>
+  <data name="textChildPercentage1" xml:space="preserve">
+    <value>Child price percentage</value>
+  </data>
+  <data name="textConfirmBy1" xml:space="preserve">
+    <value>Confirm by</value>
+  </data>
+  <data name="textContract1" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="textContractName1" xml:space="preserve">
+    <value>Contract name</value>
+  </data>
+  <data name="textContractStatus1" xml:space="preserve">
+    <value>Contract status</value>
+  </data>
+  <data name="textContractUpload1" xml:space="preserve">
+    <value>Upload contract</value>
+  </data>
+  <data name="textCost1" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="textCostingConfiguration1" xml:space="preserve">
+    <value>Costing configuration</value>
+  </data>
+  <data name="textCostType1" xml:space="preserve">
+    <value>Cost Type</value>
+  </data>
+  <data name="textCreated1" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="textCruise1" xml:space="preserve">
+    <value>Cruise</value>
+  </data>
+  <data name="textCustomerInfo1" xml:space="preserve">
+    <value>Customer info</value>
+  </data>
+  <data name="textCustomerList1" xml:space="preserve">
+    <value>Customer list</value>
+  </data>
+  <data name="textCustomerName1" xml:space="preserve">
+    <value>Customer name</value>
+  </data>
+  <data name="textDate1" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="textDateFrom1" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="textDateTo1" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="textDateToView1" xml:space="preserve">
+    <value>Date to view</value>
+  </data>
+  <data name="textDeniedFunction1" xml:space="preserve">
+    <value>You do not have permission to use this function!</value>
+  </data>
+  <data name="textEmail1" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="textExchangeRate1" xml:space="preserve">
+    <value>Rate (1 USD to VND)</value>
+  </data>
+  <data name="textExpensePartnershipManager1" xml:space="preserve">
+    <value>Expense partner ship manager</value>
+  </data>
+  <data name="textExpiredDate1" xml:space="preserve">
+    <value>Expired date</value>
+  </data>
+  <data name="textExtraNote1" xml:space="preserve">
+    <value>To config this service as an expense (if not already), &lt;a href='{0}'&gt;click here&lt;a&gt; and add a service with associated services is this service</value>
+  </data>
+  <data name="textExtraService1" xml:space="preserve">
+    <value>Extra services</value>
+  </data>
+  <data name="textFax1" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="textFrom1" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="textFullName1" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="textGender1" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="textGeneralInformation1" xml:space="preserve">
+    <value>General information</value>
+  </data>
+  <data name="textGrandTotal1" xml:space="preserve">
+    <value>GRAND TOTAL</value>
+  </data>
+  <data name="textInclude1" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="textIncludedInRoomPrice1" xml:space="preserve">
+    <value>Is included in room price</value>
+  </data>
+  <data name="textIndex1" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="textIsShared1" xml:space="preserve">
+    <value>Is shared cabin</value>
+  </data>
+  <data name="textIsTransferred1" xml:space="preserve">
+    <value>Is transferred</value>
+  </data>
+  <data name="textLastBooking1" xml:space="preserve">
+    <value>Last booking</value>
+  </data>
+  <data name="textLock1" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="textMedia1" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="textModifiedBy1" xml:space="preserve">
+    <value>Changed user</value>
+  </data>
+  <data name="textName1" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="textNationality1" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="textNewRoomClass1" xml:space="preserve">
+    <value>New room class</value>
+  </data>
+  <data name="textNewRoomType1" xml:space="preserve">
+    <value>New room type</value>
+  </data>
+  <data name="textNote1" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="textNotify1" xml:space="preserve">
+    <value>Notify</value>
+  </data>
+  <data name="textNumberOfCabin1" xml:space="preserve">
+    <value>Number of cabin</value>
+  </data>
+  <data name="textNumberOfPax1" xml:space="preserve">
+    <value>Number of pax</value>
+  </data>
+  <data name="textOption1" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="textOrderReport1" xml:space="preserve">
+    <value>Order waiting</value>
+  </data>
+  <data name="textOthers1" xml:space="preserve">
+    <value>Other info</value>
+  </data>
+  <data name="textPassport1" xml:space="preserve">
+    <value>Passport</value>
+  </data>
+  <data name="textPax1" xml:space="preserve">
+    <value>Name of pax</value>
+  </data>
+  <data name="textPaymentNeeded1" xml:space="preserve">
+    <value>Pay before tour</value>
+  </data>
+  <data name="textPaymentPeriod1" xml:space="preserve">
+    <value>Payment Period</value>
+  </data>
+  <data name="textPhone1" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="textPickupAddress1" xml:space="preserve">
+    <value>Pickup Address</value>
+  </data>
+  <data name="textPriceConfig1" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="textProvisionalDetail1" xml:space="preserve">
+    <value>Passport detail</value>
+  </data>
+  <data name="textPurpose1" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="textRole1" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="textRoom1" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="textRoomNumber1" xml:space="preserve">
+    <value>Room number</value>
+  </data>
+  <data name="textSale1" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="textSaleInCharge1" xml:space="preserve">
+    <value>Sale in charge</value>
+  </data>
+  <data name="textSelectAgency1" xml:space="preserve">
+    <value>-- Agency --</value>
+  </data>
+  <data name="textSetAsNotUpdated1" xml:space="preserve">
+    <value>Change to not updated</value>
+  </data>
+  <data name="textSetAsUpdated1" xml:space="preserve">
+    <value>Change to updated</value>
+  </data>
+  <data name="textShowCustomerName1" xml:space="preserve">
+    <value>Show customer name</value>
+  </data>
+  <data name="textShowCustomerOnboardNote1" xml:space="preserve">
+    <value>This form will show all customers onboard (include customers who stayed from the day before in more than 2 day trips) in a specific day</value>
+  </data>
+  <data name="textShowCustomerTransferNote1" xml:space="preserve">
+    <value>Customer who was transfered from the day before will display in yellow background</value>
+  </data>
+  <data name="textSpecialRequest1" xml:space="preserve">
+    <value>Special request</value>
+  </data>
+  <data name="textStartDate1" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="textStatus1" xml:space="preserve">
+    <value>Booking status</value>
+  </data>
+  <data name="textStatusAll1" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="textStatusApprove1" xml:space="preserve">
+    <value>[Approve]</value>
+  </data>
+  <data name="textStatusApproved1" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="textStatusNotAvaiable1" xml:space="preserve">
+    <value>[Not enough room]</value>
+  </data>
+  <data name="textStatusPending1" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="textStatusReject1" xml:space="preserve">
+    <value>[Reject]</value>
+  </data>
+  <data name="textStatusRejected1" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="textStayFrom1" xml:space="preserve">
+    <value>Stay from</value>
+  </data>
+  <data name="textStayIn1" xml:space="preserve">
+    <value>Stay in</value>
+  </data>
+  <data name="textStayTerm1" xml:space="preserve">
+    <value>Stay term</value>
+  </data>
+  <data name="textStayTo1" xml:space="preserve">
+    <value>Stay to</value>
+  </data>
+  <data name="textSupplier1" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="textTargetApply1" xml:space="preserve">
+    <value>Apply for</value>
+  </data>
+  <data name="textTaxCode1" xml:space="preserve">
+    <value>Tax code</value>
+  </data>
+  <data name="textTo1" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="textTotal1" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="textTotalPax1" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="textTrackingReport1" xml:space="preserve">
+    <value>Tracking report</value>
+  </data>
+  <data name="textTransferAdult1" xml:space="preserve">
+    <value>Adult</value>
+  </data>
+  <data name="textTransferBaby1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="textTransferChildren1" xml:space="preserve">
+    <value>Children</value>
+  </data>
+  <data name="textTransferredCost1" xml:space="preserve">
+    <value>Transferred cost</value>
+  </data>
+  <data name="textTransferTo1" xml:space="preserve">
+    <value>Transfer to</value>
+  </data>
+  <data name="textTrip1" xml:space="preserve">
+    <value>Trip</value>
+  </data>
+  <data name="textTripCode1" xml:space="preserve">
+    <value>Trip code</value>
+  </data>
+  <data name="textUnlock1" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="textUnsaved1" xml:space="preserve">
+    <value>Unsaved</value>
+  </data>
+  <data name="textUseCustomBookingId1" xml:space="preserve">
+    <value>Use custom booking code</value>
+  </data>
+  <data name="textUseCustomPriceForEachRoom1" xml:space="preserve">
+    <value>Use custom price for each room</value>
+  </data>
+  <data name="textUseCustomPriceWhenAddBooking1" xml:space="preserve">
+    <value>Use custom price when add booking</value>
+  </data>
+  <data name="textUser1" xml:space="preserve">
+    <value>user(s)</value>
+  </data>
+  <data name="textValidFrom1" xml:space="preserve">
+    <value>Valid from</value>
+  </data>
+  <data name="textVietKieu1" xml:space="preserve">
+    <value>Viet Kieu</value>
+  </data>
+  <data name="textVisaExpired1" xml:space="preserve">
+    <value>Visa expired</value>
+  </data>
+  <data name="textVisaNo1" xml:space="preserve">
+    <value>Visa No.</value>
+  </data>
+  <data name="titleAdminAgencyEdit1" xml:space="preserve">
+    <value>This pricing table will be apply for {0}</value>
+  </data>
+  <data name="titleAdminAgencyUserList1" xml:space="preserve">
+    <value>List of users in role {0}</value>
+  </data>
+  <data name="titleAdminAgentList1" xml:space="preserve">
+    <value>Agency List</value>
+  </data>
+  <data name="titleAgencyList1" xml:space="preserve">
+    <value>Agency list</value>
+  </data>
+  <data name="titleBookingList" xml:space="preserve">
+    <value>Booking List</value>
+  </data>
+  <data name="titleBookingPeriod1" xml:space="preserve">
+    <value>Booking by period</value>
+  </data>
+  <data name="titleBookingView1" xml:space="preserve">
+    <value>Booking View</value>
+  </data>
+  <data name="titleCostType1" xml:space="preserve">
+    <value>Cost types</value>
+  </data>
+  <data name="titleExchangeRate1" xml:space="preserve">
+    <value>Exchange rates</value>
+  </data>
+  <data name="titleExtraOptionEdit1" xml:space="preserve">
+    <value>Extra Option</value>
+  </data>
+  <data name="titleIncomeReport1" xml:space="preserve">
+    <value>Income report</value>
+  </data>
+  <data name="titleOrderReport1" xml:space="preserve">
+    <value>Order report</value>
+  </data>
+  <data name="titleRoomClassEdit1" xml:space="preserve">
+    <value>Room Class Edit</value>
+  </data>
+  <data name="titleRoomEdit1" xml:space="preserve">
+    <value>Room Edit</value>
+  </data>
+  <data name="titleRoomList1" xml:space="preserve">
+    <value>Room List</value>
+  </data>
+  <data name="titleSailsPriceConfig1" xml:space="preserve">
+    <value>Sails Price Config</value>
+  </data>
+  <data name="titleSailsTripEdit1" xml:space="preserve">
+    <value>Trip Edit</value>
+  </data>
+  <data name="titleSailsTripList1" xml:space="preserve">
+    <value>Trip List</value>
+  </data>
+  <data name="titleSettings1" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+</root>

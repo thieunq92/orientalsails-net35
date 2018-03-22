@@ -1,0 +1,601 @@
+2017-03-08 17:36:11,513 [6] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Problem parsing configuration
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\hibernate.cfg.xml'.
+File name: 'C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\hibernate.cfg.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlCharCheckingReader.Read()
+   at System.Xml.XsdValidatingReader.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(XmlReader reader)
+   at NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- End of inner exception stack trace ---
+   at NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   at NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader)
+   at NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+2017-03-08 17:36:18,885 [6] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Problem parsing configuration
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\hibernate.cfg.xml'.
+File name: 'C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\hibernate.cfg.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlCharCheckingReader.Read()
+   at System.Xml.XsdValidatingReader.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(XmlReader reader)
+   at NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- End of inner exception stack trace ---
+   at NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   at NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader)
+   at NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+2017-03-08 17:37:18,309 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.Cfg.HibernateConfigException: An exception occurred during configuration of persistence layer. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\hibernate.cfg.xml'.
+File name: 'C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\hibernate.cfg.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlCharCheckingReader.Read()
+   at System.Xml.XsdValidatingReader.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(XmlReader reader)
+   at NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   --- End of inner exception stack trace ---
+   at NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader, Boolean fromAppSetting)
+   at NHibernate.Cfg.ConfigurationSchema.HibernateConfiguration..ctor(XmlReader hbConfigurationReader)
+   at NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   at NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   at NHibernate.Cfg.Configuration.Configure(String fileName)
+   at NHibernate.Cfg.Configuration.Configure()
+   at Portal.Modules.OrientalSails.Repository.Database.get_SessionFactory() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 20
+   at Portal.Modules.OrientalSails.Repository.Database.OpenSession() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 30
+   at Portal.Modules.OrientalSails.Repository.RepositoryBase`1..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\RepositoryBase.cs:line 17
+   at Portal.Modules.OrientalSails.Repository.BookingRepository..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\BookingRepository.cs:line 12
+   at Portal.Modules.OrientalSails.BusinessLogic.BookingBLL..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\BusinessLogic\BookingBLL.cs:line 15
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.get_BookingBLL() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 28
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 54
+2017-03-08 17:41:36,683 [10] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+2017-03-08 17:41:36,702 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+   at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.SecondPassCompileForeignKeys(Table table, ISet done)
+   at NHibernate.Cfg.Configuration.SecondPassCompile()
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.get_SessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.OpenSession()
+   at Portal.Modules.OrientalSails.Repository.RepositoryBase`1..ctor()
+   at Portal.Modules.OrientalSails.Repository.BookingRepository..ctor()
+   at Portal.Modules.OrientalSails.BusinessLogic.BookingBLL..ctor()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.get_BookingBLL()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e)
+2017-03-08 17:41:44,372 [10] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+2017-03-08 17:41:44,372 [10] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+   at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.SecondPassCompileForeignKeys(Table table, ISet done)
+   at NHibernate.Cfg.Configuration.SecondPassCompile()
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.get_SessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.OpenSession()
+   at Portal.Modules.OrientalSails.Repository.RepositoryBase`1..ctor()
+   at Portal.Modules.OrientalSails.Repository.BookingRepository..ctor()
+   at Portal.Modules.OrientalSails.BusinessLogic.BookingBLL..ctor()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.get_BookingBLL()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e)
+2017-03-08 17:43:11,987 [7] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+2017-03-08 17:43:14,316 [6] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+2017-03-08 17:43:27,387 [6] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+2017-03-08 17:44:03,710 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+   at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.SecondPassCompileForeignKeys(Table table, ISet done)
+   at NHibernate.Cfg.Configuration.SecondPassCompile()
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.get_SessionFactory() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 23
+   at Portal.Modules.OrientalSails.Repository.Database.OpenSession() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 31
+   at Portal.Modules.OrientalSails.Repository.RepositoryBase`1..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\RepositoryBase.cs:line 17
+   at Portal.Modules.OrientalSails.Repository.BookingRepository..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\BookingRepository.cs:line 12
+   at Portal.Modules.OrientalSails.BusinessLogic.BookingBLL..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\BusinessLogic\BookingBLL.cs:line 15
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.get_BookingBLL() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 28
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 54
+2017-03-08 17:44:03,783 [7] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+2017-03-08 17:44:03,783 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.MappingException: An association from the table os_CruiseRole refers to an unmapped class: CMS.Core.Domain.Role
+   at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.SecondPassCompileForeignKeys(Table table, ISet done)
+   at NHibernate.Cfg.Configuration.SecondPassCompile()
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.get_SessionFactory() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 23
+   at Portal.Modules.OrientalSails.Repository.Database.OpenSession() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 31
+   at Portal.Modules.OrientalSails.Repository.RepositoryBase`1..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\RepositoryBase.cs:line 17
+   at Portal.Modules.OrientalSails.Repository.BookingRepository..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\BookingRepository.cs:line 12
+   at Portal.Modules.OrientalSails.BusinessLogic.BookingBLL..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\BusinessLogic\BookingBLL.cs:line 15
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.get_BookingBLL() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 28
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 54
+2017-03-08 17:45:24,003 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.get_SessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.OpenSession()
+   at Portal.Modules.OrientalSails.Repository.RepositoryBase`1..ctor()
+   at Portal.Modules.OrientalSails.Repository.BookingRepository..ctor()
+   at Portal.Modules.OrientalSails.BusinessLogic.BookingBLL..ctor()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.get_BookingBLL()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e)
+2017-03-08 18:30:35,062 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.get_SessionFactory() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 23
+   at Portal.Modules.OrientalSails.Repository.Database.OpenSession() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 31
+   at Portal.Modules.OrientalSails.Repository.RepositoryBase`1..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\RepositoryBase.cs:line 17
+   at Portal.Modules.OrientalSails.Repository.BookingRepository..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\BookingRepository.cs:line 12
+   at Portal.Modules.OrientalSails.BusinessLogic.BookingBLL..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\BusinessLogic\BookingBLL.cs:line 16
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.get_BookingBLL() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 28
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 54
+2017-03-08 20:16:28,681 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.get_SessionFactory() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 23
+   at Portal.Modules.OrientalSails.Repository.Database.OpenSession() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\Database.cs:line 31
+   at Portal.Modules.OrientalSails.Repository.RepositoryBase`1..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\RepositoryBase.cs:line 17
+   at Portal.Modules.OrientalSails.Repository.BookingRepository..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Repository\BookingRepository.cs:line 12
+   at Portal.Modules.OrientalSails.BusinessLogic.BookingBLL..ctor() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\BusinessLogic\BookingBLL.cs:line 16
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.get_test1() in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 28
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\BookingList.aspx.cs:line 54
+2017-03-08 20:32:14,390 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingList [(null)] <(null)> - Error when Page_load in BookingList
+System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.get_SessionFactory()
+   at Portal.Modules.OrientalSails.Repository.Database.OpenSession()
+   at Portal.Modules.OrientalSails.Repository.RepositoryBase`1..ctor()
+   at Portal.Modules.OrientalSails.Repository.BookingRepository..ctor()
+   at Portal.Modules.OrientalSails.BusinessLogic.BookingBLL..ctor()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.get_BookingBLL()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingList.Page_Load(Object sender, EventArgs e)
+2017-03-08 20:45:52,651 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,687 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,692 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,695 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,699 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,704 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,708 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,711 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,715 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,719 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,723 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,727 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:52,731 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,514 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,518 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,521 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,525 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,529 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,532 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,536 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,540 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,554 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,559 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,562 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,566 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,571 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,576 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:45:58,581 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,357 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,362 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,366 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,371 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,380 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,384 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,389 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,393 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,396 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,400 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,404 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,407 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,411 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,415 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:01,419 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,001 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,007 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,013 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,018 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,023 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,027 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,031 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,036 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,041 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,048 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,052 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,059 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,063 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:03,067 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,361 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,365 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,369 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,373 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,377 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,381 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,385 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,389 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,393 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,397 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,401 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,404 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,408 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,414 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:05,418 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,872 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,881 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,887 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,892 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,897 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,902 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,907 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,912 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,916 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,922 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,926 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,931 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,935 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,940 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:08,944 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,073 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,077 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,081 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,085 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,089 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,093 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,096 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,100 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,103 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:23,107 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,480 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,485 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,488 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,492 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,495 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,500 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,526 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,532 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,536 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,556 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,561 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,566 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:46:40,570 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,336 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,341 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,346 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,350 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,353 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,357 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,360 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,363 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,366 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,370 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,373 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,446 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,450 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,453 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:01,457 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,472 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,484 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,489 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,497 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,502 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,508 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,512 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,520 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,526 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,531 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,535 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,538 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:21,542 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,857 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,861 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,864 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,867 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,870 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,874 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,878 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,881 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,884 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,887 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,891 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,897 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:22,902 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,360 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,363 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,366 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,370 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,374 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,378 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,381 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,384 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,387 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,391 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,395 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,398 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:47:30,406 [7] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:50:06,672 [5] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+2017-03-08 20:50:07,261 [5] ERROR NHibernate.LazyInitializationException [(null)] <(null)> - Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.
+NHibernate.LazyInitializationException: Initializing[Portal.Modules.OrientalSails.Domain.Booking#1]-Could not initialize proxy - no Session.

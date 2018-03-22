@@ -1,0 +1,70 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Popup.master.cs" Inherits="Portal.Modules.OrientalSails.Web.Admin.Popup" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register TagPrefix="cc1" Namespace="CMS.ServerControls" Assembly="CMS.ServerControls" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Orient Sails Admin</title>
+    <link rel="stylesheet" type="text/css" href="/admin/css/style.css" />
+    <link rel="shortcut icon" href="/favicon.gif" />
+    <style type="text/css">
+button, tr, td
+  { behavior: url('/IEFixes.htc');
+  }
+
+</style>
+</head>
+<body>
+<form id="form1" runat="server">
+        <asp:ScriptManager ID="CommonScriptManager" runat="server">
+        </asp:ScriptManager>
+        <!-- BEGIN:Update process -->
+        <ajaxToolkit:AlwaysVisibleControlExtender ID="ace" runat="server" TargetControlID="updateProcessAdmin"
+            VerticalSide="Middle" HorizontalSide="Center" ScrollEffectDuration=".1" />
+        <asp:UpdateProgress ID="updateProcessAdmin" runat="server">
+            <ProgressTemplate>
+                <img src="/Images/loading.gif" alt="loading" />
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+        <!-- END:Update process -->
+        <asp:PlaceHolder ID="plhHeader" runat="server" Visible="false">
+        <div id="header">
+            <div id="headertitle">
+                <asp:Label runat="server" ID="labelAdminHeader" Text="Oriental Sails Management"></asp:Label></div>
+        </div>        
+        <div id="subheader">
+            [Node:
+            <asp:Label ID="lblNode" runat="server"></asp:Label>] [Section:
+            <asp:Label ID="lblSection" runat="server"></asp:Label>] [<asp:HyperLink ID="hplBack"
+                runat="server" NavigateUrl="~/">Return to site</asp:HyperLink>]
+        </div>
+        </asp:PlaceHolder>
+        <div class="bitcorp">
+            <div class="container">
+                <div class="main_content" style="margin-left: 0px;width: 100%; min-width:0px;">
+                    <div id="right_content">
+                        <asp:UpdatePanel ID="updatePanelMessage" runat="server" UpdateMode="Always">
+                            <ContentTemplate>
+                                <div style="width: 100%;" id="divMessage" runat="server" visible="false">
+                                    <asp:Label ID="labelMessage" runat="server"></asp:Label>
+                                </div>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                        <div class="contentplaceholder">
+                            <asp:ContentPlaceHolder ID="AdminContent" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer" style="display:none;">
+                    <span style="float: right; margin-top: 30px;">POWERED BY B.I.T </span>
+                    <img alt="tree" src="/Admin/AdminModuleImages/tree.gif" />
+                    <br />
+                </div>
+                </div>
+                </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿<p>THÔNG BÁO CHI TIẾT BOOKING BỊ HỦY</p>
+<ul>
+<li>Booking code: {bookingcode}</li>
+<li>Đối tác: {agency}</li>
+<li>Khởi hành ngày: {startdate}</li>
+<li>Chương trình (2 ngày 1 đêm/ 3 ngày 2 đêm): {trip}</li>
+<li>Tên tàu: {cruise}</li>
+<li>Số lượng khách: {customernumber}</li>
+<li>Số lượng phòng: {roomnumber}</li>
+<li>Người hủy booking: {submiter}</li>
+<li>Lý do hủy booking: {reason}</li>
+</ul>
+<p>&nbsp;</p>
+<p>Link to booking: <a href = {link}> click here </a></p>

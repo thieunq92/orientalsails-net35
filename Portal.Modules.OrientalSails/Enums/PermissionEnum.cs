@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace Portal.Modules.OrientalSails.Enums
+{
+    public enum PermissionEnum
+    {
+        //Permission Name = Permission Id
+        FORM_BOOKINGREPORT = 1,
+        FORM_BOOKINGREPORTPERIODALL = 2,
+        FORM_BOOKINGREPORTPERIOD = 3,
+        FORM_ORDERREPORT = 4,
+        FORM_TRACKINGREPORT = 5,
+        FORM_INCOMEREPORT = 6,
+        FORM_PAYMENTREPORT = 7,
+        FORM_EXPENSEREPORT = 8,
+        FORM_PAYABLELIST = 9,
+        FORM_BALANCEREPORT = 10,
+        FORM_AGENCYEDIT = 11,
+        FORM_AGENCYLIST = 12,
+        FORM_AGENTLIST = 13,
+        FORM_SAILSTRIPEDIT = 14,
+        FORM_SAILSTRIPLIST = 15,
+        FORM_CRUISESEDIT = 16,
+        FORM_CRUISESLIST = 17,
+        FORM_ROOMCLASSEDIT = 18,
+        FORM_ROOMTYPEXEDIT = 19,
+        FORM_ROOMEDIT = 20,
+        FORM_ROOMLIST = 21,
+        FORM_EXTRAOPTIONEDIT = 22,
+        FORM_COSTING = 23,
+        FORM_CRUISECONFIG = 24,
+        FORM_EXCHANGERATE = 25,
+        FORM_COSTTYPES = 26,
+        FORM_ADDBOOKING = 27,
+        FORM_BOOKINGLIST = 28,
+        FORM_AGENCYSELECTORPAGE = 29,
+        VIEW_ALLBOOKINGRECEIVABLE = 30,
+        ACTION_EXPORTCONGNO = 31,
+        ACTION_EXPORTSELFSALES = 32,
+        ACTION_EXPORTREVENUE = 33,
+        ACTION_EXPORTREVENUEBYSALE = 34,
+        FORM_BOOKINGPAYMENT = 37,
+        FORM_RECEIVABLETOTAL = 38,
+        ACTION_EXPORTAGENCY = 39,
+        FORM_EXPENSEPERIOD = 40,
+        ACTION_EDITAGENCY = 41,
+        LOCK_INCOME = 42,
+        EDIT_AFTER_LOCK = 43,
+        EDIT_TOTAL = 44,
+        EDIT_TRIP_AFTER = 45,
+        EDIT_SALE_IN_CHARGE = 46,
+        VIEW_TOTAL_BY_DATE = 47,
+        VIEW_ALL_AGENCY = 48,
+        VIEWBOOKINGBYAGENCY = 49,
+        CONTACTS = 50,
+        RECENTACTIVITIES = 51,
+        CONTRACTS = 52,
+    }
+}

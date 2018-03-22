@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="AnswerSheet" table="sv_AnswerSheet" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Name"/>
+    <property name="IsSent" column="IsSentEmail"/>
+    <property name="Address"/>
+    <property name="Email"/>
+    <property name="Date"/>
+    <property name="Deleted"/>
+    <property name="Guide"/>
+    <property name="Driver"/>
+    <property name="RoomNumber"/>
+
+    <many-to-one name="Nationality" column ="NationalityId" class="Nationality"/>
+    <many-to-one name="Booking" column="BookingId" class="Booking"/>
+    <many-to-one name="Cruise" column="CruiseId" class="Cruise"/>
+
+    <bag name="Options" inverse="true" cascade="all-delete-orphan" batch-size="10">
+      <key column="AnswerSheetId"/>
+      <one-to-many class="AnswerOption"/>
+    </bag>
+    <bag name="Groups" inverse="true" cascade="all-delete-orphan" batch-size="10">
+      <key column="AnswerSheetId"/>
+      <one-to-many class="AnswerGroup"/>
+    </bag>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,238 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}}
+@font-face
+	{{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}}
+@font-face
+	{{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{{mso-style-link:"Plain Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:Consolas;}}
+span.PlainTextChar
+	{{mso-style-name:"Plain Text Char";
+	mso-style-link:"Plain Text";
+	font-family:Consolas;}}
+@page Section1
+	{{size:8.5in 11.0in;
+	margin:1.0in 75.1pt 1.0in 75.05pt;}}
+div.Section1
+	{{page:Section1;}}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=Section1>
+
+<p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>Dear</span></p>
+
+<p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>Please kindly note our CANCELATION of your booking as below:</span></p>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>From:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{0}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>TA code:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{1}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Our ID:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{2}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Service:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{3}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Start
+  date:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{4}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Number
+  of pax:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{5}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Clients'
+  names</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{6}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Room
+  type:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{7}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>P/u at:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{8}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Special
+  request:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{9}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=121 valign=top style='width:90.9pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Cancelation penalty:</span></p>
+  </td>
+  <td width=315 valign=top style='width:236.35pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{10}</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>Thank
+you very much for your supports,</span></p>
+
+<p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>Best
+regards,</span></p>
+
+<p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{11}</span></p>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=69 valign=top style='width:51.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>Mobile:</span></p>
+  </td>
+  <td width=150 valign=top style='width:112.6pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+  </td>
+  <td width=42 valign=top style='width:31.25pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+  </td>
+  <td width=150 valign=top style='width:112.6pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=69 valign=top style='width:51.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Tel:</span></p>
+  </td>
+  <td width=150 valign=top style='width:112.6pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>+84
+  4 3926 4009</span></p>
+  </td>
+  <td width=42 valign=top style='width:31.25pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Fax:</span></p>
+  </td>
+  <td width=150 valign=top style='width:112.6pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span lang=X-NONE style='font-family:"Arial","sans-serif"'>+84
+  4 3926 4010</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=69 valign=top style='width:51.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Email:</span></p>
+  </td>
+  <td width=150 valign=top style='width:112.6pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{12}</span></p>
+  </td>
+  <td width=42 valign=top style='width:31.25pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+  </td>
+  <td width=150 valign=top style='width:112.6pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=69 valign=top style='width:51.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>Website:</span></p>
+  </td>
+  <td width=150 valign=top style='width:112.6pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>{13}</span></p>
+  </td>
+  <td width=42 valign=top style='width:31.25pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+  </td>
+  <td width=150 valign=top style='width:112.6pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoPlainText><span style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="VoucherBatch" table="os_VoucherBatch" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Deleted"/>
+    <property name="Issued"/>
+    <property name="CreatedDate"/>
+    <property name="ModifiedDate"/>
+    <property name="IssueDate"/>
+    <property name="ValidUntil"/>
+    <property name="Quantity"/>
+    <property name="NumberOfPerson"/>
+    <property name="Name"/>
+    <property name="Template"/>
+    <property name="Value"/>
+    <property name="ContractFile"/>
+    <property name="Note"/>
+
+    <many-to-one name="CreatedBy" column="CreatedBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="ModifiedBy" column="ModifiedBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="Trip" column="TripId" class="SailsTrip"/>
+    <many-to-one name="Cruise" column="CruiseId" class="Cruise"/>
+    <many-to-one name="Agency" column="AgencyId" class="Agency"/>
+  </class>
+</hibernate-mapping>

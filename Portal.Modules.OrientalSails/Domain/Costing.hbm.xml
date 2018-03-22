@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="Costing" table="os_Costing" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Adult" column="AdultCost"/>
+    <property name="Child" column="ChildCost"/>
+    <property name="Baby" column="BabyCost"/>
+
+    <many-to-one name="Type" column="CostTypeId" class="CostType"/>
+    <many-to-one name="Table" column="TableId" class="CostingTable"/>
+  </class>
+</hibernate-mapping>

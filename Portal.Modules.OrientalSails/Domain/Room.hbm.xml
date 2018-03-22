@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="Room" table="os_Room" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Name"/>
+    <property name="Deleted"/>
+    <property name="Order" column="`Order`"/>
+
+    <many-to-one name="RoomClass" column="RoomClassId" class="RoomClass"/>
+    <many-to-one name="Cruise" column="CruiseId" class="Cruise"/>
+    <many-to-one name="RoomType" column="RoomTypeId" class="RoomTypex"/>
+
+    <bag name="BookingRooms" inverse="true" batch-size="10">
+      <key column="RoomId"/>
+      <one-to-many class="BookingRoom"/>
+    </bag>
+  </class>
+</hibernate-mapping>

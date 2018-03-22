@@ -1,0 +1,58 @@
+2017-05-03 13:08:10,913 [16] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: ALTER TABLE [os_Booking]
+System.Data.SqlClient.SqlException: Incorrect syntax near 'os_Booking'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-05-03 13:08:11,355 [16] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Incorrect syntax near 'os_Booking'.
+2017-05-03 13:10:09,504 [16] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: ALTER TABLE os_Booking
+System.Data.SqlClient.SqlException: Incorrect syntax near 'os_Booking'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-05-03 13:10:10,365 [16] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Incorrect syntax near 'os_Booking'.
+2017-05-03 13:13:18,654 [6] ERROR NHibernate.Hql.Parser [(null)] <(null)> - NoViableAltException(123@[])
+2017-05-03 13:14:00,988 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: ALTER TABLE [os_Booking]
+System.Data.SqlClient.SqlException: Incorrect syntax near 'os_Booking'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-05-03 13:14:01,008 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Incorrect syntax near 'os_Booking'.
+2017-05-03 13:15:24,295 [6] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: ALTER TABLE [os_Booking
+System.Data.SqlClient.SqlException: Unclosed quotation mark after the character string 'os_Booking'.
+Incorrect syntax near 'os_Booking'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-05-03 13:15:24,326 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Unclosed quotation mark after the character string 'os_Booking'.
+Incorrect syntax near 'os_Booking'.
+2017-05-03 13:16:54,822 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: ALTER TABLE [os_Booking]
+System.Data.SqlClient.SqlException: Incorrect syntax near 'os_Booking'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-05-03 13:16:54,844 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Incorrect syntax near 'os_Booking'.

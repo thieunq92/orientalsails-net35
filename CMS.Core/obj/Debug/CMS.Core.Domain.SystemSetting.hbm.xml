@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="CMS.Core.Domain.SystemSetting, CMS.Core" table="bitportal_globalsetting">
+		<id name="Id" type="Int32" unsaved-value="-1">
+			<column name="Id" length="4" sql-type="int" not-null="true" unique="true" index="PK__os_Customer__59FA5E80"/>
+			<generator class="native" />
+		</id>
+    <property name="Key" type="String">
+      <column name="`Key`" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="Value" type="String">
+      <column name="`Value`" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <many-to-one name="ModuleType" class="CMS.Core.Domain.ModuleType, CMS.Core" lazy="false">
+      <column name="ModuleTypeId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+	</class>
+</hibernate-mapping>

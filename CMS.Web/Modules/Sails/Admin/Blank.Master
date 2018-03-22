@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Blank.master.cs" Inherits="Portal.Modules.OrientalSails.Web.Blank" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register TagPrefix="cc1" Namespace="CMS.ServerControls" Assembly="CMS.ServerControls" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Import Namespace="Org.BouncyCastle.Ocsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="/admin/css/style.css" />
+    <link rel="shortcut icon" href="/favicon.gif" />
+    <style type="text/css">
+        button, tr, td
+        {
+            behavior: url('/IEFixes.htc');
+        }
+    </style>
+    <script type="text/javascript">
+        function getElementsByClassName(classname, node) {
+            if (!node) node = document.getElementsByTagName("body")[0];
+            else node = document.getElementById(node);
+            var a = [];
+            var re = new RegExp('\\b' + classname + '\\b');
+            var els = node.getElementsByTagName("*");
+            for (var i = 0, j = els.length; i < j; i++)
+                if (re.test(els[i].className)) a.push(els[i]);
+            return a;
+        }
+
+        function box1hover(element) {
+            this.className = "box1_hover";
+        }
+
+        function box1out(element) {
+            this.className = "box1";
+        }
+
+        function box2hover(element) {
+            this.className = "box2_hover";
+        }
+
+        function box2out(element) {
+            this.className = "box2";
+        }
+
+        function setEvent() {
+            a = getElementsByClassName("box1", "side_bar");
+            for (var i = 0, j = a.length; i < j; i++) {
+                a[i].onmouseover = box1hover;
+                a[i].onmouseout = box1out;
+            }
+            a = getElementsByClassName("box2", null);
+            for (var i = 0, j = a.length; i < j; i++) {
+                a[i].onmouseover = box2hover;
+                a[i].onmouseout = box2out;
+            }
+        }
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var top_of_window = $(window).scrollTop();
+                if (top_of_window > 0) {
+                    $("#birthday").fadeOut("slow");
+                    $("#pendingpanel").fadeOut("slow");
+                } else if (top_of_window == 0) {
+                    $("#birthday").fadeIn("slow");
+                    $("#pendingpanel").fadeIn("slow");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="CommonScriptManager" runat="server" AsyncPostBackTimeout="120">
+    </asp:ScriptManager>
+    <div class="bitcorp">
+        <asp:ContentPlaceHolder ID="AdminContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

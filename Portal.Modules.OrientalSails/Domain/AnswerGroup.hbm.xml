@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="AnswerGroup" table="sv_AnswerGroup" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Comment"/>
+
+    <many-to-one name="Group" column="GroupId" class="QuestionGroup"/>
+    <many-to-one name="AnswerSheet" column="AnswerSheetId" class="AnswerSheet"/>
+  </class>
+</hibernate-mapping>

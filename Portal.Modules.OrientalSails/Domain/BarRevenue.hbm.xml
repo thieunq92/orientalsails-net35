@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="BarRevenue" table="os_BarRevenue" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Date" type="DateTime"/>
+    <property name="Revenue" type="Double"/>
+
+    <many-to-one name="Cruise" column="CruiseId" class="Cruise"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="Customer" table="os_Customer" batch-size="10">
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Fullname"/>
+    <property name="Birthday"/>
+    <property name="Passport"/>
+    <property name="Country"/>
+    <property name="IsMale"/>
+    <property name="VisaNo"/>
+    <property name="VisaExpired"/>
+    <property name="IsChild"/>
+    <property name="IsVietKieu"/>
+    <property name="Purpose"/>
+    <property name="StayFrom"/>
+    <property name="StayTo"/>
+    <property name="StayTerm"/>
+    <property name="StayIn"/>
+    <property name="Code"/>
+    <property name="NguyenQuan"/>
+    <property name="Total"/>
+    <property name="Type" type="Portal.Modules.OrientalSails.Web.Util.CustomerType, Portal.Modules.OrientalSails"/>
+
+    <many-to-one name="Nationality" column="NationalityId" class="Nationality"/>
+    <many-to-one name="StayPurpose" column="PurposeId" class="Purpose"/>
+    <many-to-one name="Booking" column="BookingId" class="Booking"/>
+    <many-to-one name="BookingRoom" column="BookingRoomId" class="BookingRoom"/>
+
+    <bag name="CustomerExtraOptions" table="os_CustomerService" cascade="all" where="IsExcluded=0" batch-size="10">
+      <key column="CustomerId"/>
+      <many-to-many column="ServiceId"
+         class="ExtraOption"/>
+    </bag>
+    <bag name="BookingRooms" table="os_BookingRoom_Customer" batch-size="10" >
+      <key column="CustomerId" />
+      <many-to-many column="BookingRoomId" class="BookingRoom"/>
+    </bag>
+  </class>
+</hibernate-mapping>

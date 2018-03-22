@@ -1,0 +1,252 @@
+2017-10-02 16:24:46,661 [7] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.AgencyContact.hbm.xml
+NHibernate.MappingException: Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.AgencyContact.hbm.xml ---> NHibernate.PropertyNotFoundException: Could not find a getter for property 'Serials' in class 'Portal.Modules.OrientalSails.Domain.AgencyContact'
+   at NHibernate.Properties.BasicPropertyAccessor.GetGetter(Type type, String propertyName)
+   at NHibernate.Util.ReflectHelper.GetGetter(Type theClass, String propertyName, String propertyAccessorName)
+   at NHibernate.Util.ReflectHelper.ReflectedPropertyClass(Type theClass, String name, String access)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.GetPropertyType(Type containingType, String propertyName, String propertyAccess)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.BindCollection(ICollectionPropertiesMapping collectionMapping, Collection model, String className, String path, Type containingType, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.CreateBag(HbmBag bagMapping, String prefix, String path, PersistentClass owner, Type containingType, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.Create(ICollectionPropertiesMapping collectionMapping, String className, String propertyFullPath, PersistentClass owner, Type containingType, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.PropertiesBinder.Bind(IEnumerable`1 properties, Table table, IDictionary`2 inheritedMetas, Action`1 modifier, Action`1 addToModelAction)
+   at NHibernate.Cfg.XmlHbmBinding.PropertiesBinder.Bind(IEnumerable`1 properties, IDictionary`2 inheritedMetas, Action`1 modifier)
+   at NHibernate.Cfg.XmlHbmBinding.PropertiesBinder.Bind(IEnumerable`1 properties, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   --- End of inner exception stack trace ---
+2017-10-02 17:14:06,351 [8] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Portal.Modules.OrientalSails.Domain.Agency.hbm.xml(44,11): XML validation error: The element 'class' in namespace 'urn:nhibernate-mapping-2.2' cannot contain text. List of possible elements expected: 'property, many-to-one, one-to-one, component, dynamic-component, properties, any, map, set, list, bag, idbag, array, primitive-array, join, subclass, joined-subclass, union-subclass, loader, sql-insert, sql-update, sql-delete, filter, resultset, query, sql-query' in namespace 'urn:nhibernate-mapping-2.2'.
+NHibernate.MappingException: Portal.Modules.OrientalSails.Domain.Agency.hbm.xml(44,11): XML validation error: The element 'class' in namespace 'urn:nhibernate-mapping-2.2' cannot contain text. List of possible elements expected: 'property, many-to-one, one-to-one, component, dynamic-component, properties, any, map, set, list, bag, idbag, array, primitive-array, join, subclass, joined-subclass, union-subclass, loader, sql-insert, sql-update, sql-delete, filter, resultset, query, sql-query' in namespace 'urn:nhibernate-mapping-2.2'. ---> System.Xml.Schema.XmlSchemaValidationException: The element 'class' in namespace 'urn:nhibernate-mapping-2.2' cannot contain text. List of possible elements expected: 'property, many-to-one, one-to-one, component, dynamic-component, properties, any, map, set, list, bag, idbag, array, primitive-array, join, subclass, joined-subclass, union-subclass, loader, sql-insert, sql-update, sql-delete, filter, resultset, query, sql-query' in namespace 'urn:nhibernate-mapping-2.2'.
+   --- End of inner exception stack trace ---
+2017-10-02 17:16:15,756 [9] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Agency.hbm.xml
+NHibernate.MappingException: Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Agency.hbm.xml ---> NHibernate.PropertyNotFoundException: Could not find a getter for property 'Serials' in class 'Portal.Modules.OrientalSails.Domain.Agency'
+   at NHibernate.Properties.BasicPropertyAccessor.GetGetter(Type type, String propertyName)
+   at NHibernate.Util.ReflectHelper.GetGetter(Type theClass, String propertyName, String propertyAccessorName)
+   at NHibernate.Util.ReflectHelper.ReflectedPropertyClass(Type theClass, String name, String access)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.GetPropertyType(Type containingType, String propertyName, String propertyAccess)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.BindCollection(ICollectionPropertiesMapping collectionMapping, Collection model, String className, String path, Type containingType, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.CreateBag(HbmBag bagMapping, String prefix, String path, PersistentClass owner, Type containingType, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.Create(ICollectionPropertiesMapping collectionMapping, String className, String propertyFullPath, PersistentClass owner, Type containingType, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.PropertiesBinder.Bind(IEnumerable`1 properties, Table table, IDictionary`2 inheritedMetas, Action`1 modifier, Action`1 addToModelAction)
+   at NHibernate.Cfg.XmlHbmBinding.PropertiesBinder.Bind(IEnumerable`1 properties, IDictionary`2 inheritedMetas, Action`1 modifier)
+   at NHibernate.Cfg.XmlHbmBinding.PropertiesBinder.Bind(IEnumerable`1 properties, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   --- End of inner exception stack trace ---
+2017-10-02 17:19:11,912 [11] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: INSERT INTO os_Serial (SeriesCode, CutoffDate, NoOfDays, AgencyId, AgencyContactId) VALUES (@p0, @p1, @p2, @p3, @p4); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-10-02 17:19:11,990 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2017-10-02 17:19:21,286 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: INSERT INTO os_Serial (SeriesCode, CutoffDate, NoOfDays, AgencyId, AgencyContactId) VALUES (@p0, @p1, @p2, @p3, @p4); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-10-02 17:19:21,286 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2017-10-02 17:23:56,588 [6] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: INSERT INTO os_Serial (SeriesCode, CutoffDate, NoOfDays, AgencyId, AgencyContactId) VALUES (@p0, @p1, @p2, @p3, @p4); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-10-02 17:23:56,715 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2017-10-02 17:25:26,350 [6] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: INSERT INTO os_Serial (SeriesCode, CutoffDate, NoOfDays, AgencyId, AgencyContactId) VALUES (@p0, @p1, @p2, @p3, @p4); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-10-02 17:25:26,367 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2017-10-02 17:28:23,087 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: INSERT INTO os_Serial (SeriesCode, CutoffDate, NoOfDays, AgencyId, AgencyContactId) VALUES (@p0, @p1, @p2, @p3, @p4); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-10-02 17:28:23,111 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2017-10-02 17:32:18,763 [15] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: INSERT INTO os_Serial (SeriesCode, CutoffDate, NoOfDays) VALUES (@p0, @p1, @p2); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-10-02 17:32:18,792 [15] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2017-10-02 17:33:39,377 [12] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: INSERT INTO os_Serial (SeriesCode, CutoffDate, NoOfDays) VALUES (@p0, @p1, @p2); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-10-02 17:33:39,377 [12] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2017-10-02 17:35:26,078 [10] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: INSERT INTO os_Serial (SeriesCode, CutoffDate, NoOfDays) VALUES (@p0, @p1, @p2); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-10-02 17:35:26,078 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Cannot insert the value NULL into column 'Id', table 'moorientalsails.dbo.os_Serial'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2017-10-02 19:02:58,726 [12] ERROR NHibernate.Util.ReflectHelper [(null)] <(null)> - Could not load type Portal.Modules.OrientalSails.Domain.Serial, Portal.Modules.OrientalSails.
+System.TypeLoadException: Could not load type 'Portal.Modules.OrientalSails.Domain.Serial' from assembly 'Portal.Modules.OrientalSails, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.Assembly._GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   at NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+2017-10-02 19:03:00,066 [12] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Serial.hbm.xml
+NHibernate.MappingException: Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Serial.hbm.xml ---> NHibernate.MappingException: persistent class Portal.Modules.OrientalSails.Domain.Serial, Portal.Modules.OrientalSails not found ---> System.TypeLoadException: Could not load type 'Portal.Modules.OrientalSails.Domain.Serial' from assembly 'Portal.Modules.OrientalSails, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.Assembly._GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   at NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   at NHibernate.Util.ReflectHelper.ClassForName(String name)
+   at NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   --- End of inner exception stack trace ---
+   at NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   at NHibernate.Cfg.XmlHbmBinding.Binder.ClassForNameChecked(String name, Mappings mappings, String errorMessage)
+   at NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindClass(IEntityMapping classMapping, PersistentClass model, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   --- End of inner exception stack trace ---
+2017-10-02 19:03:30,312 [10] ERROR NHibernate.Util.ReflectHelper [(null)] <(null)> - Could not load type Portal.Modules.OrientalSails.Domain.Serial, Portal.Modules.OrientalSails.
+System.TypeLoadException: Could not load type 'Portal.Modules.OrientalSails.Domain.Serial' from assembly 'Portal.Modules.OrientalSails, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.Assembly._GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   at NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+2017-10-02 19:03:30,337 [10] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Serial.hbm.xml
+NHibernate.MappingException: Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Serial.hbm.xml ---> NHibernate.MappingException: persistent class Portal.Modules.OrientalSails.Domain.Serial, Portal.Modules.OrientalSails not found ---> System.TypeLoadException: Could not load type 'Portal.Modules.OrientalSails.Domain.Serial' from assembly 'Portal.Modules.OrientalSails, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.Assembly._GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   at NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   at NHibernate.Util.ReflectHelper.ClassForName(String name)
+   at NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   --- End of inner exception stack trace ---
+   at NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   at NHibernate.Cfg.XmlHbmBinding.Binder.ClassForNameChecked(String name, Mappings mappings, String errorMessage)
+   at NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindClass(IEntityMapping classMapping, PersistentClass model, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   --- End of inner exception stack trace ---
+2017-10-02 19:18:20,169 [5] ERROR NHibernate.Util.ReflectHelper [(null)] <(null)> - Could not load type Portal.Modules.OrientalSails.Domain.Serial, Portal.Modules.OrientalSails.
+System.TypeLoadException: Could not load type 'Portal.Modules.OrientalSails.Domain.Serial' from assembly 'Portal.Modules.OrientalSails, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.Assembly._GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   at NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+2017-10-02 19:18:20,189 [5] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Serial.hbm.xml
+NHibernate.MappingException: Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Serial.hbm.xml ---> NHibernate.MappingException: persistent class Portal.Modules.OrientalSails.Domain.Serial, Portal.Modules.OrientalSails not found ---> System.TypeLoadException: Could not load type 'Portal.Modules.OrientalSails.Domain.Serial' from assembly 'Portal.Modules.OrientalSails, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.Assembly._GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   at NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   at NHibernate.Util.ReflectHelper.ClassForName(String name)
+   at NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   --- End of inner exception stack trace ---
+   at NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   at NHibernate.Cfg.XmlHbmBinding.Binder.ClassForNameChecked(String name, Mappings mappings, String errorMessage)
+   at NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindClass(IEntityMapping classMapping, PersistentClass model, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   --- End of inner exception stack trace ---

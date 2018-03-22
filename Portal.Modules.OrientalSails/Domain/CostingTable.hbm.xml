@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="CostingTable" table="os_CostingTable" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="ValidFrom"/>
+    <property name="ValidTo"/>
+    <property name="Option" column="TripOption" type="Portal.Modules.OrientalSails.Web.Util.TripOption, Portal.Modules.OrientalSails"/>
+
+    <many-to-one name="Trip" column="TripId"/>
+    <bag name="Costs" inverse="true" cascade="all-delete-orphan" batch-size="10">
+      <key column="TableId"/>
+      <one-to-many class="Costing"/>
+    </bag>
+  </class>
+</hibernate-mapping>

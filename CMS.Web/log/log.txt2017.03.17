@@ -1,0 +1,16 @@
+2017-03-17 17:04:07,454 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "44868" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-17 17:06:07,814 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "44868" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-17 17:06:17,339 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "44868" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-17 17:06:21,492 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "44868" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-17 17:06:26,606 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "44868" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-17 17:07:22,359 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "44868" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-17 17:12:54,545 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "44868" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-17 17:13:41,825 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "44868" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value

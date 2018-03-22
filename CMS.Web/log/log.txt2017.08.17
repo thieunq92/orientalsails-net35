@@ -1,0 +1,203 @@
+2017-08-17 10:51:25,090 [6] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_1_, cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_146_0_, cruisehaip0_.CruiseId as CruiseId146_0_, cruisehaip0_.HaiPhongExpenseTypeId as HaiPhong3_146_0_ FROM CruiseHaiPhongExpenseType cruisehaip0_ WHERE cruisehaip0_.CruiseHaiPhongExpenseTypeId in (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+System.Data.SqlClient.SqlException: Invalid object name 'CruiseHaiPhongExpenseType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-08-17 10:51:25,215 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-08-17 10:51:25,215 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-08-17 11:00:40,025 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_1_, cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_146_0_, cruisehaip0_.CruiseId as CruiseId146_0_, cruisehaip0_.HaiPhongExpenseTypeId as HaiPhong3_146_0_ FROM CruiseHaiPhongExpenseType cruisehaip0_ WHERE cruisehaip0_.CruiseHaiPhongExpenseTypeId in (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+System.Data.SqlClient.SqlException: Invalid object name 'CruiseHaiPhongExpenseType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-08-17 11:00:40,025 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-08-17 11:00:40,025 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-08-17 11:32:19,427 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_1_, cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_146_0_, cruisehaip0_.CruiseId as CruiseId146_0_, cruisehaip0_.HaiPhongExpenseTypeId as HaiPhong3_146_0_ FROM CruiseHaiPhongExpenseType cruisehaip0_ WHERE cruisehaip0_.CruiseHaiPhongExpenseTypeId in (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+System.Data.SqlClient.SqlException: Invalid object name 'CruiseHaiPhongExpenseType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-08-17 11:32:19,455 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-08-17 11:32:19,459 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-08-17 11:36:52,704 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptBookingList_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-08-17 11:39:08,628 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptBookingList_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-08-17 12:10:59,031 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptBookingList_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-08-17 12:27:08,857 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1)
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-08-17 12:27:08,890 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+2017-08-17 12:27:08,892 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+2017-08-17 12:27:08,893 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+2017-08-17 12:27:08,894 [7] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1) ]
+Positional parameters:  #0>Portal.Modules.OrientalSails.Domain.Cruise #1>1/1/0001 12:00:00 AM
+[SQL: SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1)]
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1) ]
+Positional parameters:  #0>Portal.Modules.OrientalSails.Domain.Cruise #1>1/1/0001 12:00:00 AM
+[SQL: SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1)] ---> System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\DataAccess\CommonDao.cs:line 152
+2017-08-17 12:27:08,906 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(Cruise cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, Cruise cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-08-17 12:27:14,935 [5] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1)
+System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-08-17 12:27:14,935 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+2017-08-17 12:27:14,935 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+2017-08-17 12:27:14,935 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+2017-08-17 12:27:14,935 [5] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not execute query
+[ SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1) ]
+Positional parameters:  #0>Portal.Modules.OrientalSails.Domain.Cruise #1>1/1/0001 12:00:00 AM
+[SQL: SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1)]
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1) ]
+Positional parameters:  #0>Portal.Modules.OrientalSails.Domain.Cruise #1>1/1/0001 12:00:00 AM
+[SQL: SELECT this_.Id as Id201_1_, this_.Date as Date201_1_, this_.LockIncome as LockIncome201_1_, this_.LockOutcome as LockOutc4_201_1_, this_.NumberOfGroup as NumberOf5_201_1_, this_.CruiseId as CruiseId201_1_, this_.LockBy as LockBy201_1_, this_.LockDate as LockDate201_1_, sailexpens2_.Id as Id202_0_, sailexpens2_.Transfer as Transfer202_0_, sailexpens2_.Ticket as Ticket202_0_, sailexpens2_.Guide as Guide202_0_, sailexpens2_.Meal as Meal202_0_, sailexpens2_.Kayaing as Kayaing202_0_, sailexpens2_.ServiceSupplement as ServiceS7_202_0_, sailexpens2_.Cruise as Cruise202_0_, sailexpens2_.Others as Others202_0_, sailexpens2_.ExpenseId as ExpenseId202_0_ FROM os_Expense this_ left outer join os_ExpensePayment sailexpens2_ on this_.Id=sailexpens2_.ExpenseId WHERE (this_.CruiseId = @p0 and this_.Date = @p1)] ---> System.Data.SqlTypes.SqlTypeException: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+   at System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   at System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   at System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   at System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.GetObjectByCriterion(Type objectType, ICriterion criterion, Order[] orders) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\DataAccess\CommonDao.cs:line 152
+2017-08-17 12:27:14,936 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.SailsModule.ExpenseGetByDate(Cruise cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(Repeater rptServices, Cruise cruise, DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptCruiseExpense_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Portal.Modules.OrientalSails.Domain.CruiseCostType, Portal.Modules.OrientalSails" table="os_CruiseCostType">
+    <id name="Id" type="Int32" unsaved-value="-1">
+      <column name="Id" length="4" sql-type="int" not-null="true" unique="true" />
+      <generator class="native" />
+    </id>
+    <many-to-one name="Cruise" class="Portal.Modules.OrientalSails.Domain.Cruise, Portal.Modules.OrientalSails">
+      <column name="CruiseId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+    <many-to-one name="CostType" class="Portal.Modules.OrientalSails.Domain.CostType, Portal.Modules.OrientalSails">
+      <column name="CostTypeId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+  </class>
+</hibernate-mapping>
+

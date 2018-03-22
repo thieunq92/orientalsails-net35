@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+									 namespace="Portal.Modules.OrientalSails.Domain"
+									 assembly="Portal.Modules.OrientalSails">
+  <class name="Series" table="os_Series" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+
+    <property name="SeriesCode"/>
+    <property name="CutoffDate"/>
+    <property name="NoOfDays"/>
+    <many-to-one name="Agency" column="AgencyId" class="Agency"/>
+    <many-to-one name="Booker" column="BookerId" class="AgencyContact"/>
+    <bag name="ListBooking" inverse="true" batch-size="10">
+      <key column="SeriesId"/>
+      <one-to-many class="Booking"/>
+    </bag>
+  </class>
+</hibernate-mapping>

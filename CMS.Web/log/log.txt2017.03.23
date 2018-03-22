@@ -1,0 +1,23 @@
+2017-03-23 14:13:19,678 [6] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT count(*) as y0_ FROM os_Customer this_ inner join os_BookingRoom_Customer bookingroo4_ on this_.Id=bookingroo4_.CustomerId inner join os_BookingRoom bookingroo1_ on bookingroo4_.BookingRoomId=bookingroo1_.Id WHERE booking2_.Id = @p0;
+
+System.Data.SqlClient.SqlException: The multi-part identifier "booking2_.Id" could not be bound.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-03-23 14:30:21,859 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "Portal.Modules.OrientalSails.Domain.Customer" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-23 14:32:32,872 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "Portal.Modules.OrientalSails.Domain.Customer" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-23 14:34:06,105 [11] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "Portal.Modules.OrientalSails.Domain.Customer" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value

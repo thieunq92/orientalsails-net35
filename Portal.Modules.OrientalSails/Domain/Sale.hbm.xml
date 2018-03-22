@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="Sale" table="os_Sale" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+
+    <many-to-one name="User" column="UserId" class="CMS.Core.Domain.User, CMS.Core"/>
+
+    <bag name="Users" table="os_SaleUser" cascade="all" batch-size="10">
+      <key column="SaleId"/>
+      <many-to-many column="UserId"
+			   class="CMS.Core.Domain.User, CMS.Core"/>
+    </bag>
+  </class>
+</hibernate-mapping>

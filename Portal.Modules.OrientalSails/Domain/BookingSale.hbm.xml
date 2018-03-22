@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="BookingSale" table="v_BookingSale" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+
+    <many-to-one name="Sale" column="SaleId" class="CMS.Core.Domain.User, CMS.Core"/>
+  </class>
+</hibernate-mapping>

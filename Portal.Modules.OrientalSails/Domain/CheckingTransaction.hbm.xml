@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="CheckingTransaction" table="os_CheckingTransaction" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="CheckingTransactionId">
+      <generator class="native" />
+    </id>
+    <property name="MerchTxnRef"/>
+    <property name="Processed"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="vAgency" table="vAgency" mutable="false" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Name"/>
+    <property name="Phone"/>
+    <property name="Address"/>
+    <property name="Fax"/>
+    <property name="TaxCode"/>
+    <property name="Email"/>
+    <property name="ContractStatus"/>
+    <property name="CreatedDate"/>
+    <property name="ModifiedDate"/>
+    <property name="SaleStart"/>
+    <property name="Accountant"/>
+    <property name="PaymentPeriod" type="PaymentPeriodClass"/>
+    <property name="LastBooking"/>
+    <property name="Total"/>
+    <property name="Paid"/>
+    <property name="PaidBase"/>
+    <property name="Payable"/>
+
+    <many-to-one name="Role" column="RoleId" class="CMS.Core.Domain.Role, CMS.Core"/>
+    <many-to-one name="Sale" column="SaleId" class="CMS.Core.Domain.User, CMS.Core"/>
+    <many-to-one name="CreatedBy" column="CreatedBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="ModifiedBy" column="ModifiedBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="Location" column="LocationId" class="AgencyLocation"/>
+    <many-to-one name="Agency" column="Id" class="Agency"/>
+
+    <bag name="Users" inverse="true" table="os_AgencyUser" batch-size="10">
+      <key column="AgencyId"/>
+      <many-to-many column="UserId" class="CMS.Core.Domain.User, CMS.Core"/>
+    </bag>
+    <bag name="Bookings" inverse="true" cascade="all-delete-orphan" batch-size="10">
+      <key column="AgencyId"/>
+      <one-to-many class="Booking"/>
+    </bag>
+
+  </class>
+</hibernate-mapping>

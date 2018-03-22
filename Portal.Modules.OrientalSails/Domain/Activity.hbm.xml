@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="Activity" table="os_Activity" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Time"/>
+    <property name="Action"/>
+    <property name="Url"/>
+    <property name="Params"/>
+    <property name="Level" type="ImportantLevel"/>
+    <property name="Note"/>
+    <property name="ObjectId"/>
+    <property name="ObjectType"/>
+    <property name="DateMeeting"/>
+    <property name="UpdateTime"/>
+
+    <many-to-one name="User" column="UserId" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+  </class>
+</hibernate-mapping>

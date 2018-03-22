@@ -1,0 +1,9 @@
+2017-04-18 17:33:56,133 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingHistories [(null)] <(null)> - Error when Page_Load in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingHistories.rptAgencies_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingHistories.Page_Load(Object sender, EventArgs e)

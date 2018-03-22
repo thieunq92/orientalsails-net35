@@ -1,0 +1,12 @@
+2017-03-21 13:59:42,083 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "System.Object[]" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-21 14:08:53,597 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "45279" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-21 14:10:45,007 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "45279" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-21 14:12:28,829 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "45279" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-21 14:14:33,545 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The value "System.Object[]" is not of type "Portal.Modules.OrientalSails.Domain.Booking" and cannot be used in this generic collection.
+Parameter name: value
+2017-03-21 14:46:45,980 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Index was outside the bounds of the array.
+2017-03-21 14:46:46,007 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Index was outside the bounds of the array.

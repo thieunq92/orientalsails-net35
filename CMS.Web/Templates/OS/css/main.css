@@ -1,0 +1,922 @@
+.price_table
+{
+	background: RGB(130,210,230);
+	width: 100%;
+}
+
+.price_table td
+{
+	background: RGB(220,250,250);
+	text-align: right;
+}
+
+.price_table th
+{
+	background: RGB(210,240,240);
+	text-align:center;
+}
+
+
+#roomMap
+{
+	background: url(../images/map.gif);
+	width: 650px;
+	height: 400px;
+	position: relative;
+}
+
+#roomMap div
+{
+	/*background-color: Green;*/
+	width: 70px;
+	height: 50px;
+	text-align: center;
+}
+
+#roomMap input
+{
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Position 1 */
+#room11
+{
+	top: 42px;
+	left: 130px;
+	position: absolute;
+}
+
+/* Position 2 */
+#room9
+{
+	top: 42px;
+	left: 200px;
+	position: absolute;
+}
+
+/* Position 3 */
+#room7
+{
+	top: 42px;
+	left: 270px;
+	position: absolute;
+}
+
+/* Position 4 */
+#room5
+{
+	top: 42px;
+	left: 340px;
+	position: absolute;
+}
+
+/* Position 5 */
+#room3
+{
+	top: 42px;
+	left: 410px;
+	position: absolute;
+}
+
+/* Position 6 */
+#room1
+{
+	top: 42px;
+	left: 480px;
+	position: absolute;
+}
+
+/* Position 7 */
+#room12
+{
+	top: 92px;
+	left: 130px;
+	position: absolute;
+}
+
+/* Position 8 */
+#room10
+{
+	top: 92px;
+	left: 200px;
+	position: absolute;
+}
+
+/* Position 9 */
+#room8
+{
+	top: 92px;
+	left: 270px;
+	position: absolute;
+}
+
+/* Position 10 */
+#room6
+{
+	top: 92px;
+	left: 340px;
+	position: absolute;
+}
+
+/* Position 11 */
+#room4
+{
+	top: 92px;
+	left: 410px;
+	position: absolute;
+}
+
+/* Position 12 */
+#room2
+{
+	top: 92px;
+	left: 480px;
+	position: absolute;
+}
+
+/* Position 13 */
+#room15
+{
+	top: 255px;
+	left: 60px;
+	position: absolute;
+}
+
+/* Position 14 */
+#room16
+{
+	top: 305px;
+	left: 60px;
+	position: absolute;
+}
+
+/* Position 15 */
+#room14
+{
+	top: 305px;
+	left: 160px;
+	position: absolute;
+}
+
+/* Position 16 */
+#room13
+{
+	top: 305px;
+	left: 210px;
+	position: absolute;
+}
+
+.trip_detail_image
+{
+	float:left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+#content li
+{
+	list-style : none;
+	padding-bottom: 20px;
+}
+
+.ajax__calendar .ajax__calendar_container
+{
+	z-index	: 99;
+}
+
+.trip_list_image
+{
+	float	: left;
+	padding-right: 10px;
+}
+
+.trip_list_item
+{
+	font-size : 12px;
+}
+
+.trip_list_detail
+{
+	float	: right;
+}
+
+.hover_content
+{
+	top: 0px;
+	width: 200px;
+	border: solid 1px red;
+	background-color: #FFFFCC;
+	padding: 5px;
+	visibility: hidden;
+	position: absolute;
+}
+
+/*
+////////////////////////
+    GENERAL
+////////////////////////
+*/
+body {
+	background-color:#FFF;
+	font-size: 70%;
+	font-family: Arial,Verdana;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	font-size:12px;
+	text-decoration:none;
+	color:#4c350b;	
+}
+a:hover{
+	text-decoration:underline;
+	color:#7A5612;
+}
+h1 {
+	font-size: 1.7em;
+}
+h2 {
+	font-size: 1.6em;
+	color: #4c350b;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+	font-size: 12px;
+	color: #4c350b;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 2px solid #4c350b;
+}
+div.center{
+	text-align:center;
+}
+/*
+////////////////////////
+    HEADER
+////////////////////////
+*/
+#header {
+	width:989px;
+	height:149px;
+	z-index:1;
+	padding: 0;
+	margin: 0;
+	display: block;
+	text-align: center;
+	clear: both;
+	position: relative;
+}
+.h_logo{
+	float:left;
+	margin-top:0px;
+	padding:0;
+	width:230px;
+	height:162px;
+	background:url(../images/logo.jpg) no-repeat left top
+}
+.h_right{
+	width:759px;
+	float:right;
+	height:162px;
+	padding:0;
+	margin:0;
+	background:url(../images/bg-header.jpg) no-repeat left top
+
+}
+
+.search{
+	height:70px;
+	width:269px;
+	padding:0;
+	margin:0;
+	float: right;
+}
+.searchbar{
+	float:left;
+	padding:0;
+	width:51px;
+}
+.searchcontent{
+	float:left;
+	padding:0;
+	width:218px;
+	height:70px;
+	background-color:#a07a34;
+	text-align: left;
+}
+.searchcontent span {
+	color: #534223;
+	line-height: 18px;
+}
+
+
+/*
+////////////////////////
+    MENU
+////////////////////////
+*/
+#menu{
+	height:92px;
+	background:url(../images/bg-menu_.gif) repeat-x left bottom;
+	width:100%;
+	float:left;
+	padding:0
+}
+.mnhome{
+	font-size:9px;
+	color:#674301;
+	margin-right: 15px;
+	font-weight: bold;
+	display:block;
+	clear:both;
+	float:right;
+	margin-top: 40px;
+}
+.mnhome a{
+	font-size:9px;
+	color:#674301;
+	text-decoration:none;
+	line-height: 20px;
+	font-weight: bold;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.mnhome a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+.mnhome a.act{
+	color:#7B4D22;
+	text-decoration:underline;
+}
+.mntab{
+	display:block;
+	clear:both;
+	float:right;
+	width:100%;
+	height:28px;
+	margin-top: 4px;
+}
+.frflash/*
+////////////////////////
+    PICTURES
+////////////////////////
+*/
+{
+	width:989px;
+	padding:0;
+	margin:0;
+	clear:both;
+	display:block;
+	background-color: #FFFFFF;
+}
+.bar-up{
+	height:14px;
+	width:989px;
+	padding:0;
+	margin:0;
+	display:block;
+	clear:both;
+	background:url(../images/bar.png) repeat-x left top;
+}
+/*
+////////////////////////
+    CONTAINER
+////////////////////////
+*/
+#container{
+	width:989px;
+	display:block;
+	position:relative;
+	clear:both;
+	padding:0;
+	margin:0;
+	background:url(../images/bgcontainer.png) repeat-y left top;
+	height: auto;
+}
+#container a img{
+	border: 2px solid #BE9E6D;
+}
+.box-left{
+	float:left;
+	background:url(../images/horizon-line.png) no-repeat right top;
+	padding:0;
+	margin:0 10px 0 0;
+	width:239px;
+}
+
+.content-left{
+	float:left;
+	padding:0 0 20px 0;
+	margin:40px 0 0 0;
+	width: 90%;
+}
+.content-left ul{
+	list-style:disc; 
+	text-align:right;
+	margin-top:20px;
+	margin-left:10px;
+}
+.content-left ul li{
+	padding-top:5px;
+	padding-bottom:5px;
+	
+}
+.content-left ul li a{	
+	font-size:12px;
+	line-height:18px;
+}
+.content-left ul li a:hover{	
+	font-size:12px;
+	text-decoration:underline;
+}
+.box-left h1{
+	color: #7d5a19;
+	text-align: right;
+	font-size: 2em;
+	text-align: right;
+	font-weight: normal;
+}
+.box-left p{
+	margin-top: 25px;
+	text-align: right;
+	line-height: 1.8em;
+}
+.text20{
+	color: #7d5a19;
+	text-align: right;
+	font-size: 2em;
+}
+.box-left h3{
+	color: #543600;
+	line-height:1.6em;
+	text-align: right;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 0;
+}
+.box-right{
+	float:right;
+	padding:0;
+	margin:40px 20px 0 20px;
+	width:689px;
+	text-align:left
+}
+.box-right  p{
+	font-size:12px;
+	line-height:1.8em;
+	color:#4c350b;
+}
+/*
+////////////////////////
+    CONTAINER
+////////////////////////
+*/
+.footer{
+	width:740px;
+	display:block;
+	height: 96px;
+	position:relative;
+	padding:0;
+	margin:0;
+	float:left;
+}
+.footer-bar{
+	width:25px;
+	float:left;
+	text-align:right;
+	padding:0;
+	margin:0;
+}
+.footer-text{
+	width:715px;
+	height: 96px;
+	float:right;
+	padding:0;
+	margin:0;
+	background:url(../images/footer-bg.jpg) repeat-x bottom left;
+}
+.bar-down{
+	height:13px;
+	width:989px;
+	padding:0;
+	margin:0;
+	display:block;
+	clear:both;
+	background:url(../images/bar-down.png) repeat-x left top;
+}
+.contact{
+	font-size:11px;
+	color:#ebd7b1;
+	line-height:1.3em;
+	margin-top: 52px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 10px;
+}
+.contact a{
+	font-size:11px;
+	color:#DBB773;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.contact a:hover{
+	color:#DBB773;
+	text-decoration:underline;
+}
+
+button.i-heart-ny {
+	border: 0;
+	cursor: pointer;
+	height: 0px;
+	margin-right: 0px;
+	width: 0px;
+	background-color: #A07A34;
+}
+button.i-heart-ny:hover,
+button.i-heart-ny.active {
+	background-position: 0;
+}
+
+div.i-heart-ny {
+	background: url(../images/calender/i-heart-ny.png);
+	height: 278px;
+	padding: 4px;
+	width: 164px;
+}	
+	div.i-heart-ny * {
+		margin: 0;
+		padding: 0;
+	}	
+	div.i-heart-ny div {
+		background-repeat: no-repeat;
+		background-position: 8px 8px;
+		cursor: move;
+		height: 278px;
+		overflow: hidden;
+		position: relative;
+		width: 164px;
+	}	
+	div.i-heart-ny.january div { background-image: url(../images/calender/i-heart-ny-jan.jpg); }	
+	div.i-heart-ny.february div { background-image: url(../images/calender/i-heart-ny-feb.jpg); }	
+	div.i-heart-ny.march div { background-image: url(../images/calender/i-heart-ny-mar.jpg); }	
+	div.i-heart-ny.april div { background-image: url(../images/calender/i-heart-ny-apr.jpg); }	
+	div.i-heart-ny.may div { background-image: url(../images/calender/i-heart-ny-may.jpg); }	
+	div.i-heart-ny.june div { background-image: url(../images/calender/i-heart-ny-jun.jpg); }	
+	div.i-heart-ny.july div { background-image: url(../images/calender/i-heart-ny-jul.jpg); }	
+	div.i-heart-ny.august div { background-image: url(../images/calender/i-heart-ny-aug.jpg); }	
+	div.i-heart-ny.september div { background-image: url(../images/calender/i-heart-ny-sep.jpg); }	
+	div.i-heart-ny.october div { background-image: url(../images/calender/i-heart-ny-oct.jpg); }	
+	div.i-heart-ny.november div { background-image: url(../images/calender/i-heart-ny-nov.jpg); }	
+	div.i-heart-ny.december div { background-image: url(../images/calender/i-heart-ny-dec.jpg); }	
+	
+	/* 
+	We won't be using the caption element traditionally
+	We have to make sure it doesn't take up space in the browser and offset the other elements
+	Unfortunately position: absolute is not supported by all browsers for table-caption
+	IEX only responds to line-height
+	*/
+	
+	div.i-heart-ny caption {
+		color: #808080;
+		height: 0%;
+		line-height: 0;
+	}
+	div.i-heart-ny caption a {
+		cursor: pointer;
+		display: block;
+		height: 25px;
+		overflow: hidden;
+		position: absolute;
+		text-indent: -100px;
+		top: 0;
+		width: 23px;
+		z-index: 200;
+	}
+	div.i-heart-ny caption a.prev {
+		background-image: url(../images/calender/i-heart-ny-prev.png);
+		left: 0;
+	}
+	div.i-heart-ny caption a.next {
+		background-image: url(../images/calender/i-heart-ny-next.png);
+		right: 0;
+	}
+	div.i-heart-ny caption a:hover {
+		background-position: 0 25px;
+	}
+	div.i-heart-ny caption span.month {
+		bottom: 8px;
+		font: normal 11px Arial, Helvetica, sans-serif;
+		position: absolute;
+		right: 10px;
+		z-index: 100;
+	}
+	
+	/* 
+	IEX won't work if all the children of the caption element are absolutely positioned
+	Since we can't just leave the year un-positioned, we will have to hide it
+	(Remarkably this actually works in IEX)
+	*/
+	
+	div.i-heart-ny caption span.year {
+		display: none;
+	}
+
+	div.i-heart-ny table {
+		border: 0;
+		border-collapse: collapse;
+		border-spacing: 0;
+		margin: 143px 10px 0 7px;
+	}
+	div.i-heart-ny tbody {
+		cursor: default;
+	}
+	div.i-heart-ny td {
+		border: 0;
+		color: #FFF;
+		font: normal 9px Arial, Helvetica, sans-serif;
+		height: 21px;
+		text-align: right;
+		vertical-align: bottom;
+		width: 21px;
+	}
+	div.i-heart-ny td.active,
+	div.i-heart-ny td.hover {
+		background: url(../images/calender/i-heart-ny-active.gif);
+		color: #25A8C2;
+		cursor: pointer;
+	}
+	div.i-heart-ny td.invalid {
+		background: url(../images/calender/i-heart-ny-invalid.gif);
+		color: #DA2727;
+	}
+	div.i-heart-ny td.valid {
+		color: #808080;
+		cursor: pointer;
+	}
+	div.i-heart-ny td.inactive {
+		background: url(../images/calender/i-heart-ny-inactive.gif);
+		color: #808080;
+	}
+	div.i-heart-ny thead {
+		display: none;
+	}
+
+
+@charset "utf-8";
+/* CSS Document 
+form div {
+	clear: both;
+	margin-bottom: 18px;
+	overflow: hidden;
+}*/
+form input,
+form select {
+	border-color: #ACACAC #E1E1E1 #E1E1E1 #ACACAC;
+	border-style: solid;
+	border-width: 2px;
+	/*float: left;*/
+	font: normal 12px Arial, sans-serif;
+	margin-right: 6px;
+	/*width: 20px;*/
+}
+
+form input {
+	padding: 1px 3px;
+}
+
+/* The outermost container of the Menu Bar, an auto width box with no margin or padding */
+ul.nav
+{
+	padding:0;
+	float: right;
+	margin:0 10px 0 0;
+	list-style:none;
+	font: bold 11px Arial,Verdana;
+	position:relative;
+	cursor: default;
+	height: 25px;
+	line-height: 25px;
+}
+.nav {
+	height:25px;
+	line-height: 20px;
+	padding:0;
+	font-size: 10px;
+	font-weight: bold;
+	font-size:11px;
+	color:#FFFFFF;
+	z-index: 2;
+}
+/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
+ul.active
+{
+	z-index: 1000;
+}
+/* Menu item containers, position children relative to this container and are a fixed width */
+ul.nav li
+{
+	margin: 0 3px 0 0;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+}
+ul.nav li span {
+	padding: 0 15px 0 15px;
+}
+/* Submenus should appear below their parent (top: 0) with a higher z-index, but they are initially off the left side of the screen (-1000em) */
+ul.nav ul
+{
+	margin: 26px 0 0 0px;
+	padding: 0 10px 0 15px;
+	list-style-type: none;
+	font-size: 11px;
+	z-index: 1020;
+	cursor: default;
+	position: absolute;
+	left: -1000em;
+	font-weight: bold;
+	width: 110px;
+}
+/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to auto so it comes onto the screen below its parent menu item */
+ul.nav ul.MenuBarSubmenuVisible
+{
+	left: 0px;
+}
+/* Menu item containers are same fixed width as parent */
+ul.nav ul li
+{
+	padding: 0;
+	margin:0;
+	display:block;
+	clear:both;
+	white-space:nowrap;
+}
+ul.nav ul li span
+{
+	padding: 0;
+}
+/* Submenus should appear slightly overlapping to the right (95%) and up (-5%) */
+
+/*******************************************************************************
+
+ DESIGN INFORMATION: describes color scheme, borders, fonts
+
+ *******************************************************************************/
+
+/* Submenu containers have borders on all sides */
+ul.nav ul
+{
+	top: 0px;
+	background-color: #b49755;
+	padding: 0 10px 0 15px;
+}
+/* Menu items are a light gray block with padding and no text decoration */
+ul.nav a
+{
+	display: block;
+	cursor: pointer;
+	padding: 0;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 28px;
+	margin: 0;
+	font-weight: bold;
+	line-height: 20px;
+	font-size: 11px;
+}
+ul.nav a:hover{
+	float:left;
+	color:#FFFFFF;
+	background:transparent url(../images/tabmenu-left-on.png) no-repeat left 0px;
+	padding:0 0 0 7px;
+	text-decoration:none;
+	line-height: 25px;
+	margin: 0;
+	height:25px;
+}
+ul.nav a:hover span{
+	float:left;
+	display:block;
+	background:transparent  url(../images/tabmenu-bg-on.png) no-repeat right 0px;
+	margin: 0;
+	padding:0 15px 0 10px;
+	height:25px;
+	white-space:nowrap
+}
+/* Menu items that have mouse over or focus have a blue background and white text */
+ ul.nav a:focus
+{
+	color: #FFF;
+	line-height: 25px;
+}
+/* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
+ul.nav a.MenuBarItemSubmenuHover
+{
+	background:transparent url(../images/tabmenu-left-on.png) no-repeat left 0px;
+	padding:0 0 0 7px;
+	color: #FFFFFF;
+	height: 25px;
+}
+ul.nav a.MenuBarItemSubmenuHover span
+{
+	display:block;
+	height:25px;
+	padding:0 15px 0 15px;
+	font:bold 11px Arial,Verdana;
+	background:transparent  url(../images/tabmenu-bg-on.png) no-repeat right 0px;
+	line-height: 25px;
+}
+ul.nav a.MenuBarItemSubmenuHover
+{
+	background:transparent url(../images/tabmenu-left-on.png) no-repeat left 0px;
+	padding:0 0 0 7px;
+	color: #FFFFFF;
+	height: 25px;
+}
+ul.nav a.MenuBarItemSubmenuHover span
+{
+	display:block;
+	height:25px;
+	padding:0 15px 0 15px;
+	font:bold 11px Arial,Verdana;
+	background:transparent  url(../images/tabmenu-bg-on.png) no-repeat right 0px;
+	line-height: 25px;
+}
+ul.nav a.MenuBarSubmenuVisible
+{
+	background:transparent url(../images/tabmenu-left-on.png) no-repeat left 0px;
+	padding:0 0 0 7px;
+	color: #FFFFFF;
+	height: 25px;
+}
+ul.nav a.MenuBarSubmenuVisible span
+{
+	display:block;
+	height:25px;
+	padding:0 15px 0 15px;
+	font:bold 11px Arial,Verdana;
+	background:transparent  url(../images/tabmenu-bg-on.png) no-repeat right 0px;
+	line-height: 25px;
+}
+/* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
+ul.nav a.MenuBarItemSubmenuHover
+{
+	height:25px;
+}
+ul.nav a.MenuBarItemSubmenuHover span
+{
+	height:25px
+}
+ul.nav li.active{
+	position:relative;
+	float:left;
+	color: #FFFFFF;
+	padding:0 0 0 7px;
+	line-height:25px;
+	height:25px;
+	background:transparent url(../images/tabmenu-left-on.png) no-repeat left 0px;
+}
+
+ul.nav li.active span, ul.nav li.active a:hover span, ul.nav li.active a:active span{
+	float:left;
+	display:block;
+	padding: 0 15px 0 10px;
+	background:transparent url(../images/tabmenu-bg-on.png) no-repeat right 0px;
+	height: 25px;
+}
+ul.nav li.active a:hover{
+	position:relative;
+	float:left;
+	color: #FFFFFF;
+	padding:0 0 0 0px;
+	line-height:25px;
+	height:25px;
+}
+ul.nav li li a.active {
+  color: #7B4D22;
+}
+/*******************************************************************************
+
+ BROWSER HACKS: the hacks below should not be changed unless you are an expert
+
+ *******************************************************************************/
+
+/* HACK FOR IE: to make sure the sub menus show above form controls, we underlay each submenu with an iframe */
+ul.nav iframe
+{
+	position: absolute;
+	z-index: 1010;
+}
+/* HACK FOR IE: to stabilize appearance of menu items; the slash in float is to keep IE 5.0 from parsing */

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="HaiPhongExpenseCharter" table="HaiPhongExpenseCharter" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="HaiPhongExpenseCharterId">
+      <generator class="native"/>
+    </id>
+    <property name="Name"/>
+    <property name="Value"/>
+    
+    <many-to-one name = "HaiPhongExpenseType" column = "HaiPhongExpenseTypeId" class="HaiPhongExpenseType"/>
+  </class>
+</hibernate-mapping>

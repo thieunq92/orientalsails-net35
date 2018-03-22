@@ -1,0 +1,45 @@
+2017-04-07 11:36:28,976 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingHistories [(null)] <(null)> - Error when Page_Load in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingHistories.rptAgencies_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingHistories.Page_Load(Object sender, EventArgs e)
+2017-04-07 11:36:50,686 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingHistories [(null)] <(null)> - Error when Page_Load in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingHistories.rptAgencies_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingHistories.Page_Load(Object sender, EventArgs e)
+2017-04-07 11:41:33,814 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingHistories [(null)] <(null)> - Error when Page_Load in BookingView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingHistories.rptAgencies_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingHistories.Page_Load(Object sender, EventArgs e)
+2017-04-07 16:44:39,524 [15] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_1_, cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_443_0_, cruisehaip0_.CruiseId as CruiseId443_0_, cruisehaip0_.HaiPhongExpenseTypeId as HaiPhong3_443_0_ FROM CruiseHaiPhongExpenseType cruisehaip0_ WHERE cruisehaip0_.CruiseHaiPhongExpenseTypeId=@p0
+System.Data.SqlClient.SqlException: Invalid object name 'CruiseHaiPhongExpenseType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-04-07 16:44:39,783 [15] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-07 16:44:39,787 [15] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.

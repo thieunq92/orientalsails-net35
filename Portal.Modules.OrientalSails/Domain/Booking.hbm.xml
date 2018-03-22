@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Portal.Modules.OrientalSails"
+                   namespace="Portal.Modules.OrientalSails.Domain">
+  <class name="Booking" table="os_Booking" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Deleted"/>
+    <property name="IsApproved"/>
+    <property name="IsEarlyBird"/>
+    <property name="Special"/>
+    <property name="CreatedDate"/>
+    <property name="Deadline"/>
+    <property name="ModifiedDate"/>
+    <property name="StartDate"/>
+    <property name="EndDate"/>
+    <property name="Amended"/>
+    <property name="Status" type="Portal.Modules.OrientalSails.Web.Util.StatusType, Portal.Modules.OrientalSails"/>
+    <property name="AccountingStatus" type="AccountingStatus"/>
+    <property name="AgencyCode"/>
+    <property name="TripOption" type="Portal.Modules.OrientalSails.Web.Util.TripOption, Portal.Modules.OrientalSails"/>
+    <property name="Total"/>
+    <property name="TransferCost"/>
+    <property name="IsTransferred"/>
+    <property name="Paid"/>
+    <property name="Note"/>
+    <property name="PickupAddress"/>
+    <property name="DropoffAddress"/>
+    <property name="SpecialRequest"/>
+    <property name="CurrencyRate"/>
+    <property name="PaidBase"/>
+    <property name="IsPaid"/>
+    <property name="IsPaymentNeeded"/>
+    <property name="IsCharter"/>
+    <property name="TransferAdult"/>
+    <property name="TransferChildren"/>
+    <property name="TransferBaby"/>
+    <property name="HasInvoice" column="Invoice"/>
+    <property name="CancelPay"/>
+    <property name="GuideOnboard"/>
+    <property name="Guide"/>
+    <property name="Driver"/>
+    <property name="PaidDate"/>
+    <property name="LockDate"/>
+    <property name="VoucherCode"/>
+    <property name="Inspection"/>
+    <property name="CutOffDays"/>
+    <property name="IsTotalUsd"/>
+    <property name="Commission"/>
+    <property name="IsCommissionUsd"/>
+    <property name="CancelledReason"/>
+    <property name="Group" column="`Group`"/>
+
+    <many-to-one name="CreatedBy" column="CreatedBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="ModifiedBy" column="ModifiedBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="ConfirmedBy" column="ConfirmedBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="Partner" column="PartnerId" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="Sale" column="SaleId" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="Booker" column="BookerId" class="AgencyContact"/>
+    <many-to-one name="LockBy" column="LockBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="Trip" column="TripId" class="SailsTrip"/>
+    <many-to-one name="Batch" column="BatchId" class="VoucherBatch"/>
+    <many-to-one name="Cruise" column="CruiseId" class="Cruise"/>
+    <many-to-one name="Agency" column="AgencyId" class="Agency"/>
+    <many-to-one name="BookingSale" column="Id" class="BookingSale" not-found="ignore" update="false" insert="false"/>
+    <many-to-one name="TransferTo" column="TransferTo" class="Agency"/>
+    <many-to-one name="Charter" column="LockedId" class="Locked"/>
+    <many-to-one name="Series" column="SeriesId" class="Series"/>
+
+    <bag name="Customers" inverse="true" cascade="none" where="type!=4" batch-size="10">
+      <key column="BookingId"/>
+      <one-to-many class="Customer"/>
+    </bag>
+    <bag name="Transactions" inverse="true" cascade="all-delete-orphan" batch-size="10">
+      <key column="BookingId"/>
+      <one-to-many class="Transaction"/>
+    </bag>
+    <bag name="BookingRooms" inverse="true" cascade="all-delete-orphan" batch-size="10">
+      <key column="BookId"/>
+      <one-to-many class="BookingRoom"/>
+    </bag>
+    <bag name="Services" inverse="true" cascade="all-delete-orphan" batch-size="10">
+      <key column="BookingId"/>
+      <one-to-many class="BookingService"/>
+    </bag>
+    <bag name="ExtraServices" table="os_BookingExtra" cascade="all" batch-size="10">
+      <key column="BookingId"/>
+      <many-to-many column="ExtraOptionId"
+         class="ExtraOption"/>
+    </bag>
+
+  </class>
+</hibernate-mapping>

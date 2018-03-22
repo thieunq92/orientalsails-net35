@@ -1,0 +1,220 @@
+﻿html, body {
+    height: 100%;
+}
+
+.bs-docs-footer {
+    background-color: #2a2730;
+    color: #99979c;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pager > span > span, .pager > span > a {
+    background-image: none !important;
+    background-color: #fff;
+    border: 1px solid #ddd !important;
+    color: #337ab7 !important;
+    float: none;
+    line-height: 1.42857;
+    margin-left: -1px !important;
+    padding: 6px 12px !important;
+    position: relative;
+    text-decoration: none;
+    width: auto !important;
+}
+
+.search-panel {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.btn-pending {
+    background-color: #ffff00;
+    border-color: #ffff4c;
+    color: #333;
+}
+
+    .btn-pending:hover {
+        background-color: #ffd000;
+    }
+
+.booking-table .table > thead > tr > th,
+.booking-table .table > tbody > tr > th,
+.booking-table .table > tfoot > tr > th,
+.booking-table .table > thead > tr > td,
+.booking-table .table > tbody > tr > td,
+.booking-table .table > tfoot > tr > td {
+    border: 1px solid #bbb !important;
+    padding: 1px;
+    text-align: center !important;
+    vertical-align: middle;
+}
+
+.approved {
+    background-color: #5cb85c;
+}
+
+.pending {
+    background-color: #ffff00;
+}
+
+.booking-table a {
+    color: #333;
+}
+
+.receivable-table .table > thead > tr > th,
+.receivable-table .table > tbody > tr > th,
+.receivable-table .table > tfoot > tr > th,
+.receivable-table .table > thead > tr > td,
+.receivable-table .table > tbody > tr > td,
+.receivable-table .table > tfoot > tr > td {
+    border: 1px solid #bbb !important;
+    padding: 1px;
+    text-align: center !important;
+    vertical-align: middle;
+}
+
+.receivable-table a {
+    color: #333;
+}
+
+.custom-warning {
+    background-color: #ffff00;
+}
+
+.good {
+    background-color: #5cb85c;
+}
+
+.important {
+    background-color: #d9534f;
+}
+
+.inspection {
+    background-color: #5858fa;
+}
+
+.paymenthistory-table .table > thead > tr > th,
+.paymenthistory-table .table > tbody > tr > th,
+.paymenthistory-table .table > tfoot > tr > th,
+.paymenthistory-table .table > thead > tr > td,
+.paymenthistory-table .table > tbody > tr > td,
+.paymenthistory-table .table > tfoot > tr > td {
+    border: 1px solid #bbb !important;
+    padding: 1px;
+    text-align: center !important;
+    vertical-align: middle;
+}
+
+.bookinginfor-panel {
+    margin-top: 10px;
+}
+
+    .bookinginfor-panel .checkbox {
+        margin: 0;
+    }
+
+    .bookinginfor-panel .form-group {
+        margin-bottom: 5px;
+    }
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.nopadding-left {
+    padding-left: 0 !important;
+}
+
+.nopadding-right {
+    padding-right: 0 !important;
+}
+
+body {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.col-xs-4 {
+    background-color: transparent !important;
+    border: none !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.custom-col-xs-1 {
+    width: 9.2% !important;
+}
+
+.custom1-col-xs-1{
+    width: 10.2% !important;
+}
+
+.custom-name-width {
+    width: 15% !important;
+}
+
+.customerinfo-panel .panel {
+    border: none;
+}
+
+.alert {
+    padding: 5px;
+}
+
+.btn {
+    padding: 3px 12px;
+}
+
+.form-control {
+    padding: 3px 12px;
+    height: 25px;
+}
+
+.bookinginfor-panel label {
+    font-weight: normal;
+}
+
+.radio, .checkbox {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.custom-col-xs-offset-1-margin {
+    margin-left: 1.3333%;
+}
+
+.panel {
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+.datetimepicker-trigger {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 85%;
+}
+
+.total-locked {
+    background-color: #e9c0c0 !important;
+    border-color: #e9c0c0;
+}
+
+.serialinfo-panel .form-group {
+    margin-bottom: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.width90percent {
+    width: 90%;
+}

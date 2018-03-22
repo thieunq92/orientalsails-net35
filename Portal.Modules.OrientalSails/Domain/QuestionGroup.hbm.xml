@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="QuestionGroup" table="sv_QuestionGroup" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="CreatedDate"/>
+    <property name="ModifiedDate"/>
+    <property name="Deleted"/>
+    <property name="Name"/>
+    <property name="Priority"/>
+    <property name="GoodChoice"/>
+    <property name="Selection1"/>
+    <property name="Selection2"/>
+    <property name="Selection3"/>
+    <property name="Selection4"/>
+    <property name="Selection5"/>
+    <property name="IsInDayboatForm"/>
+
+    <many-to-one name="CreatedBy" column="CreatedBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+    <many-to-one name="ModifiedBy" column="ModifiedBy" class="CMS.Core.Domain.User, CMS.Core" not-found="ignore"/>
+
+    <bag name="Questions" inverse="true" cascade="all-delete-orphan" where="Deleted = 0" batch-size="10">
+      <key column="GroupId"/>
+      <one-to-many class="Question"/>
+    </bag>
+  </class>
+</hibernate-mapping>

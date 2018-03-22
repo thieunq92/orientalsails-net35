@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="CruiseRole" table="os_CruiseRole" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+
+    <many-to-one name="Role" column="RoleId" class="CMS.Core.Domain.Role, CMS.Core"/>
+    <many-to-one name="Agency" column="AgencyId" class="Agency"/>
+    <many-to-one name="Cruise" column="CruiseId" class="Cruise"/>
+  </class>
+</hibernate-mapping>

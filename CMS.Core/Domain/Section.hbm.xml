@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="CMS.Core.Domain.Section, CMS.Core" table="bitportal_section"> 
+		
+		<cache usage="read-write" />
+		
+		<id name="Id" column="sectionid" type="Int32" unsaved-value="-1">
+			<generator class="native">
+				<param name="sequence">cuyahoga_section_sectionid_seq</param>
+			</generator>
+		</id>
+		<timestamp name="UpdateTimestamp" column="updatetimestamp" />
+
+		<property name="Title" column="title" type="String" length="100" not-null="true" />
+		<property name="PlaceholderId" column="placeholder" type="String" length="100" />
+		<property name="Position" column="position" type="Int32" not-null="true" />
+		<property name="CacheDuration" column="cacheduration" type="Int32" />
+		<property name="ShowTitle" column="showtitle" type="Boolean" />
+		
+		<many-to-one name="Node" class="CMS.Core.Domain.Node, CMS.Core" column="nodeid" />
+		<many-to-one name="ModuleType" class="CMS.Core.Domain.ModuleType, CMS.Core" column="moduletypeid" outer-join="true" not-null="true" />
+		
+		<bag name="SectionPermissions" cascade="all" lazy="true" table="bitportal_sectionrole">
+			<cache usage="read-write" />
+			<key column="sectionid" />
+			<composite-element class="CMS.Core.Domain.SectionPermission, CMS.Core">
+				<parent name="Section" />
+				<property name="ViewAllowed" column="viewallowed" type="Boolean" />
+				<property name="EditAllowed" column="adminallowed" type="Boolean" />
+        <property name="ModifyAllowed" column="editallowed" type="Boolean" />
+        <property name="InsertAllowed" column="insertallowed" type="Boolean" />
+        <property name="DeleteAllowed" column="deleteallowed" type="Boolean" />
+				<many-to-one name="Role" class="CMS.Core.Domain.Role, CMS.Core" column="roleid" cascade="none" />
+			</composite-element>
+		</bag>
+		
+		<map name="Settings" table="bitportal_sectionsetting" lazy="true" cascade="all">
+			<cache usage="read-write" />
+		    <key column="sectionid" />
+		    <index column="name" type="String" length="50" />
+			<element column="value" type="String" length="100" />
+		</map>
+		
+		<map name="Connections" table="bitportal_sectionconnection" lazy="true" cascade="none">
+			<cache usage="read-write" />
+			<key column ="sectionidfrom" />
+			<index column="actionname" type="String" length="50" />
+			<many-to-many class="CMS.Core.Domain.Section, CMS.Core" column="sectionidto" />
+		</map>
+		
+	</class>
+</hibernate-mapping>

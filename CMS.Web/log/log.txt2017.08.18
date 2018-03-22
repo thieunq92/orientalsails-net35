@@ -1,0 +1,154 @@
+2017-08-18 13:23:52,319 [6] ERROR CMS.Core.DataAccess.CommonDao [(null)] <(null)> - could not resolve property: agency of: Portal.Modules.OrientalSails.Domain.Booking
+NHibernate.QueryException: could not resolve property: agency of: Portal.Modules.OrientalSails.Domain.Booking
+   at NHibernate.Persister.Entity.AbstractPropertyMapping.ToType(String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.GetSubclassPropertyTableNumber(String propertyPath)
+   at NHibernate.Persister.Entity.BasicEntityPropertyMapping.ToColumns(String alias, String propertyName)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.ToColumns(String alias, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumns(ICriteria subcriteria, String propertyName)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetColumnsUsingProjection(ICriteria subcriteria, String propertyName)
+   at NHibernate.Criterion.CriterionUtil.GetColumnNamesUsingPropertyName(ICriteriaQuery criteriaQuery, ICriteria criteria, String propertyName, Object value, ICriterion critertion)
+   at NHibernate.Criterion.CriterionUtil.GetColumnNamesForSimpleExpression(String propertyName, IProjection projection, ICriteriaQuery criteriaQuery, ICriteria criteria, IDictionary`2 enabledFilters, ICriterion criterion, Object value)
+   at NHibernate.Criterion.SimpleExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary`2 enabledFilters)
+   at NHibernate.Criterion.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary`2 enabledFilters)
+   at NHibernate.Criterion.LogicalExpression.ToSqlString(ICriteria criteria, ICriteriaQuery criteriaQuery, IDictionary`2 enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaQueryTranslator.GetWhereCondition(IDictionary`2 enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaJoinWalker..ctor(IOuterJoinLoadable persister, CriteriaQueryTranslator translator, ISessionFactoryImplementor factory, ICriteria criteria, String rootEntityName, IDictionary`2 enabledFilters)
+   at NHibernate.Loader.Criteria.CriteriaLoader..ctor(IOuterJoinLoadable persister, ISessionFactoryImplementor factory, CriteriaImpl rootCriteria, String rootEntityName, IDictionary`2 enabledFilters)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at CMS.Core.DataAccess.CommonDao.CountObjectByCriterion(Type objectType, ICriterion criterion) in d:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\DataAccess\CommonDao.cs:line 219
+2017-08-18 16:32:06,896 [5] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT this_.Id as Id192_2_, this_.Deleted as Deleted192_2_, this_.IsApproved as IsApproved192_2_, this_.IsEarlyBird as IsEarlyB4_192_2_, this_.Special as Special192_2_, this_.CreatedDate as CreatedD6_192_2_, this_.Deadline as Deadline192_2_, this_.ModifiedDate as Modified8_192_2_, this_.StartDate as StartDate192_2_, this_.EndDate as EndDate192_2_, this_.Amended as Amended192_2_, this_.Status as Status192_2_, this_.AccountingStatus as Account13_192_2_, this_.AgencyCode as AgencyCode192_2_, this_.TripOption as TripOption192_2_, this_.Total as Total192_2_, this_.TransferCost as Transfe17_192_2_, this_.IsTransferred as IsTrans18_192_2_, this_.Paid as Paid192_2_, this_.Note as Note192_2_, this_.PickupAddress as PickupA21_192_2_, this_.DropoffAddress as Dropoff22_192_2_, this_.SpecialRequest as Special23_192_2_, this_.CurrencyRate as Currenc24_192_2_, this_.PaidBase as PaidBase192_2_, this_.IsPaid as IsPaid192_2_, this_.IsPaymentNeeded as IsPayme27_192_2_, this_.IsCharter as IsCharter192_2_, this_.TransferAdult as Transfe29_192_2_, this_.TransferChildren as Transfe30_192_2_, this_.TransferBaby as Transfe31_192_2_, this_.Invoice as Invoice192_2_, this_.CancelPay as CancelPay192_2_, this_.GuideOnboard as GuideOn34_192_2_, this_.Guide as Guide192_2_, this_.Driver as Driver192_2_, this_.PaidDate as PaidDate192_2_, this_.LockDate as LockDate192_2_, this_.VoucherCode as Voucher39_192_2_, this_.Inspection as Inspection192_2_, this_.CutOffDays as CutOffDays192_2_, this_.IsTotalUsd as IsTotalUsd192_2_, this_.Commission as Commission192_2_, this_.IsCommissionUsd as IsCommi44_192_2_, this_.CancelledReason as Cancell45_192_2_, this_.[Group] as Group46_192_2_, this_.CreatedBy as CreatedBy192_2_, this_.ModifiedBy as ModifiedBy192_2_, this_.ConfirmedBy as Confirm49_192_2_, this_.PartnerId as PartnerId192_2_, this_.SaleId as SaleId192_2_, this_.BookerId as BookerId192_2_, this_.LockBy as LockBy192_2_, this_.TripId as TripId192_2_, this_.BatchId as BatchId192_2_, this_.CruiseId as CruiseId192_2_, this_.AgencyId as AgencyId192_2_, this_.TransferTo as TransferTo192_2_, this_.LockedId as LockedId192_2_, agency1_.Id as Id156_0_, agency1_.Name as Name156_0_, agency1_.Phone as Phone156_0_, agency1_.Address as Address156_0_, agency1_.Fax as Fax156_0_, agency1_.TaxCode as TaxCode156_0_, agency1_.Email as Email156_0_, agency1_.ContractStatus as Contract8_156_0_, agency1_.Description as Descript9_156_0_, agency1_.Contract as Contract156_0_, agency1_.Accountant as Accountant156_0_, agency1_.PaymentPeriod as Payment12_156_0_, agency1_.CreatedDate as Created13_156_0_, agency1_.ModifiedDate as Modifie14_156_0_, agency1_.SaleStart as SaleStart156_0_, agency1_.Deleted as Deleted156_0_, agency1_.RoleId as RoleId156_0_, agency1_.SaleId as SaleId156_0_, agency1_.LocationId as LocationId156_0_, agency1_.CreatedBy as CreatedBy156_0_, agency1_.ModifiedBy as ModifiedBy156_0_, bookingsal2_.Id as Id184_1_, bookingsal2_.SaleId as SaleId184_1_ FROM os_Booking this_ left outer join os_Agency agency1_ on this_.AgencyId=agency1_.Id inner join v_BookingSale bookingsal2_ on this_.Id=bookingsal2_.Id WHERE ((((((this_.Status = @p0 and this_.Deadline >= @p1) or this_.Status = @p2) and this_.Deleted = @p3) and not (this_.IsTransferred = @p4)) and this_.CruiseId = @p5) and (this_.StartDate <= @p6 and this_.EndDate > @p7))
+System.Data.SqlClient.SqlException: Invalid column name 'Group'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-08-18 16:32:07,285 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Group'.
+2017-08-18 16:32:07,293 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Group'.
+2017-08-18 16:32:07,297 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid column name 'Group'.
+2017-08-18 16:32:07,299 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.Id as Id192_2_, this_.Deleted as Deleted192_2_, this_.IsApproved as IsApproved192_2_, this_.IsEarlyBird as IsEarlyB4_192_2_, this_.Special as Special192_2_, this_.CreatedDate as CreatedD6_192_2_, this_.Deadline as Deadline192_2_, this_.ModifiedDate as Modified8_192_2_, this_.StartDate as StartDate192_2_, this_.EndDate as EndDate192_2_, this_.Amended as Amended192_2_, this_.Status as Status192_2_, this_.AccountingStatus as Account13_192_2_, this_.AgencyCode as AgencyCode192_2_, this_.TripOption as TripOption192_2_, this_.Total as Total192_2_, this_.TransferCost as Transfe17_192_2_, this_.IsTransferred as IsTrans18_192_2_, this_.Paid as Paid192_2_, this_.Note as Note192_2_, this_.PickupAddress as PickupA21_192_2_, this_.DropoffAddress as Dropoff22_192_2_, this_.SpecialRequest as Special23_192_2_, this_.CurrencyRate as Currenc24_192_2_, this_.PaidBase as PaidBase192_2_, this_.IsPaid as IsPaid192_2_, this_.IsPaymentNeeded as IsPayme27_192_2_, this_.IsCharter as IsCharter192_2_, this_.TransferAdult as Transfe29_192_2_, this_.TransferChildren as Transfe30_192_2_, this_.TransferBaby as Transfe31_192_2_, this_.Invoice as Invoice192_2_, this_.CancelPay as CancelPay192_2_, this_.GuideOnboard as GuideOn34_192_2_, this_.Guide as Guide192_2_, this_.Driver as Driver192_2_, this_.PaidDate as PaidDate192_2_, this_.LockDate as LockDate192_2_, this_.VoucherCode as Voucher39_192_2_, this_.Inspection as Inspection192_2_, this_.CutOffDays as CutOffDays192_2_, this_.IsTotalUsd as IsTotalUsd192_2_, this_.Commission as Commission192_2_, this_.IsCommissionUsd as IsCommi44_192_2_, this_.CancelledReason as Cancell45_192_2_, this_.[Group] as Group46_192_2_, this_.CreatedBy as CreatedBy192_2_, this_.ModifiedBy as ModifiedBy192_2_, this_.ConfirmedBy as Confirm49_192_2_, this_.PartnerId as PartnerId192_2_, this_.SaleId as SaleId192_2_, this_.BookerId as BookerId192_2_, this_.LockBy as LockBy192_2_, this_.TripId as TripId192_2_, this_.BatchId as BatchId192_2_, this_.CruiseId as CruiseId192_2_, this_.AgencyId as AgencyId192_2_, this_.TransferTo as TransferTo192_2_, this_.LockedId as LockedId192_2_, agency1_.Id as Id156_0_, agency1_.Name as Name156_0_, agency1_.Phone as Phone156_0_, agency1_.Address as Address156_0_, agency1_.Fax as Fax156_0_, agency1_.TaxCode as TaxCode156_0_, agency1_.Email as Email156_0_, agency1_.ContractStatus as Contract8_156_0_, agency1_.Description as Descript9_156_0_, agency1_.Contract as Contract156_0_, agency1_.Accountant as Accountant156_0_, agency1_.PaymentPeriod as Payment12_156_0_, agency1_.CreatedDate as Created13_156_0_, agency1_.ModifiedDate as Modifie14_156_0_, agency1_.SaleStart as SaleStart156_0_, agency1_.Deleted as Deleted156_0_, agency1_.RoleId as RoleId156_0_, agency1_.SaleId as SaleId156_0_, agency1_.LocationId as LocationId156_0_, agency1_.CreatedBy as CreatedBy156_0_, agency1_.ModifiedBy as ModifiedBy156_0_, bookingsal2_.Id as Id184_1_, bookingsal2_.SaleId as SaleId184_1_ FROM os_Booking this_ left outer join os_Agency agency1_ on this_.AgencyId=agency1_.Id inner join v_BookingSale bookingsal2_ on this_.Id=bookingsal2_.Id WHERE ((((((this_.Status = @p0 and this_.Deadline >= @p1) or this_.Status = @p2) and this_.Deleted = @p3) and not (this_.IsTransferred = @p4)) and this_.CruiseId = @p5) and (this_.StartDate <= @p6 and this_.EndDate > @p7)) ]
+Positional parameters:  #0>Pending #1>8/18/2017 4:32:06 PM #2>Approved #3>False #4>True #5>Castle.Proxies.CruiseProxy #6>8/18/2017 12:00:00 AM #7>8/18/2017 12:00:00 AM
+[SQL: SELECT this_.Id as Id192_2_, this_.Deleted as Deleted192_2_, this_.IsApproved as IsApproved192_2_, this_.IsEarlyBird as IsEarlyB4_192_2_, this_.Special as Special192_2_, this_.CreatedDate as CreatedD6_192_2_, this_.Deadline as Deadline192_2_, this_.ModifiedDate as Modified8_192_2_, this_.StartDate as StartDate192_2_, this_.EndDate as EndDate192_2_, this_.Amended as Amended192_2_, this_.Status as Status192_2_, this_.AccountingStatus as Account13_192_2_, this_.AgencyCode as AgencyCode192_2_, this_.TripOption as TripOption192_2_, this_.Total as Total192_2_, this_.TransferCost as Transfe17_192_2_, this_.IsTransferred as IsTrans18_192_2_, this_.Paid as Paid192_2_, this_.Note as Note192_2_, this_.PickupAddress as PickupA21_192_2_, this_.DropoffAddress as Dropoff22_192_2_, this_.SpecialRequest as Special23_192_2_, this_.CurrencyRate as Currenc24_192_2_, this_.PaidBase as PaidBase192_2_, this_.IsPaid as IsPaid192_2_, this_.IsPaymentNeeded as IsPayme27_192_2_, this_.IsCharter as IsCharter192_2_, this_.TransferAdult as Transfe29_192_2_, this_.TransferChildren as Transfe30_192_2_, this_.TransferBaby as Transfe31_192_2_, this_.Invoice as Invoice192_2_, this_.CancelPay as CancelPay192_2_, this_.GuideOnboard as GuideOn34_192_2_, this_.Guide as Guide192_2_, this_.Driver as Driver192_2_, this_.PaidDate as PaidDate192_2_, this_.LockDate as LockDate192_2_, this_.VoucherCode as Voucher39_192_2_, this_.Inspection as Inspection192_2_, this_.CutOffDays as CutOffDays192_2_, this_.IsTotalUsd as IsTotalUsd192_2_, this_.Commission as Commission192_2_, this_.IsCommissionUsd as IsCommi44_192_2_, this_.CancelledReason as Cancell45_192_2_, this_.[Group] as Group46_192_2_, this_.CreatedBy as CreatedBy192_2_, this_.ModifiedBy as ModifiedBy192_2_, this_.ConfirmedBy as Confirm49_192_2_, this_.PartnerId as PartnerId192_2_, this_.SaleId as SaleId192_2_, this_.BookerId as BookerId192_2_, this_.LockBy as LockBy192_2_, this_.TripId as TripId192_2_, this_.BatchId as BatchId192_2_, this_.CruiseId as CruiseId192_2_, this_.AgencyId as AgencyId192_2_, this_.TransferTo as TransferTo192_2_, this_.LockedId as LockedId192_2_, agency1_.Id as Id156_0_, agency1_.Name as Name156_0_, agency1_.Phone as Phone156_0_, agency1_.Address as Address156_0_, agency1_.Fax as Fax156_0_, agency1_.TaxCode as TaxCode156_0_, agency1_.Email as Email156_0_, agency1_.ContractStatus as Contract8_156_0_, agency1_.Description as Descript9_156_0_, agency1_.Contract as Contract156_0_, agency1_.Accountant as Accountant156_0_, agency1_.PaymentPeriod as Payment12_156_0_, agency1_.CreatedDate as Created13_156_0_, agency1_.ModifiedDate as Modifie14_156_0_, agency1_.SaleStart as SaleStart156_0_, agency1_.Deleted as Deleted156_0_, agency1_.RoleId as RoleId156_0_, agency1_.SaleId as SaleId156_0_, agency1_.LocationId as LocationId156_0_, agency1_.CreatedBy as CreatedBy156_0_, agency1_.ModifiedBy as ModifiedBy156_0_, bookingsal2_.Id as Id184_1_, bookingsal2_.SaleId as SaleId184_1_ FROM os_Booking this_ left outer join os_Agency agency1_ on this_.AgencyId=agency1_.Id inner join v_BookingSale bookingsal2_ on this_.Id=bookingsal2_.Id WHERE ((((((this_.Status = @p0 and this_.Deadline >= @p1) or this_.Status = @p2) and this_.Deleted = @p3) and not (this_.IsTransferred = @p4)) and this_.CruiseId = @p5) and (this_.StartDate <= @p6 and this_.EndDate > @p7))] ---> System.Data.SqlClient.SqlException: Invalid column name 'Group'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List()
+   at Portal.Modules.OrientalSails.DataAccess.SailsDao.BookingSearch(ICriterion criterion, String customer, Int32 blocked, Order order)
+   at Castle.Proxies.Invocations.ISailsDao_BookingSearch.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Facilities.AutoTx.TransactionInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.ISailsDaoProxy.BookingSearch(ICriterion criterion, String customer, Int32 blocked, Order order)
+   at Portal.Modules.OrientalSails.SailsModule.BookingGetByCriterion(ICriterion criterion, Order order, Int32& count, Int32 pageSize, Int32 pageIndex)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-08-18 16:35:15,851 [6] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: ALTER TABLE os_Booking ADD Group int; 
+System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'Group'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-08-18 16:35:15,853 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Incorrect syntax near the keyword 'Group'.
+2017-08-18 16:37:20,686 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: ALTER TABLE os_Booking ADD Group int 
+System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'Group'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-08-18 16:37:20,758 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Incorrect syntax near the keyword 'Group'.
+2017-08-18 17:04:33,860 [5] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Cruise.hbm.xml
+NHibernate.MappingException: Could not compile the mapping document: Portal.Modules.OrientalSails.Domain.Cruise.hbm.xml ---> NHibernate.PropertyNotFoundException: Could not find a getter for property 'CostTypes' in class 'Portal.Modules.OrientalSails.Domain.Cruise'
+   at NHibernate.Properties.BasicPropertyAccessor.GetGetter(Type type, String propertyName)
+   at NHibernate.Util.ReflectHelper.GetGetter(Type theClass, String propertyName, String propertyAccessorName)
+   at NHibernate.Util.ReflectHelper.ReflectedPropertyClass(Type theClass, String name, String access)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.GetPropertyType(Type containingType, String propertyName, String propertyAccess)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.BindCollection(ICollectionPropertiesMapping collectionMapping, Collection model, String className, String path, Type containingType, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.CreateBag(HbmBag bagMapping, String prefix, String path, PersistentClass owner, Type containingType, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.CollectionBinder.Create(ICollectionPropertiesMapping collectionMapping, String className, String propertyFullPath, PersistentClass owner, Type containingType, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.PropertiesBinder.Bind(IEnumerable`1 properties, Table table, IDictionary`2 inheritedMetas, Action`1 modifier, Action`1 addToModelAction)
+   at NHibernate.Cfg.XmlHbmBinding.PropertiesBinder.Bind(IEnumerable`1 properties, IDictionary`2 inheritedMetas, Action`1 modifier)
+   at NHibernate.Cfg.XmlHbmBinding.PropertiesBinder.Bind(IEnumerable`1 properties, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   at NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   --- End of inner exception stack trace ---
+2017-08-18 17:14:51,382 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptBookingList_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-08-18 17:15:00,328 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptBookingList_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-08-18 17:16:18,241 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptBookingList_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-08-18 17:17:47,966 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.rptBookingList_ItemDataBound(Object sender, RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)

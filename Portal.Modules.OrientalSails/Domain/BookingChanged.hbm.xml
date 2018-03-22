@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="BookingChanged" table="os_BookingChanged" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Parameter"/>
+    <property name="Action" type="BookingActionClass"/>
+
+    <many-to-one name="Track" column="TrackId" class="BookingTrack" cascade="save-update"/>
+  </class>
+</hibernate-mapping>

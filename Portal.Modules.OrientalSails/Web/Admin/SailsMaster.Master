@@ -1,0 +1,436 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SailsMaster.Master.cs"
+    Inherits="Portal.Modules.OrientalSails.Web.Admin.SailsMaster" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register TagPrefix="cc1" Namespace="CMS.ServerControls" Assembly="CMS.ServerControls" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Import Namespace="Org.BouncyCastle.Ocsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/admin/css/style.css" />
+    <link rel="shortcut icon" href="/favicon.gif" />
+    <style type="text/css">
+        button, tr, td {
+            behavior: url('/IEFixes.htc');
+        }
+    </style>
+    <script type="text/javascript">
+        function getElementsByClassName(classname, node) {
+            if (!node) node = document.getElementsByTagName("body")[0];
+            else node = document.getElementById(node);
+            var a = [];
+            var re = new RegExp('\\b' + classname + '\\b');
+            var els = node.getElementsByTagName("*");
+            for (var i = 0, j = els.length; i < j; i++)
+                if (re.test(els[i].className)) a.push(els[i]);
+            return a;
+        }
+
+        function box1hover(element) {
+            this.className = "box1_hover";
+        }
+
+        function box1out(element) {
+            this.className = "box1";
+        }
+
+        function box2hover(element) {
+            this.className = "box2_hover";
+        }
+
+        function box2out(element) {
+            this.className = "box2";
+        }
+
+        function setEvent() {
+            a = getElementsByClassName("box1", "side_bar");
+            for (var i = 0, j = a.length; i < j; i++) {
+                a[i].onmouseover = box1hover;
+                a[i].onmouseout = box1out;
+            }
+            a = getElementsByClassName("box2", null);
+            for (var i = 0, j = a.length; i < j; i++) {
+                a[i].onmouseover = box2hover;
+                a[i].onmouseout = box2out;
+            }
+        }
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="/admin/css/colorbox.css"></link>
+    <script src="/scripts/colorbox/v1.6.4/jquery.colorbox-min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var top_of_window = $(window).scrollTop();
+                if (top_of_window > 0) {
+                    $("#birthday").fadeOut("slow");
+                    $("#pendingpanel").fadeOut("slow");
+                } else if (top_of_window == 0) {
+                    $("#birthday").fadeIn("slow");
+                    $("#pendingpanel").fadeIn("slow");
+                }
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="/Admin/Css/Admin.css" />
+</head>
+<body onload="setEvent();">
+    <form id="form1" runat="server" enctype="multipart/form-data">
+        <asp:ScriptManager ID="CommonScriptManager" runat="server" AsyncPostBackTimeout="120">
+        </asp:ScriptManager>
+        <!-- BEGIN:Update process -->
+        <ajaxToolkit:AlwaysVisibleControlExtender ID="ace" runat="server" TargetControlID="updateProcessAdmin"
+            VerticalSide="Middle" HorizontalSide="Center" ScrollEffectDuration=".1" />
+        <asp:UpdateProgress ID="updateProcessAdmin" runat="server">
+            <ProgressTemplate>
+                <img src="/Images/loading.gif" alt="loading" />
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+        <% if (AgencyContactBirthdayList.Count > 0)
+           { %>
+        <div style="position: fixed; right: 0px; top: 74px; border: 2px solid #abc3d7; visibility: visible; width: 229px; z-index: 999"
+            class="hover_content" id="birthday">
+            <span style="font-weight: bold; cursor: pointer; margin-bottom: 4px" onclick="toggleAgencyContact()">Birdthday Reminder
+            <%= DateTime.Today.ToString("dd/MM/yyyy") %></span>
+            <script type="text/javascript">
+                function toggleAgencyContact() {
+                    if ($("[title = AgencyContact]").css("display") == "none") {
+                        $("[title = AgencyContact]").css("display", "block");
+                    } else {
+                        $("[title = AgencyContact]").css("display", "none");
+                    }
+                }
+
+                $(document).ready(function () {
+                    $(window).scroll(function () {
+                        var top_of_window = $(window).scrollTop();
+                        if (top_of_window > 0) {
+                            $("#birthday").fadeOut("slow");
+                        } else if (top_of_window == 0) {
+                            $("#birthday").fadeIn("slow");
+                        }
+                    });
+                });
+            </script>
+            <asp:Repeater runat="server" ID="rptBirthday">
+                <ItemTemplate>
+                    <div title="AgencyContact" style="display: block; margin-top: 6px">
+                        <a href='AgencyEdit.aspx?NodeId=<%=Request.QueryString["NodeId"]%>&SectionId=<%=Request.QueryString["SectionId"] %>&AgencyId=<%#Eval("Agency.Id") %>'>
+                            <%#Eval("Name")%>
+                        -
+                        <%#Eval("Agency.Name")%>
+                        </a>
+                    </div>
+                </ItemTemplate>
+            </asp:Repeater>
+        </div>
+        <% } %>
+        <div style="font-size: 8pt; position: fixed; top: 0px; right: 0px; visibility: visible; width: 229px; height: 59px; border: 2px solid #abc3d7; z-index: 999"
+            class="hover_content"
+            id="pendingpanel">
+            You have <strong>(<asp:Literal runat="server" ID="litMyPendings"></asp:Literal>)</strong>
+            pendings <strong style="color: red;">(<asp:Literal runat="server" ID="litTodayPending"></asp:Literal>)</strong>
+            need confirm in 36h<br />
+            <asp:Literal runat="server" ID="litAdministrator"></asp:Literal>
+            <cc1:Mirror runat="server" ID="mirrorMyPending" ControlIDToMirror="hplOrders" />
+            <br />
+            <asp:HyperLink runat="server" ID="hplAllPending" Text="All pending"></asp:HyperLink>
+        </div>
+        <!-- END:Update process -->
+        <div id="header">
+            <div id="headertitle">
+                <asp:Label runat="server" ID="labelAdminHeader" Text="Oriental Sails Management Office"></asp:Label>
+            </div>
+        </div>
+        <div id="topmenu">
+            <table cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <asp:HyperLink ID="hyperLinkHomePage" runat="server"></asp:HyperLink>
+                    </td>
+                    <td id="tabBooking" runat="server">
+                        <asp:HyperLink ID="hplTabBooking" runat="server">Quản lý booking</asp:HyperLink>
+                    </td>
+                    <td id="tabReports" runat="server">
+                        <asp:HyperLink ID="hplTabReports" runat="server">Báo cáo</asp:HyperLink>
+                    </td>
+                    <td id="tabConfiguration" runat="server">
+                        <asp:HyperLink ID="hplTabConfiguration" runat="server">Quản lý đối tác</asp:HyperLink>
+                    </td>
+                    <td id="tabTrips" runat="server">
+                        <asp:HyperLink ID="hplTabTrips" runat="server">Quản lý hành trình</asp:HyperLink>
+                    </td>
+                    <td id="tabRoom" runat="server">
+                        <asp:HyperLink ID="hplTabRoom" runat="server">Quản lý phòng</asp:HyperLink>
+                    </td>
+                    <td id="tabCost" runat="server">
+                        <asp:HyperLink ID="hplTabCost" runat="server">Quản lý chi phí</asp:HyperLink>
+                    </td>
+                    <td id="tabCustomers" runat="server" visible="false">
+                        <asp:HyperLink ID="hplTabCustomers" runat="server">Quản lý khách hàng</asp:HyperLink>
+                    </td>
+                    <td id="tabSetting" runat="server">
+                        <asp:HyperLink ID="hplTabSetting" runat="server">Cấu hình hệ thống</asp:HyperLink>
+                    </td>
+                    <td id="tabComment" runat="server" visible="false">
+                        <asp:HyperLink ID="hplTabComment" runat="server">Quản lý comment</asp:HyperLink>
+                    </td>
+                    <td id="tabFeedback" runat="server">
+                        <asp:HyperLink ID="HyperLink1" runat="server">Feedback</asp:HyperLink>
+                    </td>
+                    <td id="tabDocument" runat="server">
+                        <asp:HyperLink runat="server" ID="hplDocumentPanel">Documents</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="hplUserPanel" runat="server">User panel</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="hplMedia" runat="server">Media</asp:HyperLink>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <ajaxToolkit:HoverMenuExtender ID="hmeBooking" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="BookingMenu" PopupPosition="Bottom" TargetControlID="tabBooking"
+            PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="BookingMenu" runat="server">
+            <asp:Panel ID="pAddBooking" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplAddBooking" runat="server">Thêm booking</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pAddSerialBookings" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplAddSerialBookings" runat="server">Add Serial Bookings</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pBookingList" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hyperLinkBookingList" runat="server">Danh sách booking</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pOrders" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplOrders" runat="server">Xử lý đặt phòng</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pBookingDate" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplBookingDate" runat="server">Booking theo ngày</asp:HyperLink>
+            </asp:Panel>
+            <!--<asp:Panel ID="pRevenueChanged" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplRevenueChanged" runat="server">Thay đổi về doanh thu</asp:HyperLink>
+            </asp:Panel>-->
+            <asp:Panel ID="pBookingReport" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplBookingPeriod" runat="server">Booking theo khoảng thời gian</asp:HyperLink>
+            </asp:Panel>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeReport" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="ReportMenu" PopupPosition="Bottom" TargetControlID="tabReports"
+            PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="ReportMenu" runat="server">
+            <asp:Panel ID="pIncomeReport" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplIncomeReport" runat="server">Doanh thu</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pReceivable" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplIncomeOwn" runat="server">Khoản phải thu</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pExpenseReport" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplExpenseReport" runat="server">Chi phí</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pHaiPhongExpenseReport" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplHaiPhongExpenseReport" runat="server">Hai Phong Expense Report</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pPayable" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplExpenseDebt" runat="server">Khoản phải trả</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pBalance" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplBalance" runat="server">Bảng cân đối</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pSummary" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplReceiablePayable" runat="server">Receivable/Payable summary</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pInspection" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplInspection" runat="server">Inspection Report</asp:HyperLink>
+            </asp:Panel>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeConfiguration" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="ConfigMenu" PopupPosition="Bottom" TargetControlID="tabConfiguration"
+            PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="ConfigMenu" runat="server">
+            <asp:Panel ID="pAgencyEdit" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplAgencyEdit" runat="server">Đối tác mới</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pVoucherEdit" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplVoucherEdit" runat="server">Create voucher batch</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pVoucherList" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplVoucherList" runat="server">List voucher batch</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pVoucherTemplates" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplVoucherTemplates" runat="server">Voucher templates</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pAgencyList" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplAgencyList" runat="server">Danh sách đối tác</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pAgencyPolicies" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hyperLinkAgencyList" runat="server">Danh sách vai trò</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pAgencyViewMeetings" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplViewMeetings" runat="server">View Meetings</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pAgencyLocation" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplAgencyLocation" runat="server">Locations</asp:HyperLink>
+            </asp:Panel>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeTrips" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="TripMenu" PopupPosition="Bottom" TargetControlID="tabTrips" PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="TripMenu" runat="server">
+            <asp:Panel ID="pTripEdit" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hyperLinkTripEdit" runat="server">Thêm trip mới</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pTripList" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hyperLinkTripList" runat="server">Danh sách Trip</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pCruiseEdit" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplCruiseEdit" runat="server">Thêm tàu mới</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pCruiseList" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplCruiseList" runat="server">Danh sách tàu</asp:HyperLink>
+            </asp:Panel>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeRoom" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="RoomMenu" PopupPosition="Bottom" TargetControlID="tabRoom" PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="RoomMenu" runat="server">
+            <!--<div class="box2">
+                <a href="/Modules/Sails/Images/roomplan.gif">Room plan</a>
+            </div>-->
+            <asp:Panel ID="pRoomClass" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hyperLinkRoomClass" runat="server">Loại phòng</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pRoomType" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hyperLinkRoomType" runat="server">Kiểu phòng</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pRoomEdit" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hyperLinkRoomEdit" runat="server">Thêm phòng mới</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pRoomList" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hyperLinkRoomList" runat="server">Danh sách phòng</asp:HyperLink>
+            </asp:Panel>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeCost" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="CostMenu" PopupPosition="Bottom" TargetControlID="tabCost" PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="CostMenu" runat="server">
+            <asp:Panel ID="pExtraService" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hyperLinkExtraOption" runat="server">Dịch vụ gia tăng</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pCostingConfig" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplCosting" runat="server">Bảng chi phí tính theo số khách</asp:HyperLink>
+            </asp:Panel>
+            <!--<asp:Panel ID="pDailyAutoCost" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplDailyCost" runat="server">Bảng chi phí tính theo chuyến</asp:HyperLink>
+            </asp:Panel>-->
+            <asp:Panel ID="pDailyManualCost" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplExpenseDate" runat="server">Chi phí nhập theo ngày</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pExpensePeriod" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplExpensePeriod" runat="server">Chi phí nhập theo tháng/năm</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pHaiPhong" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplHaiPhong" runat="server">Chi phí thuê tàu Hải Phong</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pCostTypes" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplCostTypes" runat="server">Các loại chi phí</asp:HyperLink>
+            </asp:Panel>
+            <asp:Panel ID="pUSDRate" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplUSDRate" runat="server">Tỷ giá USD/VND</asp:HyperLink>
+            </asp:Panel>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeCustomer" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="CustomerMenu" PopupPosition="Bottom" TargetControlID="tabCustomers"
+            PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="CustomerMenu" runat="server">
+            <div class="box2">
+                <asp:HyperLink ID="hplCustomerList" runat="server">Danh sách khách hàng</asp:HyperLink>
+            </div>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeSettings" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="SettingMenu" PopupPosition="Bottom" TargetControlID="tabSetting"
+            PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="SettingMenu" runat="server">
+            <!--<div class="box2">
+                <asp:HyperLink ID="hplPriceSettings" runat="server">Cấu hình chung</asp:HyperLink>
+            </div>-->
+            <div class="box2">
+                <asp:HyperLink ID="hplPermissions" runat="server">Permission</asp:HyperLink>
+            </div>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeComment" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="panelComment" PopupPosition="Bottom" TargetControlID="tabComment"
+            PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="panelComment" runat="server">
+            <div class="box2">
+                <asp:HyperLink ID="hplComments" runat="server">Quản lý comment</asp:HyperLink>
+            </div>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeFeedback" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="panelFeedback" PopupPosition="Bottom" TargetControlID="tabFeedback"
+            PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="panelFeedback" runat="server">
+            <div class="box2">
+                <asp:HyperLink ID="hplAddQuestion" runat="server">Add new group</asp:HyperLink>
+            </div>
+            <div class="box2">
+                <asp:HyperLink ID="hplQuestionList" runat="server">Overview</asp:HyperLink>
+            </div>
+            <div class="box2">
+                <asp:HyperLink ID="hplFeedbackReport" runat="server">Report</asp:HyperLink>
+            </div>
+            <div class="box2">
+                <asp:HyperLink ID="hplFeedbackResponse" runat="server">Feedback response</asp:HyperLink>
+            </div>
+        </asp:Panel>
+        <ajaxToolkit:HoverMenuExtender ID="hmeDocuments" runat="Server" HoverCssClass="popupHover"
+            PopupControlID="panelDocuments" PopupPosition="Bottom" TargetControlID="tabDocument"
+            PopDelay="100" />
+        <asp:Panel CssClass="popupMenu bitcorp" ID="panelDocuments" runat="server">
+            <div class="box2">
+                <asp:HyperLink ID="hplViewDocument" runat="server">View Documents</asp:HyperLink>
+            </div>
+            <asp:Panel ID="pDocumentManage" runat="server" CssClass="box2">
+                <asp:HyperLink ID="hplDocumentManage" runat="server">Document manage</asp:HyperLink>
+            </asp:Panel>
+        </asp:Panel>
+        <div id="subheader">
+            [Node:
+        <asp:Label ID="lblNode" runat="server"></asp:Label>] [Section:
+        <asp:Label ID="lblSection" runat="server"></asp:Label>] [<asp:HyperLink ID="hplBack"
+            runat="server" NavigateUrl="~/">Return to site</asp:HyperLink>]
+        <asp:LinkButton runat="server" ID="lbtLogOut" OnClick="lbtLogOut_Click">[Log out]</asp:LinkButton>
+        </div>
+        <div class="bitcorp">
+            <div class="container">
+                <div class="main_content" style="margin-left: 0px;">
+                    <div id="right_content">
+                        <asp:UpdatePanel ID="updatePanelMessage" runat="server" UpdateMode="Always">
+                            <ContentTemplate>
+                                <div id="divMessage" runat="server" visible="false">
+                                    <asp:Label ID="labelMessage" runat="server"></asp:Label>
+                                </div>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                        <div class="contentplaceholder">
+                            <asp:ContentPlaceHolder ID="AdminContent" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <%--<span style="float: right; margin-top: 30px;">POWERED BY B.I.T </span>
+                <img alt="tree" src="/Admin/AdminModuleImages/tree.gif" />--%>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,163 @@
+2017-07-19 15:06:32,859 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:09:16,356 [10] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT this_.HaiPhongContractId as HaiPhong1_147_0_, this_.Name as Name147_0_, this_.ApplyFrom as ApplyFrom147_0_ FROM HaiPhongContract this_ WHERE this_.HaiPhongContractId >= @p0
+System.Data.SqlClient.SqlException: Invalid object name 'HaiPhongContract'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-07-19 15:09:16,419 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'HaiPhongContract'.
+2017-07-19 15:09:16,422 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'HaiPhongContract'.
+2017-07-19 15:09:16,423 [10] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'HaiPhongContract'.
+2017-07-19 15:13:08,481 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:13:33,704 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:13:59,139 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:14:14,373 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:14:30,930 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:14:46,340 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:14:52,894 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:15:08,468 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:16:03,042 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:17:20,129 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:18:08,141 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:18:46,159 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:18:58,053 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:23:23,214 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:23:26,900 [8] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:23:34,827 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:23:52,772 [7] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.Exception: Hai phong cruise price table is out of valid
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:47:53,681 [6] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Domain.SailExpense.CalculateCruiseExpense(IList costTypes, IDictionary`2 serviceTotal, Int32 adultHaiPhong, Int32 childHaiPhong, CruiseExpenseTable cruiseTable)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, GetCurrentCruiseExpenseTable getCruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)
+2017-07-19 15:50:16,658 [5] ERROR Portal.Modules.OrientalSails.Web.Admin.BookingReport [(null)] <(null)> - Error when Page_load in BookingList
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Portal.Modules.OrientalSails.Domain.SailExpense.CalculateCruiseExpense(IList costTypes, IDictionary`2 serviceTotal, Int32 adultHaiPhong, Int32 childHaiPhong, CruiseExpenseTable cruiseTable)
+   at Portal.Modules.OrientalSails.Domain.SailExpense.Calculate(IList costTypes, GetCurrentCostTable costTable, GetCurrentDailyCostTable dailyTable, GetCurrentCruiseExpenseTable getCruiseTable, Cruise activecruise, IList bookings, SailsModule module, Boolean partnership)
+   at Portal.Modules.OrientalSails.Web.Util.ExpenseCalculator.ExpenseCalculate(RepeaterItemEventArgs e, SailExpense expenses)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.LoadService(DateTime date)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetData(IList& list, Boolean loadService)
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.GetDataSource()
+   at Portal.Modules.OrientalSails.Web.Admin.BookingReport.Page_Load(Object sender, EventArgs e)

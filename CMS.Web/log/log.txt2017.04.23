@@ -1,0 +1,72 @@
+2017-04-23 20:21:35,191 [5] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_1_, cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_443_0_, cruisehaip0_.CruiseId as CruiseId443_0_, cruisehaip0_.HaiPhongExpenseTypeId as HaiPhong3_443_0_ FROM CruiseHaiPhongExpenseType cruisehaip0_ WHERE cruisehaip0_.CruiseHaiPhongExpenseTypeId=@p0
+System.Data.SqlClient.SqlException: Invalid object name 'CruiseHaiPhongExpenseType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-04-23 20:21:35,503 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-23 20:21:35,506 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-23 20:21:44,394 [5] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_1_, cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_443_0_, cruisehaip0_.CruiseId as CruiseId443_0_, cruisehaip0_.HaiPhongExpenseTypeId as HaiPhong3_443_0_ FROM CruiseHaiPhongExpenseType cruisehaip0_ WHERE cruisehaip0_.CruiseHaiPhongExpenseTypeId=@p0
+System.Data.SqlClient.SqlException: Invalid object name 'CruiseHaiPhongExpenseType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-04-23 20:21:44,395 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-23 20:21:44,396 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-23 20:21:48,474 [5] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_1_, cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_443_0_, cruisehaip0_.CruiseId as CruiseId443_0_, cruisehaip0_.HaiPhongExpenseTypeId as HaiPhong3_443_0_ FROM CruiseHaiPhongExpenseType cruisehaip0_ WHERE cruisehaip0_.CruiseHaiPhongExpenseTypeId=@p0
+System.Data.SqlClient.SqlException: Invalid object name 'CruiseHaiPhongExpenseType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-04-23 20:21:48,475 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-23 20:21:48,476 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-23 20:21:52,008 [5] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_1_, cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_443_0_, cruisehaip0_.CruiseId as CruiseId443_0_, cruisehaip0_.HaiPhongExpenseTypeId as HaiPhong3_443_0_ FROM CruiseHaiPhongExpenseType cruisehaip0_ WHERE cruisehaip0_.CruiseHaiPhongExpenseTypeId=@p0
+System.Data.SqlClient.SqlException: Invalid object name 'CruiseHaiPhongExpenseType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-04-23 20:21:52,010 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-23 20:21:52,010 [5] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.

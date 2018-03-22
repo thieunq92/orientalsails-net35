@@ -1,0 +1,1312 @@
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\log4net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Portal.ReportEngine.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\System.Data.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\System.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\System.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\System.Web.Extensions.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\System.Xml.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Portal.ReportEngine.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Newtonsoft.Json.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\log4net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Portal.ReportEngine.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\System.Data.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\System.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\System.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\System.Xml.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Portal.ReportEngine.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Quartz.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Common.Logging.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Common.Logging.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Common.Logging.Core.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Common.Logging.Core.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Quartz.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Web\bin\Quartz.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.Web.dll.config
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Portal.ReportEngine.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Quartz.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\System.Data.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\System.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\System.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\System.Xml.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Portal.ReportEngine.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Common.Logging.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Common.Logging.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Common.Logging.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Common.Logging.Core.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Quartz.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Quartz.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.Web.dll.config
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Portal.ReportEngine.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Quartz.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\System.Data.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\System.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\System.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\System.Xml.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Portal.ReportEngine.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Common.Logging.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Common.Logging.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Common.Logging.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Common.Logging.Core.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Quartz.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Quartz.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.Web.dll.config
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Portal.ReportEngine.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Quartz.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\System.Data.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\System.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\System.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\System.Xml.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Portal.ReportEngine.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Common.Logging.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Common.Logging.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Common.Logging.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Common.Logging.Core.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Quartz.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Quartz.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\NHibernate.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\log4net.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\antlr.runtime.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Antlr3.Runtime.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\Antlr3.Utility.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\StringTemplate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Web\bin\NHibernate.ByteCode.Castle.xml
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\CMS.Web.dll.config
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Antlr3.Runtime.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Castle.Facilities.AutoTx.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\log4net.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\NHibernate.Caches.SysCache.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Quartz.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\System.Data.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\System.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\System.Web.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\System.Xml.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\CMS.Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\CMS.Web.dll.config
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Antlr3.Runtime.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Castle.Facilities.AutoTx.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\log4net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\NHibernate.Caches.SysCache.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Quartz.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\System.Data.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\System.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\System.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\System.Xml.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Install.Install.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Install.Sorry.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Install.Upgrade.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Rss.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\CMS.Web.dll.config
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Castle.Facilities.AutoTx.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\NHibernate.Caches.SysCache.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Quartz.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\System.Data.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\System.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\System.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\System.Xml.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\Remotion.Data.Linq.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Web\bin\log4net.xml
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\CMS.Web.dll.config
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Castle.Facilities.AutoTx.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\log4net.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\NHibernate.Caches.SysCache.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Quartz.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\System.Data.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\System.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\System.Web.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\System.Xml.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Remotion.Data.Linq.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\log4net.xml
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\CMS.Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin._Default.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Modules.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Roles.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Sections.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Templates.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Users.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Register.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Error.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Global.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Login.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Profile.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Web.dll.config
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Facilities.AutoTx.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\NHibernate.Caches.SysCache.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Quartz.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Antlr3.Runtime.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Remotion.Data.Linq.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Config\hibernate.cfg.xml
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Web.dll.config
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Web.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Web.pdb
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\it\CMS.Web.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\nl\CMS.Web.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\sv\CMS.Web.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\AjaxControlToolkit.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Core.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Facilities.AutoTx.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Windsor.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Core.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.ServerControls.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\GemBox.Spreadsheet.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Iesi.Collections.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\itextsharp.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\log4net.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\NHibernate.ByteCode.Castle.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\NHibernate.Caches.SysCache.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\NHibernate.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Quartz.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Services.Transaction.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Facilities.NHibernateIntegration.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Lucene.Net.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Antlr3.Runtime.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Remotion.Data.Linq.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Common.Logging.Core.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Common.Logging.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Core.pdb
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin._Default.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Modules.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Roles.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Sections.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Templates.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Users.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Register.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Error.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Global.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Login.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Profile.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\it\CMS.Web.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\nl\CMS.Web.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\sv\CMS.Web.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Config\hibernate.cfg.xml
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Web.dll.config
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\AjaxControlToolkit.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Facilities.AutoTx.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Windsor.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.ServerControls.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\GemBox.Spreadsheet.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Iesi.Collections.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\itextsharp.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\log4net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\NHibernate.ByteCode.Castle.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\NHibernate.Caches.SysCache.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\NHibernate.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Quartz.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Services.Transaction.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Castle.Facilities.NHibernateIntegration.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Lucene.Net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Antlr3.Runtime.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Remotion.Data.Linq.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Common.Logging.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\Common.Logging.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\bin\CMS.Core.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin._Default.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Modules.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Roles.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Sections.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Templates.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Users.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Register.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Error.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Global.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Admin.Login.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Profile.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\CMS.Web\obj\Debug\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Config\hibernate.cfg.xml
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\CMS.Web.dll.config
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\AjaxControlToolkit.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Castle.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Castle.Facilities.AutoTx.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Castle.Windsor.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\CMS.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\CMS.ServerControls.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\GemBox.Spreadsheet.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Iesi.Collections.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\itextsharp.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\log4net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\NHibernate.ByteCode.Castle.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\NHibernate.Caches.SysCache.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\NHibernate.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Quartz.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Castle.Services.Transaction.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Castle.Facilities.NHibernateIntegration.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Lucene.Net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Antlr3.Runtime.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Remotion.Data.Linq.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Common.Logging.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\Common.Logging.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin._Default.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Modules.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Roles.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Sections.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Templates.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Users.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.Register.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Error.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Global.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Admin.Login.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Profile.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\bin\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Web\obj\Debug\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Config\hibernate.cfg.xml
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\CMS.Web.dll.config
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\AjaxControlToolkit.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Castle.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Castle.Facilities.AutoTx.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Castle.Windsor.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\CMS.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\CMS.ServerControls.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\GemBox.Spreadsheet.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Iesi.Collections.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\itextsharp.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\log4net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\NHibernate.ByteCode.Castle.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\NHibernate.Caches.SysCache.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\NHibernate.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Quartz.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Castle.Services.Transaction.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Castle.Facilities.NHibernateIntegration.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Lucene.Net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Antlr3.Runtime.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Remotion.Data.Linq.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Common.Logging.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\bin\Common.Logging.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.ConnectionEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.AdminTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Footer.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Header.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Navigation.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Controls.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin._Default.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.MenuEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Modules.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.NodeEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.RebuildIndex.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.RoleEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Roles.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachNode.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.SectionAttachTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.SectionEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Sections.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.SiteAliasEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.SiteEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.TemplatePreview.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Templates.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.TemplateSection.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.UserEdit.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Users.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.EditProfile.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminHeader.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.ModuleAdminTemplate.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.Navigation.HierarchicalMenu.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelTwo.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Templates.Controls.NavigationLevelZeroOne.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.Register.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.ResetPassword.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.ViewProfile.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Error.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Global.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Admin.Login.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Profile.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.it.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.nl.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.Controls.Resources.Strings.sv.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.csproj.GenerateResource.Cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\CMS.Web\obj\Debug\CMS.Web.pdb

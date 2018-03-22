@@ -1,0 +1,89 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{B8ADE850-4CAB-495D-952F-E5119E821CB1}"
+	ProjectSection(SolutionItems) = preProject
+		lib\AjaxControlToolkit.dll = lib\AjaxControlToolkit.dll
+		lib\Aspose.Words.dll = lib\Aspose.Words.dll
+		lib\Castle.Core.dll = lib\Castle.Core.dll
+		lib\Castle.DynamicProxy.dll = lib\Castle.DynamicProxy.dll
+		lib\Castle.DynamicProxy2.dll = lib\Castle.DynamicProxy2.dll
+		lib\Castle.Facilities.AutomaticTransactionManagement.dll = lib\Castle.Facilities.AutomaticTransactionManagement.dll
+		lib\Castle.Facilities.NHibernateIntegration.dll = lib\Castle.Facilities.NHibernateIntegration.dll
+		lib\Castle.license.txt = lib\Castle.license.txt
+		lib\Castle.MicroKernel.dll = lib\Castle.MicroKernel.dll
+		lib\Castle.Services.Transaction.dll = lib\Castle.Services.Transaction.dll
+		lib\Castle.Windsor.dll = lib\Castle.Windsor.dll
+		lib\CMS.Core.dll = lib\CMS.Core.dll
+		lib\CMS.Core.pdb = lib\CMS.Core.pdb
+		lib\CMS.Modules.dll = lib\CMS.Modules.dll
+		lib\CMS.Modules.Gallery.dll = lib\CMS.Modules.Gallery.dll
+		lib\CMS.Modules.TourManagement.dll = lib\CMS.Modules.TourManagement.dll
+		lib\CMS.ServerControls.dll = lib\CMS.ServerControls.dll
+		lib\CMS.ServerControls.pdb = lib\CMS.ServerControls.pdb
+		lib\FredCK.FCKeditorV2.dll = lib\FredCK.FCKeditorV2.dll
+		lib\GemBox.Spreadsheet.dll = lib\GemBox.Spreadsheet.dll
+		lib\GemBox.Spreadsheet.Xml = lib\GemBox.Spreadsheet.Xml
+		lib\HibernatingRhinos.Profiler.Appender.dll = lib\HibernatingRhinos.Profiler.Appender.dll
+		lib\Iesi.Collections.dll = lib\Iesi.Collections.dll
+		lib\Iesi.Collections.license.txt = lib\Iesi.Collections.license.txt
+		lib\itextsharp.dll = lib\itextsharp.dll
+		lib\log4net.dll = lib\log4net.dll
+		lib\log4net.license.txt = lib\log4net.license.txt
+		lib\Lucene.Net.dll = lib\Lucene.Net.dll
+		lib\MetaBuilders.WebControls.dll = lib\MetaBuilders.WebControls.dll
+		lib\Mono.Security.dll = lib\Mono.Security.dll
+		lib\Mono.Security.Protocol.Tls.license = lib\Mono.Security.Protocol.Tls.license
+		lib\MySql.Data.dll = lib\MySql.Data.dll
+		lib\Newtonsoft.Json.dll = lib\Newtonsoft.Json.dll
+		lib\Newtonsoft.Json.pdb = lib\Newtonsoft.Json.pdb
+		lib\Newtonsoft.Json.xml = lib\Newtonsoft.Json.xml
+		lib\NHibernate.Caches.SysCache.dll = lib\NHibernate.Caches.SysCache.dll
+		lib\NHibernate.Caches.SysCache2.dll = lib\NHibernate.Caches.SysCache2.dll
+		lib\NHibernate.dll = lib\NHibernate.dll
+		lib\NHibernate.license.txt = lib\NHibernate.license.txt
+		lib\NHibernateContrib.license.txt = lib\NHibernateContrib.license.txt
+		lib\Npgsql.dll = lib\Npgsql.dll
+		lib\Npgsql.license.txt = lib\Npgsql.license.txt
+		lib\nunit.framework.dll = lib\nunit.framework.dll
+		lib\System.Web.Extensions.Design.dll = lib\System.Web.Extensions.Design.dll
+		lib\System.Web.Extensions.dll = lib\System.Web.Extensions.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.Modules.OrientalSails", "Portal.Modules.OrientalSails\Portal.Modules.OrientalSails.csproj", "{FD7FE756-D7C3-4D99-9814-C52838D8F4DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Web", "CMS.Web\CMS.Web.csproj", "{DD158F08-6E8F-4234-B3F6-A5402C8E34CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Core", "CMS.Core\CMS.Core.csproj", "{723B7D30-6472-4B96-8D09-4F094C96650E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD7FE756-D7C3-4D99-9814-C52838D8F4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7FE756-D7C3-4D99-9814-C52838D8F4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7FE756-D7C3-4D99-9814-C52838D8F4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7FE756-D7C3-4D99-9814-C52838D8F4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD158F08-6E8F-4234-B3F6-A5402C8E34CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD158F08-6E8F-4234-B3F6-A5402C8E34CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD158F08-6E8F-4234-B3F6-A5402C8E34CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD158F08-6E8F-4234-B3F6-A5402C8E34CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723B7D30-6472-4B96-8D09-4F094C96650E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723B7D30-6472-4B96-8D09-4F094C96650E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723B7D30-6472-4B96-8D09-4F094C96650E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723B7D30-6472-4B96-8D09-4F094C96650E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

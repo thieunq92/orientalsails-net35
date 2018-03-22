@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="HaiPhongExpenseTypeHaiPhongExpenseCustomerType" table="HaiPhongExpenseTypeHaiPhongExpenseCustomerType" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="HaiPhongExpenseTypeHaiPhongExpenseCustomerTypeId">
+      <generator class="native" />
+    </id>
+    <property name="OrderNumber"/>
+
+    <many-to-one name = "HaiPhongExpenseCustomerType" column = "HaiPhongExpenseCustomerTypeId" class="HaiPhongExpenseCustomerType"/>
+    <many-to-one name = "HaiPhongExpenseType" column = "HaiPhongExpenseTypeId" class="HaiPhongExpenseType"/>
+
+    <bag name="HaiPhongExpenses" inverse="true" batch-size="10">
+      <key column="HaiPhongExpenseId" />
+      <one-to-many class="HaiPhongExpense" />
+    </bag>
+    <bag name="HaiPhongReduceExpenses" inverse="true" batch-size="10">
+      <key column="HaiPhongReduceExpenseId" />
+      <one-to-many class="HaiPhongReduceExpense" />
+    </bag>
+  </class>
+</hibernate-mapping>

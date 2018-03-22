@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="Cruise" table="os_Cruise" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Name"/>
+    <property name="Description"/>
+    <property name="Image"/>
+    <property name="RoomPlan"/>
+    <property name="Code" column="CodeName"/>
+    <property name="Deleted"/>
+    <property name="ModifiedDate"/>
+    <property name="CreatedDate"/>
+    <property name="CruiseCode"/>
+
+    <many-to-one name="CreatedBy" column="CreatedBy" class="CMS.Core.Domain.User, CMS.Core"/>
+    <many-to-one name="ModifiedBy" column="ModifiedBy" class="CMS.Core.Domain.User, CMS.Core"/>
+
+    <bag name="Trips" inverse="true" table="os_CruiseTrip" cascade="all" batch-size="10">
+      <key column="CruiseId"/>
+      <many-to-many column="TripId"
+         class="SailsTrip"/>
+    </bag>
+    <bag name="Rooms" inverse="true" cascade="all" batch-size="10">
+      <key column="CruiseId"/>
+      <one-to-many class="Room"/>
+    </bag>
+
+    <bag name="CruiseHaiPhongExpenseTypes" inverse="true" batch-size="10">
+      <key column="CruiseHaiPhongExpenseTypeId" />
+      <one-to-many class="CruiseHaiPhongExpenseType" />
+    </bag>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+﻿<p>Dear {tenkhach}.</p>
+<p>On your special day, we just wanted to let you know that we consider ourselves very lucky to have gotten the opportunity to be with you on our boat. Our team is very happy to say:</p>
+<p>&nbsp;</p>
+<p>HAPPY BIRTHDAY TO YOU! HAPPY BIRTHDAY TO YOU!</p>
+<p>&nbsp;</p>
+<p>We wish you strong health, great success and true happy in your life!</p>
+<p>In the coming time, should you, your family, relatives or friends plan holidays to Vietnam, please feel free to let us know<strong>. </strong>We would appreciate to welcome you and yours in the near future!</p>
+<p>Again, we wish you extremely good health and happiness!</p>
+<p>Yours sincerely,</p>
+<p>Oriental Sails team</p>
+<p><img src="http://mo.orientalsails.com/Modules/Sails/Admin/EmailTemplate/brithday.png" alt="" width="2196" height="1734" /></p>
+<p>&nbsp;</p>

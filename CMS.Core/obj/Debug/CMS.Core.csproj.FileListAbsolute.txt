@@ -1,0 +1,89 @@
+D:\Working\Source\ATMBooking\Core\bin\Debug\CMS.Core.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\CMS.Core.pdb
+D:\Working\Source\ATMBooking\Core\bin\Debug\Castle.Core.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\Castle.Facilities.NHibernateIntegration.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\Castle.MicroKernel.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\Castle.Services.Transaction.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\Castle.Windsor.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\log4net.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\Lucene.Net.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\NHibernate.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\Castle.DynamicProxy2.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\Iesi.Collections.dll
+D:\Working\Source\ATMBooking\Core\bin\Debug\Castle.DynamicProxy.dll
+D:\Working\Source\ATMBooking\Core\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\Source\ATMBooking\Core\obj\Debug\CMS.Core.dll
+D:\Working\Source\ATMBooking\Core\obj\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\Castle.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\Castle.Windsor.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\log4net.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\Lucene.Net.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\NHibernate.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\Iesi.Collections.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\bin\Debug\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\obj\Debug\CMS.Core.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\ATMBooking\Core\obj\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\ATMBooking\Core\obj\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\Castle.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\Castle.Windsor.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\log4net.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\Lucene.Net.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\NHibernate.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\Iesi.Collections.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\bin\Debug\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\obj\Debug\CMS.Core.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\obj\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\deluxegrouptours\deluxegrouptours\Core\obj\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\bin\Debug\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\obj\Debug\CMS.Core.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\obj\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\CMS.Core\obj\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\bin\Debug\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\obj\Debug\CMS.Core.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\obj\Debug\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\CMS.Core\obj\Debug\CMS.Core.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\CMS.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\Castle.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\Castle.Facilities.NHibernateIntegration.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\Castle.Services.Transaction.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\Castle.Windsor.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\Common.Logging.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\log4net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\Lucene.Net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\NHibernate.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\Iesi.Collections.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\Antlr3.Runtime.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\bin\Debug\Remotion.Data.Linq.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\obj\Debug\CMS.Core.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\CMS.Core\obj\Debug\CMS.Core.dll

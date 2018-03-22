@@ -1,0 +1,482 @@
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\itextsharp.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\NHibernate.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.CodeAnalysisLog.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.lastcodeanalysissucceeded
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\itextsharp.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\NHibernate.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\System.Data.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\System.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\System.EnterpriseServices.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\System.Web.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\System.Xml.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails-sync\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.config
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\System.Data.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\System.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\System.EnterpriseServices.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\System.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\System.Xml.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.pdb
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.xml
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2015\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.config
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\itextsharp.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\MetaBuilders.WebControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\NHibernate.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\System.Configuration.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\System.Data.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\System.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\System.Drawing.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\System.EnterpriseServices.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\System.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\System.Web.Services.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\System.Xml.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Castle.MicroKernel.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy2.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Castle.DynamicProxy.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.xml
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.config
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\AjaxControlToolkit.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Aspose.Words.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Core.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Facilities.NHibernateIntegration.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Services.Transaction.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Castle.Windsor.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\FredCK.FCKeditorV2.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\GemBox.Spreadsheet.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\itextsharp.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\NHibernate.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Iesi.Collections.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Antlr3.Runtime.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\Remotion.Data.Linq.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.pdb
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\de\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\en\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\es\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\fr\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\bin\vi-VN\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\uplentoinay\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.config
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.Core.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Common.Logging.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Quartz.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Antlr3.Runtime.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Remotion.Data.Linq.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.pdb
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\de\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\en\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\es\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\fr\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\vi-VN\CMS.Modules.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.config
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\bin\log4net.xml
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.config
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\bin\log4net.dll
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\bin\log4net.xml
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.Gallery.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+C:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.Gallery.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+D:\Công việc\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Core.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\bin\nl\CMS.Modules.Gallery.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.config
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\log4net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-.net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\Config\hibernate.cfg.xml
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll.config
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\Portal.Modules.OrientalSails.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\CMS.Core.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\CMS.Modules.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\CMS.Modules.TourManagement.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\CMS.ServerControls.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\CMS.Web.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\log4net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\Newtonsoft.Json.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\Lucene.Net.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\CMS.Modules.Gallery.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\CMS.Web.pdb
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\it\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\nl\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\bin\sv\CMS.Web.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Resources.Strings.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.en-GB.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.Web.Admin.Resources.vi.resources
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.csproj.GenerateResource.Cache
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\en-GB\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\vi\Portal.Modules.OrientalSails.resources.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.dll
+D:\Workspace\Visual Studio 2013 Projects\orientalsails-net35\Portal.Modules.OrientalSails\obj\Debug\Portal.Modules.OrientalSails.pdb

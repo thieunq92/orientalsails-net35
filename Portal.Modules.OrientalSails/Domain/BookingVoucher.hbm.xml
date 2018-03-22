@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="BookingVoucher" table="os_BookingVoucher" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Code"/>
+
+    <many-to-one name="Voucher" column="VoucherId" class="VoucherBatch"/>
+    <many-to-one name="Booking" column="BookingId" class="Booking"/>
+  </class>
+</hibernate-mapping>

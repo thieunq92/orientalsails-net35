@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Portal.Modules.OrientalSails.Domain"
+                   assembly="Portal.Modules.OrientalSails">
+  <class name="AgencyContact" table="os_AgencyContact" batch-size="10">
+    <cache usage="read-write"/>
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Name" type="string">
+      <column name="Name" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="Position" type="string">
+      <column name="Position" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="Phone" type="string">
+      <column name="Phone" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="Email" type="string">
+      <column name="Email" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="Enabled" type="Boolean">
+      <column name="Enabled" sql-type="bit" not-null="false"/>
+    </property>
+    <property name="IsBooker" type="Boolean">
+      <column name="IsBooker" sql-type="bit" not-null="false"/>
+    </property>
+    <many-to-one name="Agency" class="Portal.Modules.OrientalSails.Domain.Agency, Portal.Modules.OrientalSails">
+      <column name="AgencyId" length="4" sql-type="int" not-null="false"/>
+    </many-to-one>
+    <property name="Note" type="string">
+      <column name="Note" sql-type="nvarchar" not-null="false"/>
+    </property>
+    <property name="Birthday" type="datetime">
+      <column name="Birthday" sql-type="datetime" not-null="false"/>
+    </property>
+    <bag name="ListSeries" inverse="true" batch-size="10">
+      <key column="BookerId"/>
+      <one-to-many class="Series"/>
+    </bag>
+  </class>
+</hibernate-mapping>

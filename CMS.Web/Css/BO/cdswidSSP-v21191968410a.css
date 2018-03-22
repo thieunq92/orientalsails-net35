@@ -1,0 +1,180 @@
+/* Self-Serve Property Widget
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP { font:normal 12px Verdana,"Bitstream Vera Sans",Arial,Helvetica,sans-serif; 
+             color:#2c2c2c; overflow:hidden; 
+             height:auto; background-color:#fff;
+             margin:0; padding:0; text-align:left; position: relative; }
+#CDSWIDSSP a { margin:0; padding:0; border:none; font-weight:normal; text-decoration:underline; outline:none; color:#006699; border-bottom:none; }
+#CDSWIDSSP a:hover { border:none; font-weight:normal; text-decoration:underline; background-color:transparent; color:#006699; border-bottom:none; }
+#CDSWIDSSP a:visited { border:none; font-weight:normal; color:#006699; }
+
+#CDSWIDSSP dl, #CDSWIDSSP dt, #CDSWIDSSP dd, #CDSWIDSSP ol, #CDSWIDSSP ul, #CDSWIDSSP li, #CDSWIDSSP p 
+        { margin:0;padding:0;list-style:none; font-weight:normal; font-style:normal; color:#2c2c2c; text-indent:0;
+          float:none; line-height:normal; font-size:100%; letter-spacing:0; display:block; }
+#CDSWIDSSP div { font:normal 12px Verdana,"Bitstream Vera Sans",Arial,Helvetica,sans-serif; }
+#CDSWIDSSP img { border: none; background-color: #FFFFFF; padding:0; }
+
+
+/* STRUCTURE
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP { background-color:transparent; letter-spacing:0; }
+#CDSWIDSSP .widSSPData {padding:7px 10px 7px; background-color:#fff;position: relative; overflow: hidden;}
+#CDSWIDSSP .widSSPData .widSSPWrap { height:auto; overflow:hidden;position: relative;}
+
+#CDSWIDSSP .widSSPData dl { padding:0px 2px;}
+#CDSWIDSSP .widSSPData dl dd dl { padding:0;}
+
+/* HEADERS
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPData .widSSPH18 { font:bold 16px Arial,Tahoma,"Bitstream Vera Sans",sans-serif; color:#2c2c2c;}
+#CDSWIDSSP .widSSPData .widSSPSummary a { color:#2c2c2c;}
+#CDSWIDSSP .widSSPData .widSSPH11 { padding:12px 0 3px; font-weight:bold; font-size:11px; color:#2c2c2c;}
+
+
+/* SECTION > Forms
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPData label { font-weight:bold; font-family:Arial,Tahoma,"Bitstream Vera Sans",sans-serif;}
+#CDSWIDSSP .widSSPData select { margin:0 1px; padding:1px; border:1px solid #91b8a3; font-size:11px; font-family:Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif;}
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION > OneReview
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPData .widSSPOneReview { margin-top:8px; padding:20px 0 0; border-top:2px solid #f4f5ed;} 
+#CDSWIDSSP .widSSPData .widSSPOneReview img { vertical-align:top;}
+#CDSWIDSSP .widSSPData .widSSPOneReview b.widSSPTitle { margin-bottom:8px;}
+#CDSWIDSSP .widSSPData .widSSPOneReview dl dt, #CDSWIDSSP .widSSPData .widSSPOneReview dl dd { margin-bottom:9px;}
+#CDSWIDSSP .widSSPData .widSSPOneReview dl dt.widSSPQuote { margin-bottom:9px;}
+#CDSWIDSSP .widSSPData .widSSPOneReview dl dd.widSSPAttribution { margin-bottom:2px; font-size:11px; color:#565656;}
+#CDSWIDSSP .widSSPData .widSSPOneReview p { font-size:12px; line-height:16px;}
+#CDSWIDSSP .widSSPData .widSSPOneReview { margin:0; padding:0; border-top:none;}
+#CDSWIDSSP .widSSPData .widSSPOneReview .widSSPBullet { margin:3px 0 8px; border: none;}
+#CDSWIDSSP .widSSPData .widSSPOneReview .widSSPBullet li { letter-spacing:0; font:normal 11px Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif; margin:0 0 11px; line-height:normal; color:#2c2c2c; background:none; border: none; position: relative;}
+#CDSWIDSSP .widSSPData .widSSPOneReview .widSSPBullet li a { color:#006699; font:normal 11px Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif; line-height:normal; text-decoration:underline; border: none;}
+#CDSWIDSSP .widSSPData .widSSPOneReview .widSSPBullet li a:hover { font:normal 11px Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif;text-decoration:underline; border: none;}
+#CDSWIDSSP .widSSPData .widSSPOneReview .widSSPBullet li span { font:normal 11px Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif; color:#2c2c2c; display:inline; position:relative; border: none;}
+
+#CDSWIDSSP .widSSPData .widSSPOneReview p { margin-bottom:2px; font-size:11px; color:#2c2c2c;}
+
+
+/* SECTION > Traveler Ratings
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng { height:auto; overflow:hidden; font-size:11px;}
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng .widSSPOverall { margin-bottom:12px;}
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng .widSSPOverall img { margin:3px 6px 4px 0; float:none; border:none;}
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng .widSSPOverall div { padding-left:2px; color:#787878; font:normal 11px Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif; }
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng .widSSPOverall div b { font-weight:normal; color:#787878; font:normal 12px Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif; }
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng .widSSPOverall em { position:relative; top:-4px; font-style:normal;}
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng .widSSPOverall em b { font-size:13px;}
+
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng ul { margin-bottom:10px;}
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng ul li b { display:block; padding-bottom:2px;}
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng ul li ul li { margin:8px 0;}
+#CDSWIDSSP .widSSPData .widSSPTrvlRtng ul li ul li img { vertical-align:text-top;}
+
+
+.widSSPOptional + .widSSPOptional { border-top:1px solid #CCCCCC;}
+#CDSWIDSSP .widSSPData .widSSPReviews .widSSPH11 { padding-top:12px;}
+
+
+/* SECTION > Information
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPData .widSSPInformation { height:auto; overflow:hidden; margin-top:2px; padding:12px 0 18px;}
+
+
+/* SECTION > Information > Pop. Index, Awards, and Description
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx { margin:0 0 0 3px;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx * { vertical-align:top; line-height:normal; }
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx b { display:block; margin-bottom:3px; font-size:11px; color:#2c2c2c;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx var,
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx span { color:#589442;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx var,
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx span i { font-style:normal;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx span { font-size:11px;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx span i { color:#2c2c2c;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx var { margin-right:4px; font-weight:bold; float:left;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx var b { display:inline; line-height:29px; }
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx var.widSSPDig1 b * { top:-3px; font-size:29px;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx var.widSSPDig2 b * { top:-4px; font-size:24px;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx var.widSSPDig3 b * { top:-5px; font-size:20px;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx var.widSSPDig4 b * { top:-6px; font-size:16px;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx var b span { padding-left:2px; font-family:Arial,Tahoma,"Bitstream Vera Sans",sans-serif; color:#589442; }
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx.widSSPSingle { width:95%; margin-right:0;}
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx .widSSPPopIdxData { font-family: ArialMT,Arial,Tahoma,"Bitstream Vera Sans",sans-serif; color: #589442; font-size:14px; }
+#CDSWIDSSP .widSSPData .widSSPInformation .widSSPPopIdx .widSSPPopIdxNumbers { font-weight: bold; }
+
+
+/* Disclaimer and Copyright Line
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPData .widSSPLegal { margin:5px 2px 2px; font-size:11px; color:#a4a4a4; clear:both;}
+
+
+/* Powered by
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPPower { padding:0 14px 3px; background-color:#589442; font:normal 11px Arial,Tahoma,"Bitstream Vera Sans",sans-serif; color:#fff; text-align:right;}
+#CDSWIDSSP .widSSPPower em { font-family: Arial,Tahoma,"Bitstream Vera Sans",sans-serif; font-size: 11px; color: #FFFFFF;}
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION > Link > All
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPData .widSSPAll { height:auto; overflow:hidden; margin:0 0 11px; padding:0 0 5px 4px; font-size:11px;}
+#CDSWIDSSP .widSSPData .widSSPAll ul {clear: none;}
+#CDSWIDSSP .widSSPData .widSSPAll .widSSPReadReview,
+#CDSWIDSSP .widSSPData .widSSPAll .widSSPWriteReview { float:left;  font: normal 11px Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif; letter-spacing:0; }
+#CDSWIDSSP .widSSPData .widSSPAll .widSSPReadReview { padding-right:8px;}
+#CDSWIDSSP .widSSPData .widSSPAll .widSSPWriteReview { padding-left:8px; border-left:2px solid #c2c2c2;}
+#CDSWIDSSP .widSSPData .widSSPAll .widSSPReadReview li,
+#CDSWIDSSP .widSSPData .widSSPAll .widSSPWriteReview li { font: normal 11px Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif; letter-spacing:0; line-height:normal; background:none; }
+
+#CDSWIDSSP .widSSPData .widSSPAll a:link,
+#CDSWIDSSP .widSSPData .widSSPAll a:visited { color:#006699; font-size:11px; line-height:normal; text-decoration:underline; }
+
+#CDSWIDSSP .widSSPData .widSSPAll a:hover { color:#006699; font-size:11px; line-height:normal; text-decoration:underline; }
+
+/* Branding (Identity)
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP .widSSPData .widSSPBranding { margin-bottom:12px; border-bottom:1px solid #CCCCCC;}
+#CDSWIDSSP .widSSPData .widSSPBranding dl { }
+#CDSWIDSSP .widSSPData .widSSPBranding dt { width:218px; height:24px; overflow:hidden; margin:6px 0px 6px;}
+#CDSWIDSSP .widSSPData .widSSPBranding dt.widSSPTagline { height: auto; margin-bottom: 9px; color: #787878; font: normal 10px Arial,Verdana,'Bitstream Vera Sans',Helvetica,sans-serif; }
+#CDSWIDSSP .widSSPData .widSSPBranding dt img { border:none; margin:0 }
+#CDSWIDSSP .widSSPData .widSSPBranding dt a img,
+#CDSWIDSSP .widSSPData .widSSPBranding dt a:link img,
+#CDSWIDSSP .widSSPData .widSSPBranding dt a:visited img { border:none; margin:0 }
+#CDSWIDSSP .widSSPData .widSSPBranding dd { margin:3px 0 12px; font-style:italic; font-size:12px; color:#787878;}
+
+#CDSWIDSSP .widSSPData .widSSPBranding a,
+#CDSWIDSSP .widSSPData .widSSPBranding a:link,
+#CDSWIDSSP .widSSPData .widSSPBranding a:visited { color:#787878; font-size:12px; font-style:italic; text-decoration:underline; }
+
+#CDSWIDSSP .widSSPData .widSSPBranding a:hover { color:#787878; font-size:12px; font-style:italic; text-decoration:underline; }
+
+/* CONFIG > Narrow Overrides
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPBranding dd { width:213px; margin:3px 0 10px;}
+#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPH11 { padding-top:9px;}
+#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPReviews .widSSPH11 { padding-top:9px; padding-bottom: 0px;}
+#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPOneReview .widSSPBullet li { margin:0 0 6px; line-height:normal; background:none; }
+#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPAll { padding:3px 0 0 3px;  width:95%; }
+#CDSWIDSSP.widSSPnarrow .widSSPPower { padding:0 9px 4px;}
+#CDSWIDSSP.widSSPnarrow .widSSPData .widSSPTrvlRtng .widSSPOverall { margin-bottom:11px;}
+
+/* Error Box
+   ----------------------------------------------------------------------------------------- */
+#CDSWIDERR.widErrBx { height:auto; position:relative; overflow:hidden; background-color:#D9E4C4; font:normal 12px Arial,Verdana,"Bitstream Vera Sans",Helvetica,sans-serif; color:#2c2c2c; text-align:left; margin:0; padding:0; }
+#CDSWIDERR.widErrBx .widErrCnrs span { position:relative; z-index:1; display:block; width:6px; height:6px; background:url("/img2/sprites/cdsWdgtV1.gif") 0 0 no-repeat;}
+#CDSWIDERR.widErrBx .widErrCnrs span.widErrCnrLft { background-position:-152px 0; float:left;}
+#CDSWIDERR.widErrBx .widErrCnrs span.widErrCnrRgt { background-position:-158px 0; float:right;}
+
+#CDSWIDERR.widErrBx .widErrData { margin:2px; padding:0 0 2px; background-color:#fff; }
+#CDSWIDERR.widErrBx .widErrData, #CDSWIDERR.widErrBx .widErrData .widErrBranding { position:relative; }
+#CDSWIDERR.widErrBx .widErrData .widErrBranding { z-index:0; border-bottom:2px solid #d9e4c4; background-color:#ecf1e1; }
+#CDSWIDERR.widErrBx .widErrData .widErrBranding dl { margin:0; padding:6px 11px; }
+#CDSWIDERR.widErrBx .widErrData .widErrBranding dt { width:132px; height:22px; overflow:hidden; margin-left:1px; }
+#CDSWIDERR.widErrBx .widErrData .widErrBranding dt img { border:none; }
+#CDSWIDERR.widErrBx .widErrData .widErrBranding dd { margin:3px 1px -1px; font-style:italic; font-size:11px; }
+#CDSWIDERR.widErrBx .widErrData .widErrComponent p { margin:0; padding:12px 0; text-align:center; }
+
+#CDSWIDERR.widErrBx .widErrLegal { margin:10px 10px 2px; font-size:10px; color:#a4a4a4;}

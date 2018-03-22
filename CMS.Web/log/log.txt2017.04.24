@@ -1,0 +1,450 @@
+2017-04-24 08:56:48,050 [12] ERROR Portal.Modules.OrientalSails.Web.Admin.AgentUserList [(null)] <(null)> - Error when Page_Load in AgentUserList
+NHibernate.ObjectNotFoundException: No row with the given identifier exists[CMS.Core.Domain.Role#0]
+   at NHibernate.Impl.SessionFactoryImpl.DefaultEntityNotFoundDelegate.HandleEntityNotFound(String entityName, Object id)
+   at NHibernate.Proxy.AbstractLazyInitializer.CheckTargetState()
+   at NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   at NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   at NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleProxy.get_Name()
+   at Portal.Modules.OrientalSails.Web.Admin.AgentUserList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\AgentUserList.aspx.cs:line 33
+2017-04-24 08:57:33,181 [15] ERROR Portal.Modules.OrientalSails.Web.Admin.AgentUserList [(null)] <(null)> - Error when Page_Load in AgentUserList
+NHibernate.ObjectNotFoundException: No row with the given identifier exists[CMS.Core.Domain.Role#0]
+   at NHibernate.Impl.SessionFactoryImpl.DefaultEntityNotFoundDelegate.HandleEntityNotFound(String entityName, Object id)
+   at NHibernate.Proxy.AbstractLazyInitializer.CheckTargetState()
+   at NHibernate.Proxy.AbstractLazyInitializer.Initialize()
+   at NHibernate.Proxy.AbstractLazyInitializer.GetImplementation()
+   at NHibernate.ByteCode.Castle.LazyInitializer.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.RoleProxy.get_Name()
+   at Portal.Modules.OrientalSails.Web.Admin.AgentUserList.Page_Load(Object sender, EventArgs e) in c:\Users\thieu\Desktop\Visual Studio 2013 Projects\orientalsails\orientalsails\Portal.Modules.OrientalSails\Web\Admin\AgentUserList.aspx.cs:line 33
+2017-04-24 14:13:26,210 [6] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute query: SELECT cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_1_, cruisehaip0_.CruiseHaiPhongExpenseTypeId as CruiseHa1_443_0_, cruisehaip0_.CruiseId as CruiseId443_0_, cruisehaip0_.HaiPhongExpenseTypeId as HaiPhong3_443_0_ FROM CruiseHaiPhongExpenseType cruisehaip0_ WHERE cruisehaip0_.CruiseHaiPhongExpenseTypeId=@p0
+System.Data.SqlClient.SqlException: Invalid object name 'CruiseHaiPhongExpenseType'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2017-04-24 14:13:26,265 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-24 14:13:26,268 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - Invalid object name 'CruiseHaiPhongExpenseType'.
+2017-04-24 14:54:13,050 [6] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_BookingRoom WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 14:54:13,343 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+2017-04-24 14:54:13,344 [6] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.BookingRoom#143937][SQL: DELETE FROM os_BookingRoom WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 15:03:35,977 [6] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_BookingRoom WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 15:03:35,978 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+2017-04-24 15:03:35,978 [6] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.BookingRoom#143937][SQL: DELETE FROM os_BookingRoom WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 15:22:54,984 [5] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Portal.Modules.OrientalSails.Domain.BookingRoom.hbm.xml(6,12): XML validation error: The 'usage' attribute is invalid - The value 'read' is invalid according to its datatype 'String' - The Enumeration constraint failed.
+NHibernate.MappingException: Portal.Modules.OrientalSails.Domain.BookingRoom.hbm.xml(6,12): XML validation error: The 'usage' attribute is invalid - The value 'read' is invalid according to its datatype 'String' - The Enumeration constraint failed. ---> System.Xml.Schema.XmlSchemaValidationException: The 'usage' attribute is invalid - The value 'read' is invalid according to its datatype 'String' - The Enumeration constraint failed. ---> System.Xml.Schema.XmlSchemaException: The Enumeration constraint failed.
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2017-04-24 15:23:03,768 [8] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Portal.Modules.OrientalSails.Domain.BookingRoom.hbm.xml(6,12): XML validation error: The 'usage' attribute is invalid - The value 'read' is invalid according to its datatype 'String' - The Enumeration constraint failed.
+NHibernate.MappingException: Portal.Modules.OrientalSails.Domain.BookingRoom.hbm.xml(6,12): XML validation error: The 'usage' attribute is invalid - The value 'read' is invalid according to its datatype 'String' - The Enumeration constraint failed. ---> System.Xml.Schema.XmlSchemaValidationException: The 'usage' attribute is invalid - The value 'read' is invalid according to its datatype 'String' - The Enumeration constraint failed. ---> System.Xml.Schema.XmlSchemaException: The Enumeration constraint failed.
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+2017-04-24 15:24:22,241 [7] ERROR NHibernate.Cache.ReadOnlyCache [(null)] <(null)> - Application attempted to edit read only item: Portal.Modules.OrientalSails.Domain.BookingRoom.Customers#143935
+2017-04-24 15:37:44,816 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_Customer WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 15:37:44,839 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+2017-04-24 15:37:44,840 [7] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.Customer#411708][SQL: DELETE FROM os_Customer WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 15:42:03,612 [5] ERROR NHibernate.AssertionFailure [(null)] <(null)> - An AssertionFailure occurred - this may indicate a bug in NHibernate or in your custom types.
+NHibernate.AssertionFailure: Possible nonthreadsafe access to session
+2017-04-24 15:48:12,646 [7] ERROR NHibernate.AssertionFailure [(null)] <(null)> - An AssertionFailure occurred - this may indicate a bug in NHibernate or in your custom types.
+NHibernate.AssertionFailure: Possible nonthreadsafe access to session
+2017-04-24 15:48:12,818 [7] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.StaleStateException: Unexpected row count: 0; expected: 1
+   at NHibernate.AdoNet.Expectations.BasicExpectation.VerifyOutcomeNonBatched(Int32 rowCount, IDbCommand statement)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 16:37:46,216 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_BookingRoom WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 16:37:46,422 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+2017-04-24 16:37:46,423 [7] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.BookingRoom#146055][SQL: DELETE FROM os_BookingRoom WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 16:37:46,502 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_BookingRoom WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 16:37:46,503 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+2017-04-24 16:37:46,503 [7] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.BookingRoom#146055][SQL: DELETE FROM os_BookingRoom WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_BookingRoom". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'BookingRoomId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 16:49:15,705 [8] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_Customer WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 16:49:15,728 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+2017-04-24 16:49:15,728 [8] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.Customer#411720][SQL: DELETE FROM os_Customer WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 16:50:56,464 [8] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_Customer WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 16:50:56,465 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+2017-04-24 16:50:56,465 [8] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.Customer#411720][SQL: DELETE FROM os_Customer WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 17:13:28,054 [8] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_Customer WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 17:13:28,078 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+2017-04-24 17:13:28,079 [8] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.Customer#411720][SQL: DELETE FROM os_Customer WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 17:21:46,692 [8] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_Customer WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 17:21:46,693 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+2017-04-24 17:21:46,693 [8] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.Customer#411720][SQL: DELETE FROM os_Customer WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 17:35:17,662 [6] ERROR NHibernate.AssertionFailure [(null)] <(null)> - An AssertionFailure occurred - this may indicate a bug in NHibernate or in your custom types.
+NHibernate.AssertionFailure: Possible nonthreadsafe access to session
+2017-04-24 17:42:53,082 [8] ERROR NHibernate.AssertionFailure [(null)] <(null)> - An AssertionFailure occurred - this may indicate a bug in NHibernate or in your custom types.
+NHibernate.AssertionFailure: Possible nonthreadsafe access to session
+2017-04-24 17:45:01,637 [8] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Could not execute command: DELETE FROM os_Customer WHERE Id = @p0
+System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2017-04-24 17:45:01,642 [8] ERROR NHibernate.Util.ADOExceptionReporter [(null)] <(null)> - The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+2017-04-24 17:45:01,643 [8] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] <(null)> - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not delete: [Portal.Modules.OrientalSails.Domain.Customer#411727][SQL: DELETE FROM os_Customer WHERE Id = ?] ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_os_BookingRoom_Customer_os_Customer". The conflict occurred in database "moorientalsails", table "dbo.os_BookingRoom_Customer", column 'CustomerId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   --- End of inner exception stack trace ---
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityDeleteAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   at NHibernate.Engine.ActionQueue.ExecuteActions()
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2017-04-24 18:16:25,252 [6] ERROR NHibernate.Cfg.Configuration [(null)] <(null)> - Portal.Modules.OrientalSails.Domain.Booking.hbm.xml(81,14): XML validation error: The 'usage' attribute is invalid - The value 'nonstrictread-write' is invalid according to its datatype 'String' - The Enumeration constraint failed.
+NHibernate.MappingException: Portal.Modules.OrientalSails.Domain.Booking.hbm.xml(81,14): XML validation error: The 'usage' attribute is invalid - The value 'nonstrictread-write' is invalid according to its datatype 'String' - The Enumeration constraint failed. ---> System.Xml.Schema.XmlSchemaValidationException: The 'usage' attribute is invalid - The value 'nonstrictread-write' is invalid according to its datatype 'String' - The Enumeration constraint failed. ---> System.Xml.Schema.XmlSchemaException: The Enumeration constraint failed.
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
